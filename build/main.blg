@@ -1,13 +1,13 @@
 This is BibTeX, Version 0.99d (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
-The style file: plain.bst
+The style file: sn-nature.bst
 I found no \citation commands---while reading file main.aux
 Database file #1: sn-bibliography.bib
 You've used 0 entries,
-            2118 wiz_defined-function locations,
-            497 strings with 3996 characters,
-and the built_in function-call counts, 18 in all, are:
+            2710 wiz_defined-function locations,
+            1040 strings with 9301 characters,
+and the built_in function-call counts, 32 in all, are:
 = -- 0
 > -- 0
 < -- 0
@@ -27,7 +27,7 @@ if$ -- 1
 int.to.chr$ -- 0
 int.to.str$ -- 0
 missing$ -- 0
-newline$ -- 3
+newline$ -- 10
 num.names$ -- 0
 pop$ -- 0
 preamble$ -- 1
@@ -44,5 +44,5 @@ type$ -- 0
 warning$ -- 0
 while$ -- 0
 width$ -- 0
-write$ -- 2
+write$ -- 9
 (There was 1 error message)

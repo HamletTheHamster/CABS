@@ -1,5 +1,5 @@
-%\documentclass[sn-nature]{sn-jnl}% Style for submissions to Nature Portfolio journals
-\documentclass[pdflatex,iicol]{sn-jnl}% Default with double column layout
+\documentclass[sn-nature]{sn-jnl}% Style for submissions to Nature Portfolio journals
+%\documentclass[pdflatex,iicol]{sn-jnl}% Default with double column layout
 
 \usepackage{graphicx}
 \usepackage{multirow}
@@ -57,9 +57,15 @@ To demonstrate the capabilities of the instrument we choose two example targets,
 \caption{This is a fig. This is an example of long caption this is an example of long caption this is an example of long caption this is an example of long caption}\label{Observations}
 \end{figure*}
 
-To demonstrate the capabilities of the instrument we perform coherent Brillouin spectroscopy on 1 mm of UHNA3 fiber and 4 mm of carbon disulfide liquid, serving as representative examples of the fiber-coupled and bulk materials regimes, respectively. In each case, our instrument exhibited high sensitivity and enabled the observation of Brillouin scattering at scales not previously achievable.
+\begin{figure}[t]
+\centering
+\includegraphics[width=.45\textwidth]{1cmUHNA3.pdf}
+\caption{1cm UHNA3}\label{1cmUHNA3}
+\end{figure}
 
 Fig. \ref{Observations} shows the spectral measurements achieved by the instrument, overlaid with finite-difference simulation data. In Fig. \ref{Observations}a we see the expected lorentzian spectral shape in good alignment with simulation data for guided longitudinal modes ine the core of the UHNA3 fiber. In Fig. \ref{Observations}b, however, we see a distortion of this lorentzian shape. This is expected for partially unguided longitudinal modes, such as is the case for a bulk liquid filling the volume of a ...
+
+Fig. \ref{1cmUHNA3} shows a measurement of 1cm of UHNA3 fiber.
 
 First, we measured Brillouin scattering in a 1-centimeter-long UHNA3 fiber at room temperature and with sub-Watt optical power (Fig. \ref{Observations}a). Figure 1a, clearly displays the Brillouin scattering features with remarkable signal-to-noise ratio, highlighting the effectiveness of our apparatus in isolating the backscattered probe light. This observation serves as one of the main showcases of the instrument's capability.
 
@@ -74,6 +80,12 @@ Next, we performed Brillouin scattering measurements on a 4-millimeter-thick bul
 Lastly, we conducted a measurement in a 1-millimeter-long UHNA3 fiber under low-power conditions, with only 10 microwatts of power at the sample. Despite the reduced sample length and low power, the instrument's sensitivity allowed us to observe distinct Brillouin scattering features in the spectrum, as illustrated in Figure 3. This result underscores the potential of our spectrometer for nanoscale measurements and serves as a demonstration of the instrument's sensitivity, defining the sensitivity floor of the apparatus.
 
 These three observations collectively showcase the high sensitivity, broad applicability, and impressive capabilities of our coherent stimulated phonon spectrometer in measuring Brillouin scattering across different sample types, scales, and power levels.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=.45\textwidth]{Phase-Match.pdf}
+\caption{Phase-matching sinc func}\label{Phase-Match}
+\end{figure}
 
 \section{Theory}\label{Theory}
 
@@ -207,6 +219,6 @@ We again assume steady-state conditions, allowing the time derivative term to be
 \end{equation}
 \\
 \bibliography{sn-bibliography}
-\bibliographystyle{plain}
+%\bibliographystyle{plain}
 
 \end{document}
