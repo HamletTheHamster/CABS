@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex build/main"] 1713802791 "build/main.aux" "build/main.bbl" "build/main" 1713802794 0
+["bibtex build/main"] 1713809498 "build/main.aux" "build/main.bbl" "build/main" 1713810041 0
   "./sn-bibliography.bib" 1713820500 4958 e3f6938feb89c491da9f282a6804faf1 ""
   "./sn-nature.bst" 1713820500 38349 442dafdf9f5aeb65ccddf1255f87db23 ""
-  "build/main.aux" 1713802793 3704 4b7ef10ab1862e465497925a75f3df79 "pdflatex"
+  "build/main.aux" 1713810041 3915 a9da1b8b498edb5034da46d829a2ae7b "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1713802791 "main.tex" "build/main.pdf" "main" 1713802794 0
+["pdflatex"] 1713810040 "main.tex" "build/main.pdf" "main" 1713810041 0
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm" 1246382020 1120 200be8b775682cdf80acad4be5ef57e4 ""
@@ -37,6 +37,7 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm" 1229303445 688 37338d6ab346c2f1466b29e195316aa4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm" 1229303445 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm" 1229303445 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb" 1248133631 32166 b0c356b15f19587482a9217ce1d8fa67 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb" 1248133631 32298 c6d25bb16d1eac01ebdc6d7084126a1e ""
@@ -94,6 +95,9 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty" 1654720880 2894 f2f8ee7d4fb94263f9f255fa22cab2d3 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty" 1579038678 6078 f1cb470c9199e7110a27851508ed7a5c ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/breakurl/breakurl.sty" 1365893995 8468 9af34887a0e6e535b004c39238830991 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty" 1678653221 55778 14d5c99aa26410e440820bb9ea5b8b3a ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty" 1678653221 71836 1a735454ad10692452eb2f2fc37f3865 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty" 1678653221 12462 ecf33913ce1e8012075d24e1f47f0d9b ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty" 1137110151 6749 16d2656a1984957e674b149555f1ea1d ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
@@ -139,14 +143,15 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1697124577 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1697124486 7883456 d9f847720c95f326509a187b15d58186 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "1cmUHNA3.pdf" 1713309944 210977 d79835fcd5b3b7b38ca3495d1ca72f89 ""
+  "10fW.pdf" 1652737023 202097 32afe312b1b2d0ded4cbc372aa69b57e ""
+  "1cmUHNA3.pdf" 1713803687 210202 add89c05f4aa6939d7830f8bb172d9c2 ""
+  "4mmCS2slide.pdf" 1713809969 206091 8e643236793aaee8125eac970b680872 ""
   "Observations.pdf" 1713820500 320320 791b8df99bb51aaca717f8b52ef9308b ""
   "Phase-Match.pdf" 1699043654 201324 538f950eb91324deab405983c0fb169e ""
-  "Sensitivity.pdf" 1713820500 199438 f94fd00b4d9fa2f9d9dbb5d2a4cda59d ""
-  "build/main.aux" 1713802793 3704 4b7ef10ab1862e465497925a75f3df79 "pdflatex"
-  "build/main.bbl" 1713802791 333 c26e611d4aee7e3f61bde0908ff5773e "bibtex build/main"
-  "build/main.out" 1713802793 509 8a92e9a57e52006e3ae746246fcc748a "pdflatex"
-  "main.tex" 1713802788 15318 770e5079a0c173ca418b5123d0b430ab ""
+  "build/main.aux" 1713810041 3915 a9da1b8b498edb5034da46d829a2ae7b "pdflatex"
+  "build/main.bbl" 1713809499 333 c26e611d4aee7e3f61bde0908ff5773e "bibtex build/main"
+  "build/main.out" 1713810041 509 8a92e9a57e52006e3ae746246fcc748a "pdflatex"
+  "main.tex" 1713810040 15562 a27b1035101f655e6f9551dc9898557b ""
   "sn-jnl.cls" 1713820500 55969 f8e0f769b303ac7397268c47e0fbe53c ""
   (generated)
   "build/main.aux"
