@@ -916,12 +916,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT ./Observations.pdf
-INPUT ./Observations.pdf
-INPUT Observations.pdf
-INPUT ./Observations.pdf
-INPUT ./Observations.pdf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT ./1cmUHNA3.pdf
 INPUT ./1cmUHNA3.pdf
 INPUT 1cmUHNA3.pdf
@@ -937,6 +931,7 @@ INPUT ./1cmCS2.png
 INPUT 1cmCS2.png
 INPUT ./1cmCS2.png
 INPUT ./1cmCS2.png
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT ./10fW.pdf
 INPUT ./10fW.pdf
 INPUT 10fW.pdf

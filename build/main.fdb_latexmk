@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex build/main"] 1713815601 "build/main.aux" "build/main.bbl" "build/main" 1713815603 0
+["bibtex build/main"] 1713828746 "build/main.aux" "build/main.bbl" "build/main" 1713836530 0
   "./sn-bibliography.bib" 1713820500 4958 e3f6938feb89c491da9f282a6804faf1 ""
   "./sn-nature.bst" 1713820500 38349 442dafdf9f5aeb65ccddf1255f87db23 ""
-  "build/main.aux" 1713815603 4072 302433cb2049aa1e3022720c307817ae "pdflatex"
+  "build/main.aux" 1713836530 3669 55dea01074a8c19c55e2176bba7ee0f2 "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1713815601 "main.tex" "build/main.pdf" "main" 1713815603 0
+["pdflatex"] 1713836529 "main.tex" "build/main.pdf" "main" 1713836530 0
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm" 1246382020 1120 200be8b775682cdf80acad4be5ef57e4 ""
@@ -147,12 +147,11 @@
   "1cmCS2.png" 1713815299 99068 30817a79af09dcebb3bf1c6ef019be52 ""
   "1cmUHNA3.pdf" 1713803687 210202 add89c05f4aa6939d7830f8bb172d9c2 ""
   "4mmCS2.pdf" 1713809969 206091 8e643236793aaee8125eac970b680872 ""
-  "Observations.pdf" 1713820500 320320 791b8df99bb51aaca717f8b52ef9308b ""
   "Phase-Match.pdf" 1699043654 201324 538f950eb91324deab405983c0fb169e ""
-  "build/main.aux" 1713815603 4072 302433cb2049aa1e3022720c307817ae "pdflatex"
-  "build/main.bbl" 1713815601 333 c26e611d4aee7e3f61bde0908ff5773e "bibtex build/main"
-  "build/main.out" 1713815603 509 8a92e9a57e52006e3ae746246fcc748a "pdflatex"
-  "main.tex" 1713815600 15778 a0cfecbeed9523d587b4ddf172486048 ""
+  "build/main.aux" 1713836530 3669 55dea01074a8c19c55e2176bba7ee0f2 "pdflatex"
+  "build/main.bbl" 1713828747 333 c26e611d4aee7e3f61bde0908ff5773e "bibtex build/main"
+  "build/main.out" 1713836530 509 8a92e9a57e52006e3ae746246fcc748a "pdflatex"
+  "main.tex" 1713836529 17746 50c311223379aee7ea228653124253e8 ""
   "sn-jnl.cls" 1713820500 55969 f8e0f769b303ac7397268c47e0fbe53c ""
   (generated)
   "build/main.aux"
