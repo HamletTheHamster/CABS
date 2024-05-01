@@ -902,6 +902,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
+INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
@@ -915,7 +916,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./CABS.png
 INPUT ./CABS.png
 INPUT CABS.png
