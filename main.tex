@@ -1,4 +1,4 @@
-\documentclass[sn-nature]{sn-jnl}% Style for submissions to Nature Portfolio journals
+\documentclass[sn-nature, iicol]{sn-jnl}% Style for submissions to Nature Portfolio journals (remove iicol for submission)
 %\documentclass[pdflatex,iicol]{sn-jnl}% Default with double column layout
 
 \usepackage{graphicx}
@@ -16,6 +16,17 @@
 \usepackage{listings}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{appendix}
+\usepackage{etoc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, % Set 'true' to enable colored links
+    linkcolor=black, % Color of internal links (sections, pages, etc.)
+    citecolor=black, % Color of citations
+    filecolor=black, % Color of file links
+    urlcolor=black, % Color of URL links
+}
+\usepackage{lipsum}
 
 
 \begin{document}
@@ -44,13 +55,14 @@
 
 \maketitle
 
-\section{Introduction}
-\label{Intro}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}} % Temporarily stop adding to ToC
+
+\section{Introduction}\label{Introduction}
 
 [better first sentence] Brillouin scattering is a [less definition-y] fundamental process in which light interacts with acoustic phonons in a material, leading to a shift in the scattered light's frequency. [annihilation of ...] This process has been extensively studied for its potential applications in fields such as sensing, communications, and the development of optomechanical devices. However, [spontaneous, stimulated, would be nice if dedicated Stokes pump, but such an instrument would need to overcome the conflation of Stokes pump and retro-reflected Stokes-shifted probe signal..] conventional methods for measuring Brillouin scattering have been limited by their sensitivity, hindering the exploration of new phenomena and applications at the nanoscale. In this paper, we introduce a coherent stimulated phonon spectrometer that overcomes these limitations, enabling measurements with sub-10 femptowatt sensitivity.
 
 
-\section{Results}\label{Results}
+\section{Instrument Design}\label{Instrument Design}
 
 \begin{figure}[t]
 \centering
@@ -60,9 +72,12 @@
 
 In Fig. \ref{fig:CABS}, a pump and Stokes signal is synthesized from a single tunable laser source for coherent stimulation of the sample. The pump signal ($\omega_{Pump}$) is amplified by an erbium-doped fiber amplifier (EDFA) and passed through a variable optical attenuator (VOA). The output is then polarization-controlled to reflect at a polarizing beam splitter (PBS) for injection into the sample. For Stokes synthesis, an AC signal ($\Omega$) is supplied to an intensity modulator with carrier frequency nulled and a tunable filter is used to select one side band output ($\omega_{Pump} - \Omega$). This Stokes signal is then amplified by an EDFA, passed through a VOA, and polarization-controlled to reflect at a second PBS for couter-propagating injection into the sample.
 
-A separate tunable laser ($\omega_{Probe} = \omega_{Pump} + $) is used to synthesize the probe and local oscillator (LO). Probe light is amplified by an EDFA and fed through a VOA. A polarization controller aligns the polarization axis of the probe light for transmission through the first PBS and copropagation with the pump into the sample. Backscattered probe light retraces through the first PBS while the orthogonally polarized Stokes light is diverted along a different path. The backscattered signal ($\omega_{Signal} = \omega_{Probe} + \Omega$) then routes through two subsequent circulators for spectral filtering by a 5 GHz bandpass tunable filter which passes the frequency-shifted probe light while rejecting any reflected probe light as well as any reflected, transmitted, or backscattered light from the pump and Stokes that was not diverted by the PBS. The filtered signal combines via a 99-1 splitter with the frequency upshifted LO ($\omega_{Probe} + 40 MHz$) which has been polarization-controlled to be in parallel with the signal polarization. This heterodyned signal ($\Omega + 40 MHz$) is then captured by a photodiode detector, heterodyned again with an AC signal ($\Omega - 5 MHz$) by a radio frequency (RF) mixer, and read into a lock-in amplifier for data collection. Both AC signals, for the RF mixer and Stokes synthesis, are swept together when taking a measurement so as to maintain a constant 45 MHz lock-in frequency.
+A separate tunable laser ($\omega_{Probe} = \omega_{Pump} + \Delta k$) is used to synthesize the probe and local oscillator (LO). Probe light is amplified by an EDFA and fed through a VOA. A polarization controller aligns the polarization axis of the probe light for transmission through the first PBS and copropagation with the pump into the sample. Backscattered probe light retraces through the first PBS while the orthogonally polarized Stokes light is diverted along a different path. The backscattered signal ($\omega_{Signal} = \omega_{Probe} + \Omega$) then routes through two subsequent circulators for spectral filtering by a 5 GHz bandpass tunable filter which passes the frequency-shifted probe light while rejecting any reflected probe light as well as any reflected, transmitted, or backscattered light from the pump and Stokes that was not diverted by the PBS. The filtered signal combines via a 99-1 splitter with the frequency upshifted LO ($\omega_{Probe} + 40 MHz$) which has been polarization-controlled to be in parallel with the signal polarization. This heterodyned signal ($\Omega + 40 MHz$) is then captured by a photodiode detector, heterodyned again with an AC signal ($\Omega - 5 MHz$) by a radio frequency (RF) mixer, and read into a lock-in amplifier for data collection. Both AC signals, for the RF mixer and Stokes synthesis, are swept together when taking a measurement so as to maintain a constant 45 MHz lock-in frequency.
 
-We consider two example targets to demonstrate the capabilities of the instrument, one fiber-coupled and one bulk material. Fig. \ref{fig:1cmUHNA3} shows the spectra captured for 1 cm of UHNA3 fiber. The spectral shape is that of the expected lorentzian function, with the peak ([9.18 GHz]) indicating the Brillouin resonance frequency and the FWHM ([~80 MHz]) indicating the dissipation rate of the fiber. [comparison to regular SBS for some measurable length of UHNA3?]\\
+
+\section{Experimental Results}\label{Experimental Results}
+
+We consider two example targets to demonstrate the capabilities of the instrument, one fiber-coupled and one bulk material. Fig. \ref{fig:1cmUHNA3} shows the spectra captured for 1 cm of UHNA3 fiber. The spectral shape is that of the expected lorentzian function, with the peak ([9.18 GHz]) indicating the Brillouin resonance frequency and the FWHM ([~80 MHz]) indicating the dissipation rate of the fiber. [comparison to regular SBS for some measurable length of UHNA3?]
 
 \begin{figure}[t]
   \centering
@@ -94,109 +109,176 @@ These three observations collectively showcase the high sensitivity, broad appli
 \caption{Phase-matching sinc func}\label{fig:Phase-Match}
 \end{figure}
 
-\section{Theory}\label{Theory}
+
+\section{Discussion}\label{Discussion}
+
+\lipsum[1-2]
+
+
+\bibliography{sn-bibliography}
+%\bibliographystyle{plain}
+
+
+\begin{appendices}
+\onecolumn
+
+\newpage
+\begin{titlepage}
+\centering
+\vspace*{\stretch{1}}
+{\Large Supplementary Information:\\[10pt] A Coherent Stimulated Brillouin Spectrometer\par}
+\vspace{\stretch{3}}
+\end{titlepage}
+
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}} % Resume adding to ToC
+\addcontentsline{ltoc}{section}{Contents}
+\etocsettocstyle{\section*{Contents}}{}
+\tableofcontents
+\etocsetnexttocdepth{subsection} % This ensures sections and subsections are included
+
+\newpage
+
+\section{Coupled-Wave Equations}\label{Coupled-Wave Equations}
 
 Here we derive the coupled wave equations that describe coherent stimulated Brillouin scattering involving a pump, Stokes, probe, and backscattered optical field given respectively by
-
+\\
 \begin{equation}
     \tilde{E}_{P}(z,t) = A_{P}e^{i(k_{P}z - \omega_{P}t)} + c.c.
     \label{eq:Pump optical field}
 \end{equation}
+\\
 \begin{equation}
     \tilde{E}_{S}(z,t) = A_{S}e^{i(k_{S}z - \omega_{S}t)} + c.c.
     \label{eq:Stokes optical field}
 \end{equation}
+\\
 \begin{equation}
     \tilde{E}_{Pr}(z,t) = A_{Pr}e^{i(k_{Pr}z - \omega_{Pr}t)} + c.c.
     \label{eq:Probe optical field}
 \end{equation}
+\\
 \begin{equation}
     \tilde{E}_{Sig}(z,t) = A_{Sig}e^{i(k_{Sig}z - \omega_{Sig}t)} + c.c.
     \label{eq:Signal optical field}
 \end{equation}
 \\
 \noindent and a common acoustic field given by
+\\
 \begin{equation}
     \tilde{\rho}(z,t) = \rho_{0} + \rho(z,t)e^{i(qz - \Omega t)} + c.c.,
     \label{eq:acoustic field}
 \end{equation}
+\\
 \noindent where $\Omega = \omega_{P} - \omega_{S}$ and $q = k_{P} - k_{S} = 2k_{P}$.
-\subsection{Acoustic Field}
+
+
+\subsection{Acoustic Field}\label{Coupled-Wave Equations:Acoustic Field}
+
 We start by assuming that the material obeys the acoustic wave equation,
+\\
 \begin{equation}
     \frac{\partial^{2}\tilde{\rho}}{\partial t^{2}} - \Gamma^{\prime}\nabla^{2}\frac{\partial\tilde{\rho}}{\partial t} - v^{2}\nabla^{2}\tilde{\rho} = \nabla\cdot\vec{f},
     \label{eq:acoustic wave equation}
 \end{equation}
+\\
 \noindent where $v$ is the sound speed in the material and $\Gamma^{\prime}$ is a damping parameter given by
+\\
 \begin{equation}
     \Gamma^{\prime} = \frac{1}{\rho}\left[\frac{4}{3}\eta_{s} + \eta_{b} + \frac{\kappa}{C_{p}}(\gamma - 1)\right],
 \end{equation}
+\\
 \noindent where $\eta_{s}$ and $\eta_{b}$ are the shear and bulk viscosity coefficients of the material, respectively. The source term on the right side of Eq. (\ref{eq:acoustic wave equation}) is the divergence of the electrostrictive force:
+\\
 \begin{equation}
-    \vec{f} = \nabla p_{st} = \nabla \cdot \left[-\frac{1}{2}\epsilon_{0}\gamma_{e}\left(\langle\tilde{E}_{P} \cdot \tilde{E}_{S}\rangle + \langle\tilde{E}_{Pr} \cdot \tilde{E}_{Sig}\rangle\right)\right],
+\begin{split}
+    \vec{f} = \nabla p_{st} = \nabla \cdot \Bigg[-\frac{1}{2}\epsilon_{0}\gamma_{e}\Big(&\langle\tilde{E}_{P} \cdot \tilde{E}_{S}\rangle \\
+    &+ \langle\tilde{E}_{Pr} \cdot \tilde{E}_{Sig}\rangle\Big)\Bigg],
+\end{split}
 \end{equation}
+\\
 which yields, after applying the slowly varying amplitude approximation,
+\\
 \begin{equation}
     \nabla\cdot\vec{f} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*}e^{i\Delta kz}),
 \end{equation}
 \\
 Where $\Delta k = (k_{Pr} - k_{Sig}) - (k_{P} - k_{S})$ is the phase mismatch between the four optical fields. Only two electrostrictive terms survive terms after accounting for the orthogonal polarization of the pump and Stokes fields with respect to that of the probe and backscattered signal. Inserting this electrostrictive force term and the acoustic field (Eq. (\ref{eq:acoustic field})) into Eq. (\ref{eq:acoustic wave equation}) and assuming a slowly varying acoustic amplitude we find
+\\
 \begin{equation}
     -2i\Omega\frac{\partial\rho}{\partial t} - \Gamma^{\prime}2iq^{2}\Omega\rho - 2iqv^{2}\frac{\partial\rho}{\partial z} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*}e^{i\Delta kz}),
 \end{equation}
+\\
 which can be restated in terms of the Brillouin linewidth, $\Gamma_{B} = q^{2}\Gamma^{\prime}$, as
+\\
 \begin{equation}
     -2i\Omega\frac{\partial\rho}{\partial t} - 2i\Omega\Gamma_{B}\rho - 2iqv^{2}\frac{\partial\rho}{\partial z} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*}e^{i\Delta kz}).
     \label{eq:in terms of Brillouin linewidth}
 \end{equation}
+\\
 Given the phonon dispersion relations $\Omega_{B} = |q_{B}|v$ and $\Omega^{2} = q^{2}\left(v^{2} - i\Omega\Gamma^{\prime}\right)$, Eq. (\ref{eq:in terms of Brillouin linewidth}) can be rewritten as
+\\
 \begin{equation}
     -2i\Omega\frac{\partial\rho}{\partial t} + \left(\Omega^{2} - \Omega^{2} - i\Omega\Gamma_{B}\right)\rho - 2iqv^{2}\frac{\partial\rho}{\partial z} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*}e^{i\Delta kz}).
     \label{eq:in terms of Omega_B}
 \end{equation}
+\\
 We take the common assumption that the phonon propagation distance is small compared to the distance over which the source term varies significantly, which allows the spatial derivative term in Eq. (\ref{eq:in terms of Omega_B}). We further assume steady-state conditions such that the time derivative term also vanishes, leaving
+\\
 \begin{equation}
     (\Omega^{2}_{B} - \Omega^{2} - i\Omega\Gamma_{B})_{\rho} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*}e^{i\Delta kz}).
 \end{equation}
+\\
 We thus find the acoustic field amplitude to be
+\\
 \begin{equation}
     \rho(z,t) = \epsilon_{0}\gamma_{e}q^{2}\frac{A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*}e^{i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}}.
     \label{eq:Acoustic field amplitude}
 \end{equation}
-\subsection{Optical Fields}
-We now turn to the spatial evolution of the optical fields, described by the wave equation,
 
+
+\subsection{Optical Fields}\label{Coupled-Wave Equations:Optical Fields}
+
+We now turn to the spatial evolution of the optical fields, described by the wave equation,
+\\
 \begin{equation}
     \frac{\partial^{2}\tilde{E}_{i}}{\partial z^{2}} - \frac{n^{2}}{c^{2}}\frac{\partial^{2}\tilde{E}_{i}}{\partial t^{2}} = \frac{1}{\epsilon_{0}c^{2}}\frac{\partial^{2}\tilde{P}_{i}}{\partial t^{2}},
     \label{eq:Wave equation}
 \end{equation}
 \\
 where i denotes the four optical fields, namely: pump, Stokes, probe, and backscattered signal. The total nonlinear polarization that gives rise to the source term in the wave equation is given by
+\\
 \begin{equation}
     \tilde{P} = \epsilon_{0}\Delta\chi\tilde{E} = \epsilon_{0}\Delta\epsilon\tilde{E} = \epsilon_{0}\rho^{-1}\gamma_{e}\tilde{\rho}\tilde{E}.
 \end{equation}
+\\
 The parts of $\tilde{P}$ that can act as phase-matched source terms for the optical fields are
+\\
 \begin{equation}
     \tilde{P}_{P} = p_{P}e^{i(k_{P}z - \omega_{P} t)} + c.c. = \frac{1}{2}\epsilon_{0}\rho_{0}^{-1}\gamma_{e}\rho A_{S}e^{i(k_{P}z - \omega_{P} t)}
     \label{eq:Pump phase-matched source term}
 \end{equation}
+\\
 \begin{equation}
     \tilde{P}_{S} = p_{S}e^{i(-k_{S}z - \omega_{S} t)} + c.c. = \frac{1}{2}\epsilon_{0}\rho_{0}^{-1}\gamma_{e}\rho^{*} A_{P}e^{i(-k_{S}z - \omega_{S} t)}
     \label{eq:Stokes phase-matched source term}
 \end{equation}
+\\
 \begin{equation}
     \tilde{P}_{Pr} = p_{Pr}e^{i(k_{Pr}z - \omega_{Pr} t)} + c.c. = \frac{1}{2}\epsilon_{0}\rho_{0}^{-1}\gamma_{e}\rho A_{Sig}e^{i(k_{Pr}z - \omega_{Pr} t)}e^{i\Delta kz}
     \label{eq:Probe phase-matched source term}
 \end{equation}
+\\
 \begin{equation}
     \tilde{P}_{Sig} = p_{Sig}e^{i(-k_{Sig}z - \omega_{Sig} t)} + c.c. = \frac{1}{2}\epsilon_{0}\rho_{0}^{-1}\gamma_{e}\rho^{*} A_{Pr}e^{i(-k_{Sig}z - \omega_{Sig} t)}e^{-i\Delta kz}.
     \label{eq:Signal phase-matched source term}
 \end{equation}
 \\
 Inserting the optical fields (Eqs. \ref{eq:Pump optical field}-\ref{eq:Signal optical field}) and phase-matched source terms (Eqs. \ref{eq:Pump phase-matched source term}-\ref{eq:Signal phase-matched source term}) into Eq. (\ref{eq:Wave equation}), we obtain
+\\
 \begin{equation}
     \frac{\partial A_{P}}{\partial z} + \frac{n}{c}\frac{\partial A_{P}}{\partial t} = \frac{i\omega_{P}\gamma_{e}}{2nc\rho_{0}}\rho A_{2}
 \end{equation}
+\\
 \begin{equation}
     -\frac{\partial A_{S}}{\partial z} + \frac{n}{c}\frac{\partial A_{S}}{\partial t} = \frac{i\omega_{S}\gamma_{e}}{2nc\rho_{0}}\rho^{*}A_{P}
 \end{equation}
@@ -210,9 +292,11 @@ Inserting the optical fields (Eqs. \ref{eq:Pump optical field}-\ref{eq:Signal op
 \end{equation}
 \\
 We again assume steady-state conditions, allowing the time derivative term to be dropped. Plugging in the acoustic field amplitude (Eq. \ref{eq:Acoustic field amplitude}), we arrive at the coupled-amplitude wave equations for the optical fields,
+\\
 \begin{equation}
     \frac{\partial A_{P}}{\partial z} = \frac{i\epsilon_{0}\omega_{P} q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}|A_{S}|^{2} + A_{Pr}A_{Sig}^{*}A_{S}e^{i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}}
 \end{equation}
+\\
 \begin{equation}
     \frac{\partial A_{S}}{\partial z} = -\frac{i\epsilon_{0}\omega_{S} q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{|A_{P}|^{2}A_{S}^{*} + A_{Pr}A_{Sig}^{*}A_{P}e^{i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}}
 \end{equation}
@@ -258,10 +342,6 @@ To find the power of the backscattered signal, we would integrate this intensity
   P_{Sig} = \pi r^{2}\frac{\epsilon_{0}^{2}\omega^{2}q^{4}\gamma_{e}^{4}}{4n^{2}c^{2}\rho_{0}^{2}}\frac{P_{P}P_{S}P_{Pr}}{(\Omega_{B} - \Omega)^{4} - \Omega^{2}\Gamma_{B}^{2}}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right).
 \end{equation}
 
-
-
-
-\bibliography{sn-bibliography}
-%\bibliographystyle{plain}
+\end{appendices}
 
 \end{document}
