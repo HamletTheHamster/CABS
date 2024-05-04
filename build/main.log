@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.12)  1 MAY 2024 18:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.12)  3 MAY 2024 17:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -561,67 +561,33 @@ File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2023/03/12 v3.6j Customizing captions (AR)
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
-\caption@tempdima=\dimen261
-\captionmargin=\dimen262
-\caption@leftmargin=\dimen263
-\caption@rightmargin=\dimen264
-\caption@width=\dimen265
-\caption@indent=\dimen266
-\caption@parindent=\dimen267
-\caption@hangindent=\dimen268
-Package caption Info: Unknown document class (or package),
-(caption)             standard defaults will be used.
-Package caption Info: \@makecaption = \long macro:#1#2->\ifx \FigName \@captype
- \vskip \abovecaptionskip \@figurecaption {#1}{#2} \else \@tablecaption {#1}{#2
-} \vskip \belowcaptionskip \fi  on input line 1176.
-)
-
-Package caption Warning: Unknown document class (or package),
-(caption)                standard defaults will be used.
-See the caption package documentation for explanation.
-
-\c@caption@flags=\count324
-\c@continuedfloat=\count325
-Package caption Info: float package is loaded.
-Package caption Info: hyperref package is loaded.
-Package caption Info: listings package is loaded.
-Package caption Info: rotating package is loaded.
-Package caption Info: threeparttable package is loaded.
-Package caption Info: wrapfig package is loaded.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
-Package caption Info: New subtype `subfigure' on input line 239.
-\c@subfigure=\count326
-Package caption Info: New subtype `subtable' on input line 239.
-\c@subtable=\count327
-)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/etoc/etoc.sty
 Package: etoc 2023/03/01 v1.2 Completely customisable TOCs (JFB)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count328
+\c@tracingmulticols=\count324
+
+
+Package multicol Warning: May not work with the twocolumn option on input line 
+143.
+
 \mult@box=\box76
-\multicol@leftmargin=\dimen269
-\c@unbalance=\count329
-\c@collectmore=\count330
-\doublecol@number=\count331
-\multicoltolerance=\count332
-\multicolpretolerance=\count333
-\full@width=\dimen270
-\page@free=\dimen271
-\premulticols=\dimen272
-\postmulticols=\dimen273
+\multicol@leftmargin=\dimen261
+\c@unbalance=\count325
+\c@collectmore=\count326
+\doublecol@number=\count327
+\multicoltolerance=\count328
+\multicolpretolerance=\count329
+\full@width=\dimen262
+\page@free=\dimen263
+\premulticols=\dimen264
+\postmulticols=\dimen265
 \multicolsep=\skip72
 \multicolbaselineskip=\skip73
 \partial@page=\box77
 \last@line=\box78
-\maxbalancingoverflow=\dimen274
+\maxbalancingoverflow=\dimen266
 \mult@rightbox=\box79
 \mult@grightbox=\box80
 \mult@firstbox=\box81
@@ -662,23 +628,34 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \@tempa=\box116
 \@tempa=\box117
 \@tempa=\box118
-\c@minrows=\count334
-\c@columnbadness=\count335
-\c@finalcolumnbadness=\count336
-\last@try=\dimen275
-\multicolovershoot=\dimen276
-\multicolundershoot=\dimen277
+\c@minrows=\count330
+\c@columnbadness=\count331
+\c@finalcolumnbadness=\count332
+\last@try=\dimen267
+\multicolovershoot=\dimen268
+\multicolundershoot=\dimen269
 \mult@nat@firstbox=\box119
 \colbreak@box=\box120
-\mc@col@check@num=\count337
+\mc@col@check@num=\count333
 )
 \Etoc@toctoks=\toks40
-\c@etoc@tocid=\count338
+\c@etoc@tocid=\count334
 \etoc@framed@titlebox=\box121
 \etoc@framed@contentsbox=\box122
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 28.
 
+
+Package geometry Warning: Over-specification in `h'-direction.
+    `width' (372.0pt) is ignored.
+
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (552.69478pt) is ignored.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
+Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
+)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.sty
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -686,39 +663,39 @@ Package: expl3 2023-02-22 L3 programming layer (loader)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count339
+\l__color_backend_stack_int=\count335
 \l__pdf_internal_box=\box123
 ))
 Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count340
-\l__lipsum_a_int=\count341
-\l__lipsum_b_int=\count342
+\g__lipsum_par_int=\count336
+\l__lipsum_a_int=\count337
+\l__lipsum_b_int=\count338
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 (build/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 \footinsA=\insert252
-\c@footnoteA=\count343
+\c@footnoteA=\count339
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -728,45 +705,45 @@ LaTeX Font Info:    ... okay on input line 32.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * bindingoffset: 17.07164pt
-* modes: twoside 
-* h-part:(L,W,R)=(50.07684pt, 455.24408pt, 75.11531pt)
-* v-part:(T,H,B)=(73.97716pt, 614.57951pt, 156.49017pt)
+* modes: 
+* h-part:(L,W,R)=(42.67912pt, 495.07799pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=455.24408pt
-* \textheight=614.57951pt
-* \oddsidemargin=-5.1215pt
-* \evensidemargin=2.84532pt
-* \topmargin=-24.94597pt
-* \headheight=12.0pt
-* \headsep=14.65314pt
+* \textwidth=495.07799pt
+* \textheight=731.23584pt
+* \oddsidemargin=-12.51923pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-36.79803pt
+* \headheight=5.5pt
+* \headsep=15.93355pt
 * \topskip=10.0pt
-* \footskip=28.82265pt
+* \footskip=28.45274pt
 * \marginparwidth=34.1433pt
 * \marginparsep=14.22636pt
-* \columnsep=22.76219pt
-* \skip\footins=18.0pt plus 6.0pt minus 3.0pt
+* \columnsep=14.22636pt
+* \skip\footins=8.0pt plus 4.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumntrue
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemargintrue
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count344
-\scratchdimen=\dimen278
+\scratchcounter=\count340
+\scratchdimen=\dimen270
 \scratchbox=\box124
-\nofMPsegments=\count345
-\nofMParguments=\count346
+\nofMPsegments=\count341
+\nofMParguments=\count342
 \everyMPshowfont=\toks41
-\MPscratchCnt=\count347
-\MPscratchDim=\dimen279
-\MPnumerator=\count348
-\makeMPintoPDFobject=\count349
+\MPscratchCnt=\count343
+\MPscratchDim=\dimen271
+\MPnumerator=\count344
+\makeMPintoPDFobject=\count345
 \everyMPtoPDFconversion=\toks42
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -777,136 +754,91 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 32.
+Package hyperref Info: Link coloring ON on input line 35.
 
 (build/main.out) (build/main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-\c@lstlisting=\count350
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count346
 \Etoc@tf=\read2
-LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 57.
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-21.43355pt
+* \headheight=5.5pt
+* \headsep=15.93355pt
+* \topskip=10.0pt
+* \footskip=28.45274pt
+* \marginparwidth=34.1433pt
+* \marginparsep=14.22636pt
+* \columnsep=14.22636pt
+* \skip\footins=8.0pt plus 4.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
 
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <8.43146> not available
-(Font)              size <8> substituted on input line 57.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <8.43146> not available
-(Font)              size <8> substituted on input line 57.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <8.43146> not available
-(Font)              size <8> substituted on input line 57.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 57
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 59
 .
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <8.43146> not available
-(Font)              size <8> substituted on input line 57.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <8.43146> not available
-(Font)              size <8> substituted on input line 57.
-
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 57
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 59
 .
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.52061> not available
-(Font)              size <6> substituted on input line 57.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.52061> not available
-(Font)              size <6> substituted on input line 57.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <5.52061> not available
-(Font)              size <6> substituted on input line 57.
-
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <5.52061> not available
-(Font)              size <6> substituted on input line 57.
-
-LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 57
+LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 59
 .
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [1
 
 
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]| []
- []
-
-[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
-<CABS.png, id=176, 272.6988pt x 218.7372pt>
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<CABS.png, id=174, 272.6988pt x 218.7372pt>
 File: CABS.png Graphic file (type png)
 <use CABS.png>
-Package pdftex.def Info: CABS.png  used on input line 69.
-(pdftex.def)             Requested size: 204.85844pt x 164.32617pt.
-
-Underfull \hbox (badness 1215) in paragraph at lines 80--81
-\OT1/cmr/m/n/10 the capa-bil-i-ties of the instru-ment, one fiber-
- []
-
-<1cmUHNA3.pdf, id=180, 1084.05pt x 1084.05pt>
+Package pdftex.def Info: CABS.png  used on input line 72.
+(pdftex.def)             Requested size: 222.78357pt x 178.70479pt.
+<1cmUHNA3.pdf, id=178, 1084.05pt x 1084.05pt>
 File: 1cmUHNA3.pdf Graphic file (type pdf)
 <use 1cmUHNA3.pdf>
-Package pdftex.def Info: 1cmUHNA3.pdf  used on input line 84.
-(pdftex.def)             Requested size: 204.85844pt x 204.84683pt.
-<4mmCS2.pdf, id=181, 1084.05pt x 1084.05pt>
+Package pdftex.def Info: 1cmUHNA3.pdf  used on input line 87.
+(pdftex.def)             Requested size: 222.78357pt x 222.77754pt.
+<4mmCS2.pdf, id=179, 1084.05pt x 1084.05pt>
 File: 4mmCS2.pdf Graphic file (type pdf)
 <use 4mmCS2.pdf>
-Package pdftex.def Info: 4mmCS2.pdf  used on input line 90.
-(pdftex.def)             Requested size: 204.85844pt x 204.84683pt.
-
-LaTeX Warning: Reference `fig:' on page 2 undefined on input line 94.
-
-
-LaTeX Warning: Reference `fig:' on page 2 undefined on input line 94.
-
-
-LaTeX Warning: Reference `fig:' on page 2 undefined on input line 94.
-
-
-Underfull \hbox (badness 1728) in paragraph at lines 94--95
-[]\OT1/cmr/m/n/10 Fig. [] shows the spec-tral mea-sure-ments
- []
-
-
-LaTeX Warning: Reference `fig:' on page 2 undefined on input line 98.
-
-
-LaTeX Warning: Reference `fig:' on page 2 undefined on input line 98.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+Package pdftex.def Info: 4mmCS2.pdf  used on input line 93.
+(pdftex.def)             Requested size: 222.78357pt x 222.77754pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -915,17 +847,36 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []| []
  []
 
-[2 <./CABS.png>]
-Underfull \hbox (badness 3333) in paragraph at lines 100--101
-\OT1/cmr/m/n/10 ment. The observed spec-trum, pre-sented in
+[2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.99 F
+      ig. \ref{fig:1cmUHNA3} shows a measurement of 1cm of UHNA3 fiber.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.99 F
+      ig. \ref{fig:1cmUHNA3} shows a measurement of 1cm of UHNA3 fiber. <./CABS
+.png> <./1cmUHNA3.pdf>]
+Underfull \hbox (badness 2245) in paragraph at lines 105--106
+[]\OT1/cmr/m/n/10 Lastly, we con-ducted a mea-sure-ment in a 1-
  []
 
-<Phase-Match.pdf, id=194, 1084.05pt x 1084.05pt>
+<Phase-Match.pdf, id=201, 1084.05pt x 1084.05pt>
 File: Phase-Match.pdf Graphic file (type pdf)
 <use Phase-Match.pdf>
-Package pdftex.def Info: Phase-Match.pdf  used on input line 108.
-(pdftex.def)             Requested size: 204.85844pt x 204.84683pt.
+Package pdftex.def Info: Phase-Match.pdf  used on input line 111.
+(pdftex.def)             Requested size: 222.78357pt x 222.77754pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(build/main.bbl)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -933,35 +884,28 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []| []
  []
 
-[3 <./1cmUHNA3.pdf> <./4mmCS2.pdf
-
-pdfTeX warning: pdflatex (file ./4mmCS2.pdf): PDF inclusion: multiple pdfs with
- page group included in a single page
-> <./Phase-Match.pdf
+[3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.126 \onecolumn
+                
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.126 \onecolumn
+                 <./4mmCS2.pdf> <./Phase-Match.pdf
 
 pdfTeX warning: pdflatex (file ./Phase-Match.pdf): PDF inclusion: multiple pdfs
  with page group included in a single page
->] (build/main.bbl)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]| []
- []
-
-[4
-
-]
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 129.
-
-
+>]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.131 \end{titlepage}
+l.134 \end{titlepage}
                       [1
 
 ]
@@ -972,58 +916,142 @@ l.131 \end{titlepage}
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.142 \newpage
+               [1]
+Underfull \hbox (badness 10000) in paragraph at lines 151--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--221
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.139 \newpage
-               [2]
-Underfull \hbox (badness 10000) in paragraph at lines 148--150
+l.224 \end{equation}
+                     [2]
+Underfull \hbox (badness 10000) in paragraph at lines 224--228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--155
+Underfull \hbox (badness 10000) in paragraph at lines 231--235
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--160
+Underfull \hbox (badness 10000) in paragraph at lines 237--241
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--165
+Underfull \hbox (badness 10000) in paragraph at lines 249--251
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--172
+Underfull \hbox (badness 10000) in paragraph at lines 254--258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--184
+Underfull \hbox (badness 10000) in paragraph at lines 260--264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--191
+Underfull \hbox (badness 10000) in paragraph at lines 267--269
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--197
+Underfull \hbox (badness 10000) in paragraph at lines 272--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--206
+Underfull \hbox (badness 10000) in paragraph at lines 277--279
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--212
+Underfull \hbox (badness 10000) in paragraph at lines 282--286
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--290
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--294
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--304
 
  []
 
@@ -1035,165 +1063,71 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.212 \begin{equation}
+l.304 \begin{equation}
                        [3]
-Underfull \hbox (badness 10000) in paragraph at lines 214--218
+Underfull \hbox (badness 10000) in paragraph at lines 306--308
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--225
+Underfull \hbox (badness 10000) in paragraph at lines 310--312
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--232
+Underfull \hbox (badness 10000) in paragraph at lines 314--316
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--238
+Underfull \hbox (badness 10000) in paragraph at lines 319--323
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--248
+Underfull \hbox (badness 10000) in paragraph at lines 325--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--255
+Underfull \hbox (badness 10000) in paragraph at lines 329--331
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--261
+Underfull \hbox (badness 10000) in paragraph at lines 333--335
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--266
+Underfull \hbox (badness 10000) in paragraph at lines 337--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--271
+Underfull \hbox (badness 10000) in paragraph at lines 347--349
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.274 \end{equation}
-                     [4]
-Underfull \hbox (badness 10000) in paragraph at lines 274--276
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--283
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--287
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--291
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 293--295
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--305
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--309
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--313
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--320
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 322--324
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--328
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--332
-
- []
-
-
+ [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-Underfull \hbox (badness 10000) in paragraph at lines 334--338
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 344--346
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
 (build/main.aux)
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.28pt have occurred.
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B49BDA0600C9F0806C0A3670EC908B36;7465.
  ) 
 Here is how much of TeX's memory you used:
- 16826 strings out of 476025
- 271553 string characters out of 5790016
- 1870388 words of memory out of 5000000
- 36908 multiletter control sequences out of 15000+600000
- 525646 words of font info for 87 fonts, out of 8000000 for 9000
+ 15458 strings out of 476025
+ 244921 string characters out of 5790016
+ 1871388 words of memory out of 5000000
+ 35546 multiletter control sequences out of 15000+600000
+ 531451 words of font info for 107 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 90i,19n,117p,1931b,576s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,19n,90p,1931b,580s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -1211,10 +1145,10 @@ ive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on build/main.pdf (11 pages, 886685 bytes).
+Output written on build/main.pdf (9 pages, 887876 bytes).
 PDF statistics:
- 436 PDF objects out of 1000 (max. 8388607)
- 377 compressed objects within 4 object streams
- 90 named destinations out of 1000 (max. 500000)
+ 428 PDF objects out of 1000 (max. 8388607)
+ 372 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
  333 words of extra memory for PDF output out of 10000 (max. 10000000)
 

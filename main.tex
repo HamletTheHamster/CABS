@@ -1,5 +1,7 @@
-\documentclass[sn-nature, iicol]{sn-jnl}% Style for submissions to Nature Portfolio journals (remove iicol for submission)
-%\documentclass[pdflatex,iicol]{sn-jnl}% Default with double column layout
+\documentclass[
+sn-nature,
+twocolumn
+]{sn-jnl}% Style for submissions to Nature Portfolio journals (remove twocolumn before submission)
 
 \usepackage{graphicx}
 \usepackage{multirow}
@@ -14,8 +16,6 @@
 \usepackage{algorithm}
 \usepackage{algorithmicx}
 \usepackage{listings}
-\usepackage{caption}
-\usepackage{subcaption}
 \usepackage{appendix}
 \usepackage{etoc}
 \usepackage{hyperref}
@@ -26,26 +26,27 @@
     filecolor=black, % Color of file links
     urlcolor=black, % Color of URL links
 }
+\usepackage{geometry}
+\geometry{left=1.5cm, right=1.5cm, top=2cm, bottom=2cm, twoside=false}  % Sets each margin (remove before submission)
+\usepackage{anyfontsize}
 \usepackage{lipsum}
 
 
 \begin{document}
 
+
 \title[Article Title]{A coherently stimulated Brillouin spectrometer}
 
 \author*[1,2]{\fnm{Joel} \sur{N. Johnson}}\email{joel.johnson@nau.edu}
-
 \author[3]{\fnm{Peter} \sur{T. Rakich}}
-
 \author[4]{\fnm{Co} \sur{Authors}}
-
 \author*[1,2]{\fnm{Ryan} \sur{O. Behunin}}\email{ryan.behunin@nau.edu}
 
-\affil*[1]{\orgdiv{Department of Applied Physics and Materials Science}, \orgname{Northern Arizona University}, \orgaddress{\city{Flagstaff}, \postcode{86011}, \state{AZ}, \country{USA}}}
+\affil[1]{\orgdiv{Department of Applied Physics and Materials Science}, \orgname{Northern Arizona University}, \orgaddress{\city{Flagstaff}, \postcode{86011}, \state{AZ}, \country{USA}}}
 
-\affil[2]{\orgname{Center for Materials Interfaces in Research and Applications}, \orgaddress{\city{Flagstaff}, \postcode{86011}, \state{AZ}, \country{USA}}}
+\affil[2]{\orgdiv{Center for Materials Interfaces in Research and Applications}, \orgaddress{\city{Flagstaff}, \postcode{86011}, \state{AZ}, \country{USA}}}
 
-\affil[3]{\orgdiv{Department of Applied Physics}, \orgname{Yale University}, \orgaddress{\city{New Haven}, \postcode{06520}}, \state{CT}, \country{USA}}
+\affil[3]{\orgdiv{Department of Applied Physics}, \orgname{Yale University}, \orgaddress{\city{New Haven}, \postcode{06520}, \state{CT}, \country{USA}}}
 
 \affil[4]{\orgdiv{Department}, \orgname{Organization}, \orgaddress{\street{Street}, \city{City}, \postcode{610101}, \state{State}, \country{Country}}}
 
@@ -53,7 +54,9 @@
 
 \keywords{Brillouin, femtowatt, nano-acousto-optic, phonon spectrometer}
 
+\newgeometry{margin=1in}
 \maketitle
+\restoregeometry
 
 \addtocontents{toc}{\protect\setcounter{tocdepth}{0}} % Temporarily stop adding to ToC
 
@@ -91,11 +94,11 @@ We consider two example targets to demonstrate the capabilities of the instrumen
   \caption{4mm CS2}\label{fig:4mmCS2}
 \end{figure}
 
-Fig. \ref{fig:} shows the spectral measurements achieved by the instrument, overlaid with finite-difference simulation data. In Fig. \ref{fig:} we see the expected lorentzian spectral shape in good alignment with simulation data for guided longitudinal modes in the core of the UHNA3 fiber. In Fig. \ref{fig:}, however, we see a distortion of this lorentzian shape. This is expected for partially unguided longitudinal modes, such as is the case for a bulk liquid filling the volume of a ...
+Fig. shows the spectral measurements achieved by the instrument, overlaid with finite-difference simulation data. In Fig. we see the expected lorentzian spectral shape in good alignment with simulation data for guided longitudinal modes in the core of the UHNA3 fiber. In Fig. , however, we see a distortion of this lorentzian shape. This is expected for partially unguided longitudinal modes, such as is the case for a bulk liquid filling the volume of a ...
 
 Fig. \ref{fig:1cmUHNA3} shows a measurement of 1cm of UHNA3 fiber.
 
-First, we measured Brillouin scattering in a 1-centimeter-long UHNA3 fiber at room temperature and with sub-Watt optical power (Fig. \ref{fig:}). Figure \ref{fig:}, clearly displays the Brillouin scattering features with remarkable signal-to-noise ratio, highlighting the effectiveness of our apparatus in isolating the backscattered probe light. This observation serves as one of the main showcases of the instrument's capability.
+First, we measured Brillouin scattering in a 1-centimeter-long UHNA3 fiber at room temperature and with sub-Watt optical power (Fig. ). Figure , clearly displays the Brillouin scattering features with remarkable signal-to-noise ratio, highlighting the effectiveness of our apparatus in isolating the backscattered probe light. This observation serves as one of the main showcases of the instrument's capability.
 
 Next, we performed Brillouin scattering measurements on a 4-millimeter-thick bulk carbon disulfide sample in a free-space optics arrangement. The observed spectrum, presented in Figure 2, exhibits well-resolved Brillouin scattering peaks. This successful measurement in a bulk sample demonstrates the versatility and adaptability of our instrument to various experimental configurations, further emphasizing the instrument's capability.
 
