@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\burl{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
@@ -6,10 +6,5 @@
 \providecommand{\eprint}[2][]{\url{#2}}
 \providecommand{\doi}[1]{\url{https://doi.org/#1}}
 \bibcommenthead
-
-\bibitem{boyd2020nonlinear}
-\bibinfo{author}{Boyd, R.~W.}
-\newblock \emph{\bibinfo{title}{Nonlinear Optics}}
-  (\bibinfo{publisher}{Academic Press}, \bibinfo{year}{2020}).
 
 \end{thebibliography}
