@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.12)  6 MAY 2024 09:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.12)  6 MAY 2024 10:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -907,6 +907,9 @@ pdfTeX warning: pdflatex (file ./Phase-Match.pdf): PDF inclusion: multiple pdfs
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []| []
  []
@@ -1163,7 +1166,7 @@ Here is how much of TeX's memory you used:
  35533 multiletter control sequences out of 15000+600000
  531105 words of font info for 106 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 90i,19n,90p,1110b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,19n,90p,1264b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -1180,7 +1183,7 @@ ive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
 23/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on build/main.pdf (11 pages, 876269 bytes).
+Output written on build/main.pdf (11 pages, 876299 bytes).
 PDF statistics:
  414 PDF objects out of 1000 (max. 8388607)
  357 compressed objects within 4 object streams
