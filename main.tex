@@ -50,7 +50,7 @@ twocolumn
 
 \affil[4]{\orgdiv{Department}, \orgname{Organization}, \orgaddress{\street{Street}, \city{City}, \postcode{610101}, \state{State}, \country{Country}}}
 
-\abstract{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.}
+\abstract{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget dolor at diam volutpat congue sit amet non magna. Phasellus sed ante ornare, commodo elit id, euismod enim. Mauris posuere, erat id vehicula ultrices, erat nisi faucibus lorem, at vehicula enim orci in dui. Nulla facilisi. Integer sed tortor venenatis, aliquet nulla quis, fermentum libero. Proin sit amet metus nec ante fermentum gravida at nec odio. Praesent id nisi ut sapien rutrum hendrerit. Donec vel sapien et eros accumsan tempus. Maecenas non velit nec nulla cursus faucibus sit amet sed dui. Ut eleifend, magna in fermentum efficitur, ligula ipsum blandit libero, sed iaculis eros magna ut arcu. Fusce eget lectus aliquet, consequat dolor at, aliquam urna. Curabitur pharetra, arcu sed vehicula maximus, nibh leo sollicitudin elit, vitae dapibus odio metus gravida ante. Aliquam erat volutpat. Donec venenatis erat vel ultrices suscipit. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.}
 %[By exploiting the relaxation of phase matching conditions in finite lengths and employing three mechanisms to segregate pump and probe light,]
 
 \keywords{Brillouin scattering, phonon spectrometer, photonics, femtowatt, pump-probe, instrument, room-temperture, nano-acousto-optic devices}
@@ -71,6 +71,10 @@ In this work, we present a coherently stimulated Brillouin spectrometer that uti
 \section*{Results}\label{Results}
 
 
+\subsection*{Phase Matching Relaxation}
+
+\lipsum[1-3]
+
 
 \subsection*{Instrument Design}\label{Results:Instrument Design}
 
@@ -80,7 +84,7 @@ In this work, we present a coherently stimulated Brillouin spectrometer that uti
 \caption{CABS design diagram}\label{fig:CABS}
 \end{figure}
 
-The design of the instrument is shown in the schematic in Fig. \ref{fig:CABS}. A pump and Stokes signal is synthesized from a single tunable laser source for coherent stimulation of the sample. The pump signal ($\omega_{Pump}$) is amplified by an erbium-doped fiber amplifier (EDFA) and passed through a variable optical attenuator (VOA). The output is then polarization-controlled to reflect at a polarizing beam splitter (PBS) for injection into the sample. For Stokes synthesis, an AC signal ($\Omega$) is supplied to an intensity modulator with carrier frequency nulled and a tunable filter is used to select one side band output ($\omega_{Pump} - \Omega$). This Stokes light is then amplified by an EDFA, passed through a VOA, and polarization-controlled to reflect at a second PBS for couter-propagation to the pump through the sample.
+The design of the instrument is shown in the schematic in Fig. \ref{fig:CABS}. A pump and Stokes signal is synthesized from a single tunable laser source for coherent stimulation of the sample. The pump signal ($\omega_{Pump}$) is amplified by an erbium-doped fiber amplifier (EDFA) and passed through a variable optical attenuator (VOA) for power control. The output is then polarization-controlled to reflect at a polarizing beam splitter (PBS) for injection into the sample. For Stokes synthesis, an AC signal ($\Omega$) is supplied to an intensity modulator with carrier frequency nulled and a tunable filter is used to select one side band output ($\omega_{Pump} - \Omega$). This Stokes light is then amplified by an EDFA, passed through a VOA, and polarization-controlled to reflect at a second PBS for couter-propagation to the pump through the sample.
 
 A separate tunable laser ($\omega_{Probe} = \omega_{Pump} + \Delta k$) is used to synthesize the probe and local oscillator (LO). Probe light is amplified by an EDFA and fed through a VOA. A polarization controller aligns the polarization axis of the probe light for transmission through the first PBS and copropagation with the pump into the sample. Backscattered probe light exits the sample and transmits back through the first PBS, whereas the orthogonally polarized Stokes light reflects at this same point to be diverted to a tap for power monitoring. The backscattered signal ($\omega_{Signal} = \omega_{Probe} + \Omega$) then routes through two subsequent circulators for spectral filtering by a 5 GHz bandpass tunable filter. This filter allows the frequency-shifted probe light to pass while rejecting (1) any reflected probe light, and (2) any reflected, transmitted, or backscattered pump or Stokes light that was not already diverted by the PBS.
 
@@ -120,11 +124,6 @@ These three observations collectively showcase the high sensitivity, broad appli
 \includegraphics[width=.45\textwidth]{Phase-Match.pdf}
 \caption{Phase-matching sinc func}\label{fig:Phase-Match}
 \end{figure}
-
-
-\subsection*{Relaxation of Phase Matching Conditions}
-
-\lipsum[1-3]
 
 
 \subsection*{Instrument Sensitivity}
