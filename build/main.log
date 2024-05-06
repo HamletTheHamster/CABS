@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.12)  6 MAY 2024 07:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.12)  6 MAY 2024 08:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -833,20 +833,20 @@ Underfull \hbox (badness 2111) in paragraph at lines 68--69
 \OT1/cmr/m/n/10 enable traveling-wave phonon spec-troscopy at the
  []
 
-<CABS.png, id=172, 272.6988pt x 218.7372pt>
+<CABS.png, id=157, 272.6988pt x 218.7372pt>
 File: CABS.png Graphic file (type png)
 <use CABS.png>
-Package pdftex.def Info: CABS.png  used on input line 77.
+Package pdftex.def Info: CABS.png  used on input line 75.
 (pdftex.def)             Requested size: 222.78357pt x 178.70479pt.
-<1cmUHNA3.pdf, id=176, 1084.05pt x 1084.05pt>
+<1cmUHNA3.pdf, id=161, 1084.05pt x 1084.05pt>
 File: 1cmUHNA3.pdf Graphic file (type pdf)
 <use 1cmUHNA3.pdf>
-Package pdftex.def Info: 1cmUHNA3.pdf  used on input line 92.
+Package pdftex.def Info: 1cmUHNA3.pdf  used on input line 90.
 (pdftex.def)             Requested size: 222.78357pt x 222.77754pt.
-<4mmCS2.pdf, id=177, 1084.05pt x 1084.05pt>
-File: 4mmCS2.pdf Graphic file (type pdf)
-<use 4mmCS2.pdf>
-Package pdftex.def Info: 4mmCS2.pdf  used on input line 98.
+<100umCS2.pdf, id=162, 1084.05pt x 1084.05pt>
+File: 100umCS2.pdf Graphic file (type pdf)
+<use 100umCS2.pdf>
+Package pdftex.def Info: 100umCS2.pdf  used on input line 96.
 (pdftex.def)             Requested size: 222.78357pt x 222.77754pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -861,24 +861,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.107 
+l.105 
       
 
  <./CABS.png>]
-Underfull \hbox (badness 2245) in paragraph at lines 110--111
+Underfull \hbox (badness 2245) in paragraph at lines 108--109
 []\OT1/cmr/m/n/10 Lastly, we con-ducted a mea-sure-ment in a 1-
  []
 
-<Phase-Match.pdf, id=190, 1084.05pt x 1084.05pt>
+<Phase-Match.pdf, id=178, 1084.05pt x 1084.05pt>
 File: Phase-Match.pdf Graphic file (type pdf)
 <use Phase-Match.pdf>
-Package pdftex.def Info: Phase-Match.pdf  used on input line 116.
+Package pdftex.def Info: Phase-Match.pdf  used on input line 114.
 (pdftex.def)             Requested size: 222.78357pt x 222.77754pt.
 (build/main.bbl
-
-Package natbib Warning: Empty `thebibliography' environment on input line 10.
-
-)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -891,28 +887,32 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.131 \onecolumn
-                
+l.1 \begin{thebibliography}{}
+                             
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.131 \onecolumn
-                
+l.1 \begin{thebibliography}{}
+                             
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.131 \onecolumn
-                 <./1cmUHNA3.pdf> <./4mmCS2.pdf
+l.1 \begin{thebibliography}{}
+                              <./1cmUHNA3.pdf> <./100umCS2.pdf
 
-pdfTeX warning: pdflatex (file ./4mmCS2.pdf): PDF inclusion: multiple pdfs with
- page group included in a single page
+pdfTeX warning: pdflatex (file ./100umCS2.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
 > <./Phase-Match.pdf
 
 pdfTeX warning: pdflatex (file ./Phase-Match.pdf): PDF inclusion: multiple pdfs
  with page group included in a single page
 >]
+
+Package natbib Warning: Empty `thebibliography' environment on input line 10.
+
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -927,7 +927,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.139 \end{titlepage}
+l.140 \end{titlepage}
                       [1
 
 ]
@@ -942,59 +942,59 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.147 \newpage
+l.148 \newpage
                [1]
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
+Underfull \hbox (badness 10000) in paragraph at lines 157--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--163
+Underfull \hbox (badness 10000) in paragraph at lines 162--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--168
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--180
+Underfull \hbox (badness 10000) in paragraph at lines 177--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--192
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--199
+Underfull \hbox (badness 10000) in paragraph at lines 196--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--205
+Underfull \hbox (badness 10000) in paragraph at lines 202--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--214
+Underfull \hbox (badness 10000) in paragraph at lines 211--215
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--220
+Underfull \hbox (badness 10000) in paragraph at lines 217--221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--226
+Underfull \hbox (badness 10000) in paragraph at lines 223--227
 
  []
 
@@ -1006,74 +1006,74 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.229 \end{equation}
+l.230 \end{equation}
                      [2]
-Underfull \hbox (badness 10000) in paragraph at lines 229--233
+Underfull \hbox (badness 10000) in paragraph at lines 230--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--240
+Underfull \hbox (badness 10000) in paragraph at lines 237--241
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--246
+Underfull \hbox (badness 10000) in paragraph at lines 243--247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--256
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--263
+Underfull \hbox (badness 10000) in paragraph at lines 260--264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--269
+Underfull \hbox (badness 10000) in paragraph at lines 266--270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--274
+Underfull \hbox (badness 10000) in paragraph at lines 273--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--279
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--284
+Underfull \hbox (badness 10000) in paragraph at lines 283--285
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--291
+Underfull \hbox (badness 10000) in paragraph at lines 288--292
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--295
+Underfull \hbox (badness 10000) in paragraph at lines 294--296
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--299
+Underfull \hbox (badness 10000) in paragraph at lines 298--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--303
+Underfull \hbox (badness 10000) in paragraph at lines 302--304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--309
+Underfull \hbox (badness 10000) in paragraph at lines 306--310
 
  []
 
@@ -1085,49 +1085,49 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.309 \begin{equation}
+l.310 \begin{equation}
                        [3]
-Underfull \hbox (badness 10000) in paragraph at lines 311--313
+Underfull \hbox (badness 10000) in paragraph at lines 312--314
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--317
+Underfull \hbox (badness 10000) in paragraph at lines 316--318
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--321
+Underfull \hbox (badness 10000) in paragraph at lines 320--322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--328
+Underfull \hbox (badness 10000) in paragraph at lines 325--329
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--332
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--336
+Underfull \hbox (badness 10000) in paragraph at lines 335--337
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--340
+Underfull \hbox (badness 10000) in paragraph at lines 339--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--346
+Underfull \hbox (badness 10000) in paragraph at lines 343--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--354
+Underfull \hbox (badness 10000) in paragraph at lines 353--355
 
  []
 
@@ -1139,23 +1139,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.357 \newpage
+l.358 \newpage
                [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
 (build/main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B49BDA0600C9F0806C0A3670EC908B36;7465.
+(rerunfilecheck)             Checksum: E13723538AB42A4D92577B6D0AF1FFF6;6992.
  ) 
 Here is how much of TeX's memory you used:
- 15447 strings out of 476025
- 244718 string characters out of 5790016
+ 15445 strings out of 476025
+ 244716 string characters out of 5790016
  1871388 words of memory out of 5000000
- 35537 multiletter control sequences out of 15000+600000
+ 35534 multiletter control sequences out of 15000+600000
  531105 words of font info for 106 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 90i,19n,90p,1487b,580s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,19n,90p,1487b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -1169,12 +1169,13 @@ texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/te
 xlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texl
 ive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
 /2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
-23/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/202
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on build/main.pdf (10 pages, 857511 bytes).
+23/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on build/main.pdf (10 pages, 872057 bytes).
 PDF statistics:
- 419 PDF objects out of 1000 (max. 8388607)
- 365 compressed objects within 4 object streams
- 87 named destinations out of 1000 (max. 500000)
- 333 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 413 PDF objects out of 1000 (max. 8388607)
+ 357 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 301 words of extra memory for PDF output out of 10000 (max. 10000000)
 

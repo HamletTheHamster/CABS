@@ -1,9 +1,5 @@
 \@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
 \setcounter {tocdepth}{0}
-\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
-\contentsline {section}{\numberline {2}Instrument Design}{2}{section.2}%
-\contentsline {section}{\numberline {3}Experimental Results}{2}{section.3}%
-\contentsline {section}{\numberline {4}Discussion}{3}{section.4}%
 \setcounter {tocdepth}{2}
 \contentsline {section}{\numberline {A}Phase Matching}{2}{appendix.a.A}%
 \contentsline {subsection}{\numberline {A.1}Relaxation of Phase Matching Conditions}{2}{subsection.a.A.1}%
