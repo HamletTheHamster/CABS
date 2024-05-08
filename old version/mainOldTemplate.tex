@@ -1,120 +1,73 @@
-% ****** Start of file apssamp.tex ******
-%
-%   This file is part of the APS files in the REVTeX 4.2 distribution.
-%   Version 4.2a of REVTeX, December 2014
-%
-%   Copyright (c) 2014 The American Physical Society.
-%
-%   See the REVTeX 4 README file for restrictions and more information.
-%
-% TeX'ing this file requires that you have AMS-LaTeX 2.0 installed
-% as well as the rest of the prerequisites for REVTeX 4.2
-%
-% See the REVTeX 4 README file
-% It also requires running BibTeX. The commands are as follows:
-%
-%  1)  latex apssamp.tex
-%  2)  bibtex apssamp
-%  3)  latex apssamp.tex
-%  4)  latex apssamp.tex
-%
-\documentclass[%
-  reprint,
-  superscriptaddress,
-%groupedaddress,
-%unsortedaddress,
-%runinaddress,
-%frontmatterverbose,
-%preprint,
-%preprintnumbers,
-%nofootinbib,
-%nobibnotes,
-%bibnotes,
-  amsmath,amssymb,
-  aps,
-  prapplied,
-%pra,
-%prb,
-%rmp,
-%prstab,
-%prstper,
-%floatfix,
-]{revtex4-2}
+%\documentclass[sn-nature,twocolumn]{sn-jnl}% Style for submissions to Nature Portfolio journals (remove twocolumn before submission)
 
-\usepackage{graphicx}% Include figure files
-\usepackage{dcolumn}% Align table columns on decimal point
-\usepackage{bm}% bold math
-\usepackage{hyperref}% add hypertext capabilities
+\documentclass[aps,prapplied,reprint,superscriptaddress]{revtex4-2}
+
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{amsthm}
+\usepackage{mathrsfs}
+\usepackage[title]{appendix}
+\usepackage{xcolor}
+\usepackage{textcomp}
+\usepackage{manyfoot}
+\usepackage{booktabs}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{listings}
+\usepackage{appendix}
+%\usepackage{etoc}
+\usepackage{hyperref}
 \hypersetup{
-  colorlinks=true, % Set 'true' to enable colored links
-  linkcolor=black, % Color of internal links (sections, pages, etc.)
-  citecolor=black, % Color of citations
-  filecolor=black, % Color of file links
-  urlcolor=black, % Color of URL links
+    colorlinks=true, % Set 'true' to enable colored links
+    linkcolor=black, % Color of internal links (sections, pages, etc.)
+    citecolor=black, % Color of citations
+    filecolor=black, % Color of file links
+    urlcolor=black, % Color of URL links
 }
-%\usepackage[mathlines]{lineno}% Enable numbering of text and display math
-%\linenumbers\relax % Commence numbering lines
-
-%\usepackage[showframe,%Uncomment any one of the following lines to test
-%%scale=0.7, marginratio={1:1, 2:3}, ignoreall,% default settings
-%%text={7in,10in},centering,
-%%margin=1.5in,
-%%total={6.5in,8.75in}, top=1.2in, left=0.9in, includefoot,
-%%height=10in,a5paper,hmargin={3cm,0.8in},
-%]{geometry}
+\usepackage{geometry}
+\geometry{left=1.5cm, right=1.5cm, top=2cm, bottom=2cm, twoside=false}  % Sets each margin (remove before submission)
+\usepackage{anyfontsize}
 \usepackage{lipsum}
+
 
 \begin{document}
 
-\preprint{APS/123-QED}
 
-\title{A coherently stimulated Brillouin spectrometer}
+\title[Article Title]{A coherently stimulated Brillouin spectrometer}
 
-\author{Joel N. Johnson}
-  \email{joel.johnson@nau.edu}
-  \affiliation{Department of Applied Physics and Materials Science, Northern Arizona University, Flagstaff, AZ, 86011, USA}
-  \affiliation{Center for Materials Interfaces in Research and Applications, Northern Arizona University, Flagstaff, AZ, 86011, USA}
+\author*[1,2]{\fnm{Joel} \sur{N. Johnson}}\email{joel.johnson@nau.edu}
+\author[3]{\fnm{Peter} \sur{T. Rakich}}
+\author[4]{\fnm{Co} \sur{Authors}}
+\author*[1,2]{\fnm{Ryan} \sur{O. Behunin}}\email{ryan.behunin@nau.edu}
 
-\author{Peter T. Rakich}
-  \affiliation{Department of Applied Physics, Yale University, New Haven, CT, 06520, USA}
+\affil[1]{\orgdiv{Department of Applied Physics and Materials Science}, \orgname{Northern Arizona University}, \orgaddress{\city{Flagstaff}, \postcode{86011}, \state{AZ}, \country{USA}}}
 
-\author{Co Authors}
-  \affiliation{Department, Address}
+\affil[2]{\orgdiv{Center for Materials Interfaces in Research and Applications}, \orgaddress{\city{Flagstaff}, \postcode{86011}, \state{AZ}, \country{USA}}}
 
-\author{Ryan O. Behunin}
-  \email{ryan.behunin@nau.edu}
-  \affiliation{Department of Applied Physics and Materials Science, Northern Arizona University, Flagstaff, AZ, 86011, USA}
-  \affiliation{Center for Materials Interfaces in Research and Applications, Northern Arizona University, Flagstaff, AZ, 86011, USA}
+\affil[3]{\orgdiv{Department of Applied Physics}, \orgname{Yale University}, \orgaddress{\city{New Haven}, \postcode{06520}, \state{CT}, \country{USA}}}
 
-\date{\today}
+\affil[4]{\orgdiv{Department}, \orgname{Organization}, \orgaddress{\street{Street}, \city{City}, \postcode{10101}, \state{State}, \country{Country}}}
 
-\begin{abstract}
-ALorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget dolor at diam volutpat congue sit amet non magna. Phasellus sed ante ornare, commodo elit id, euismod enim. Mauris posuere, erat id vehicula ultrices, erat nisi faucibus lorem, at vehicula enim orci in dui. Nulla facilisi. Integer sed tortor venenatis, aliquet nulla quis, fermentum libero. Proin sit amet metus nec ante fermentum gravida at nec odio. Praesent id nisi ut sapien rutrum hendrerit. Donec vel sapien et eros accumsan tempus. Maecenas non velit nec nulla cursus faucibus sit amet sed dui. Ut eleifend, magna in fermentum efficitur, ligula ipsum blandit libero, sed iaculis eros magna ut arcu. Fusce eget lectus aliquet, consequat dolor at, aliquam urna. Curabitur pharetra, arcu sed vehicula maximus, nibh leo sollicitudin elit, vitae dapibus odio metus gravida ante. Aliquam erat volutpat. Donec venenatis erat vel ultrices suscipit. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+\abstract{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget dolor at diam volutpat congue sit amet non magna. Phasellus sed ante ornare, commodo elit id, euismod enim. Mauris posuere, erat id vehicula ultrices, erat nisi faucibus lorem, at vehicula enim orci in dui. Nulla facilisi. Integer sed tortor venenatis, aliquet nulla quis, fermentum libero. Proin sit amet metus nec ante fermentum gravida at nec odio. Praesent id nisi ut sapien rutrum hendrerit. Donec vel sapien et eros accumsan tempus. Maecenas non velit nec nulla cursus faucibus sit amet sed dui. Ut eleifend, magna in fermentum efficitur, ligula ipsum blandit libero, sed iaculis eros magna ut arcu. Fusce eget lectus aliquet, consequat dolor at, aliquam urna. Curabitur pharetra, arcu sed vehicula maximus, nibh leo sollicitudin elit, vitae dapibus odio metus gravida ante. Aliquam erat volutpat. Donec venenatis erat vel ultrices suscipit. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.}
+%[By exploiting the relaxation of phase matching conditions in finite lengths and employing three mechanisms to segregate pump and probe light,]
 
-%\begin{description}
-%\item[Usage]
-%Secondary publications and information retrieval purposes.
-%\item[Structure]
-%You may use the \texttt{description} environment to structure your abstract;
-%use the optional argument of the \verb+\item+ command to give the category of each item.
-%\end{description}
-\end{abstract}
+\keywords{Brillouin scattering, phonon spectrometer, photonics, femtowatt, pump-probe, instrument, room-temperture, nano-acousto-optic devices}
 
-\keywords{Brillouin scattering, phonon spectrometer, photonics, femtowatt, pump-probe, instrument, room-temperture, nano-acousto-optic devices}%Use showkeys class option if keyword display desired
-
+\newgeometry{margin=1in}
 \maketitle
+\restoregeometry
 
-%\tableofcontents
+%\addtocontents{toc}{\protect\setcounter{tocdepth}{0}} % Temporarily stop adding to ToC
 
-
-\section{Introduction}\label{sec:Introduction}
+\section*{Introduction}\label{Introduction}
 
 Brillouin scattering is the inelastic scattering of light from acoustic phonons. Spontaneous Brillouin scattering is light scattering specifically with the thermodynamic fluctuations in a material. Sufficient optical power elevates this spontaneous process into stimulated Brillouin scattering: a regime in which the optical fields augment the optical properties of the material, greatly enhancing the optomechanical response. This occurs as the backscattered (e.g. Stokes) light beats with the incident pump light to induce an electrostrictive modulation that reinforces the acoustic phonons in the material. It would be desirable to introduce a high-powered fourth optical field dedicated to electrostrictive reinforcement, further stimulating the acoustic field, however phase matching conditions require that its frequency and wavevector be identical to that of the backscattered light, preventing distinguishability.
 
 In this work, we present a coherently stimulated Brillouin spectrometer that utilizes a detuned pump-probe design to perform traveling-wave phonon spectroscopy at scales previously unachievable with traditional stimulated Brillouin techniques. With this method, we achieve sub-10 femtowatt sensitivity and enable room temperature traveling-wave phonon spectroscopy at the micrometer scale. We demonstrate the capabilities of the instrument by observing Brillouin scattering at room temperature in 1 centimeter of UHNA3 fiber and 100 micrometers of bulk carbon disulfide liquid. This instrument opens the door to nanometer-scale Brillouin spectroscopy with usage of higher optical powers and enables the characterization and development of novel nano-acousto-optic devices.
 
+\section*{Theoretical Framework}\label{Theoretical Framework}
 
-\section{Theoretical Framework}\label{Theoretical Framework}
 \subsection*{Coupled-wave equations}\label{Theoretical Framework: Coupled-wave equations}
 Stimulated Brillouin scattering, illustrated by the schematic in Fig. \ref{fig:}(a) for the Stokes process, is a three-wave mixing process in which incident pump laser light of frequency $\omega_{Pump}$ inelastically scatters from a traveling-wave phonon of frequency $\Omega$ to produce light that is frequency-shifted by the phonon frequency. In the Stokes process the phonon is retreating from the incident laser light and the scattered light is shifted down in frequency $\omega_{Stokes} = \omega_{Pump} - \Omega$. Light scattered in the backwards direction spatially overlaps with the incident laser light and thus the two optical fields interfere to produce a frequency at the difference between the two $\omega_{Pump} - \omega_{Stokes}$. Since this difference frequency is exactly equal to the frequency of the acoustic field $\Omega$, the beating of the incident pump light and the backscattered Stokes light produces an electrostrictive reinforcement of the acoustic wave. This driving of the acoustic wave in turn increases the scattering rate of the incident pump light, producing a positive feedback process and an exponential increase of the amplitude of the backscattered Stokes wave.
 
@@ -129,7 +82,8 @@ In all nonlinear optical processes, efficiency is maximized when energy and mome
 \lipsum[1-3]
 
 
-\section{Methods}\label{Methods}
+\section*{Methods}\label{Methods}
+
 \subsection*{Instrument design}\label{Methods:Instrument Design}
 
 \begin{figure}[t]
@@ -145,7 +99,9 @@ A separate tunable laser ($\omega_{Probe} = \omega_{Pump} + \Delta k$) is used t
 The filtered signal heterodynes via a 99-1 splitter with the LO ($\omega_{LO} = \omega_{Probe} + 2\pi\times40 MHz$), which has been frequency-upshifted by an acousto-optic modulator (AOM) and controlled to be copolarized with the backscattered signal. We consider only the subtracted frequency term of the heterodyne process as all others (original, additive, higher-harmonic, and more complicated intermodulation product frequency terms) are well beyond the range of detection. This heterodyned signal ($\omega_{signal} = \Omega + 2\pi\times40 MHz$) is then captured by a photodiode detector and heterodyned again by a radio frequency (RF) mixer with a second AC signal ($\Omega - 2\pi\times5 MHz$) that synchronously sweeps with the Stokes-synthesis AC signal. The resulting constant signal ($\omega_{Lock-in} = 2\pi\times45 MHz$) is passed through a 50 MHz low-pass filter, amplified with an RF amplifier, and finally supplied to a lock-in amplifier for data collection. The lock-in amplifier is able to lock-in on the constant input frequency throughout a measurement as both AC signals, one supplied to the RF mixer and the other for Stokes synthesis, are synchronously swept through a range of frequencies during measurement.
 
 
-\section{Results}\label{Results}
+\section*{Results}\label{Results}
+
+
 \subsection*{Measurements}\label{Results:Measurements}
 
 We consider two example targets to demonstrate the capabilities of the instrument, one fiber-coupled and one bulk material. Fig. \ref{fig:1cmUHNA3} shows the spectra captured for 1 cm of UHNA3 fiber. The spectral shape is that of the expected lorentzian function, with the peak ([9.18 GHz]) indicating the Brillouin resonance frequency and the FWHM ([~80 MHz]) indicating the dissipation rate of the fiber. [comparison to regular SBS for some measurable length of UHNA3?]
@@ -186,35 +142,38 @@ These three observations collectively showcase the high sensitivity, broad appli
 \lipsum[1-3]
 
 
-\section{Discussion}\label{Discussion}
+\section*{Discussion}\label{Discussion}
 
 \lipsum[1-2]
 
 
-\section{Conclusion}\label{Conclusion}
+\section*{Conclusion}\label{Conclusion}
 
 \lipsum[1]
 
 
-\begin{acknowledgments}
+\bibliography{sn-bibliography}
+%\bibliographystyle{plain}
 
-\end{acknowledgments}
 
-% Switch to appendices in one column
-\clearpage % Ends the current page and all its floating elements.
-\onecolumngrid % Switches to one-column format.
+\begin{appendices}
+%\onecolumn
 
+\newpage
 \begin{titlepage}
 \centering
 \vspace*{\stretch{1}}
-{\Large Appendix:\\[10pt] A Coherently Stimulated Brillouin Spectrometer\par}
+{\Large Supplementary Information:\\[10pt] A Coherently Stimulated Brillouin Spectrometer\par}
 \vspace{\stretch{3}}
 \end{titlepage}
 
-\clearpage
-\onecolumngrid
+%\addtocontents{toc}{\protect\setcounter{tocdepth}{2}} % Resume adding to ToC
+%\addcontentsline{ltoc}{section}{Contents}
+%\etocsettocstyle{\section*{Contents}}{}
+%\tableofcontents
+%\etocsetnexttocdepth{subsection} % This ensures sections and subsections are included
 
-\appendix
+\newpage
 
 \section{Phase Matching}
 \subsection{Relaxation of Phase Matching Conditions}
@@ -480,10 +439,6 @@ To find the power of the backscattered signal, we would integrate this intensity
 \subsection{Shear Acoustic Modes}
 \subsection{Coherent Anti-Stokes Raman Spectrometer}
 
-\twocolumngrid
-
-\bibliography{apssamp}% Produces the bibliography via BibTeX.
+\end{appendices}
 
 \end{document}
-%
-% ****** End of file apssamp.tex ******
