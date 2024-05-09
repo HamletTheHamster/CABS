@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex build/main"] 1715211782.12069 "build/main.aux" "build/main.bbl" "build/main" 1715211783.81812 0
+["bibtex build/main"] 1715211953.49664 "build/main.aux" "build/main.bbl" "build/main" 1715213404.89302 0
   "./apssamp.bib" 1715204164.07428 13313 820589da77ec014fa5e4724350be34b6 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "build/main.aux" 1715211783.29402 9462 84329a55f230b9f0f0b6408e5ac57af9 "pdflatex"
-  "build/mainNotes.bib" 1715211783.29577 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
+  "build/main.aux" 1715213403.37991 9521 9d61569a29f420e146bb9881dae5160a "pdflatex"
+  "build/mainNotes.bib" 1715213403.39344 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1715211782.28798 "main.tex" "build/main.pdf" "main" 1715211783.81871 0
+["pdflatex"] 1715213400.34838 "main.tex" "build/main.pdf" "main" 1715213404.89469 0
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -138,10 +138,10 @@
   "1cmUHNA3.pdf" 1713803687.364 210202 add89c05f4aa6939d7830f8bb172d9c2 ""
   "CABS.png" 1680122467.2068 36931 c0b8e687f219100914568be5207b8d76 ""
   "Phase-Match.pdf" 1699043654.25983 201324 538f950eb91324deab405983c0fb169e ""
-  "build/main.aux" 1715211783.29402 9462 84329a55f230b9f0f0b6408e5ac57af9 "pdflatex"
-  "build/main.bbl" 1715211782.278 3167 3c5393587c7ba286f19978472fecb777 "bibtex build/main"
-  "build/main.out" 1715211783.29537 9234 30c539fced739598f0bf20d227d36e44 "pdflatex"
-  "main.tex" 1715211780.38866 30878 f76666cabbcc7ef63de69773ad86c2be ""
+  "build/main.aux" 1715213403.37991 9521 9d61569a29f420e146bb9881dae5160a "pdflatex"
+  "build/main.bbl" 1715211954.15294 3167 3c5393587c7ba286f19978472fecb777 "bibtex build/main"
+  "build/main.out" 1715213403.39012 9393 542ceb3001c3c7d4b609a144d65ecb55 "pdflatex"
+  "main.tex" 1715213399.90574 30969 05748f53958fa4519c4d88b25607968f ""
   (generated)
   "build/main.aux"
   "build/main.log"
