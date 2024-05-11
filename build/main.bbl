@@ -51,12 +51,6 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
-\bibitem [{\citenamefont {Boyd}(2020)}]{boyd2020nonlinear}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont
-  {Boyd}},\ }\href@noop {} {\emph {\bibinfo {title} {Nonlinear Optics}}}\
-  (\bibinfo  {publisher} {Academic Press},\ \bibinfo {year} {2020})\BibitemShut
-  {NoStop}%
 \bibitem [{\citenamefont {Maker}\ \emph {et~al.}(1962)\citenamefont {Maker},
   \citenamefont {Terhune}, \citenamefont {Nisenoff},\ and\ \citenamefont
   {Savage}}]{maker1962effects}%
@@ -69,4 +63,10 @@
   production of optical harmonics},\ }\href@noop {} {\bibfield  {journal}
   {\bibinfo  {journal} {Physical review letters}\ }\textbf {\bibinfo {volume}
   {8}},\ \bibinfo {pages} {21} (\bibinfo {year} {1962})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Boyd}(2020)}]{boyd2020nonlinear}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont
+  {Boyd}},\ }\href@noop {} {\emph {\bibinfo {title} {Nonlinear Optics}}}\
+  (\bibinfo  {publisher} {Academic Press},\ \bibinfo {year} {2020})\BibitemShut
+  {NoStop}%
 \end{thebibliography}%
