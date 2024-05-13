@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex build/main"] 1715392832.90758 "build/main.aux" "build/main.bbl" "build/main" 1715392871.49593 0
+["bibtex build/main"] 1715634714.11893 "build/main.aux" "build/main.bbl" "build/main" 1715634718.37454 0
   "./apssamp.bib" 1715204164.07428 13313 820589da77ec014fa5e4724350be34b6 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "build/main.aux" 1715392869.94249 9610 4b28252269a7eb4108c61c381942def1 "pdflatex"
-  "build/mainNotes.bib" 1715392869.94893 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
+  "build/main.aux" 1715634717.05568 9610 7aa58275008951ecf5546017a95485e3 "pdflatex"
+  "build/mainNotes.bib" 1715634717.06495 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1715392867.47392 "main.tex" "build/main.pdf" "main" 1715392871.49739 0
+["pdflatex"] 1715634714.53964 "main.tex" "build/main.pdf" "main" 1715634718.37613 0
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -58,7 +58,6 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
-  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1248133631 31809 8670ca339bf94e56da1fc21c80635e2a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
@@ -138,10 +137,10 @@
   "1cmUHNA3.pdf" 1713803687.364 210202 add89c05f4aa6939d7830f8bb172d9c2 ""
   "CABS.png" 1680122467.2068 36931 c0b8e687f219100914568be5207b8d76 ""
   "Phase-Match.pdf" 1699043654.25983 201324 538f950eb91324deab405983c0fb169e ""
-  "build/main.aux" 1715392869.94249 9610 4b28252269a7eb4108c61c381942def1 "pdflatex"
-  "build/main.bbl" 1715392833.65617 3167 69c936f2a5d646537d0f8dd82c09d6ec "bibtex build/main"
-  "build/main.out" 1715392869.94722 9393 f75883edcb182b9a90d7f0eaa9bf2664 "pdflatex"
-  "main.tex" 1715392866.81714 31601 b836a8d34f012ed84bc6702584afec68 ""
+  "build/main.aux" 1715634717.05568 9610 7aa58275008951ecf5546017a95485e3 "pdflatex"
+  "build/main.bbl" 1715634714.51595 3167 69c936f2a5d646537d0f8dd82c09d6ec "bibtex build/main"
+  "build/main.out" 1715634717.06367 9393 f75883edcb182b9a90d7f0eaa9bf2664 "pdflatex"
+  "main.tex" 1715634709.31671 32755 a429b548c37f430724cf0d9d569d7080 ""
   (generated)
   "build/main.aux"
   "build/main.log"

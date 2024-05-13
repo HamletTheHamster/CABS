@@ -118,29 +118,46 @@ In this work, we present a coherently stimulated Brillouin spectrometer that uti
 \subsection*{Coherently stimulated four-wave Brillouin scattering}\label{Theoretical Framework:Coherently stimulated five-wave Brillouin scattering}
 Stimulated Brillouin scattering, illustrated by the schematic in Fig. \ref{fig:}(a) for the Stokes process, is a three-wave mixing process in which incident pump laser light of frequency $\omega_{Pump}$ inelastically scatters from a traveling-wave phonon of frequency $\Omega$ to produce light that is frequency-shifted by the phonon frequency. In the Stokes process the phonon is retreating from the incident laser light and the scattered light is shifted down in frequency $\omega_{Stokes} = \omega_{Pump} - \Omega$. Light scattered in the backwards direction spatially overlaps with the incident laser light and thus the two optical fields interfere to produce a frequency at the difference between the two $\omega_{Pump} - \omega_{Stokes}$. Since this difference frequency is exactly equal to the frequency of the acoustic field $\Omega$, the beating of the incident pump light and the backscattered Stokes light produces an electrostrictive reinforcement of the acoustic wave. This driving of the acoustic wave in turn increases the scattering rate of the incident pump light, producing a positive feedback process and an exponential increase of the amplitude of the backscattered Stokes wave.
 
-Fig. \ref{fig:}(b) shows the schematic of coherently stimulated four-wave Brillouin scattering for the Stokes process. We introduce a dedicated external Stokes laser of frequency $\omega_{Stokes}$ that strongly drives the electrostrictive reinforcement of the acoustic field in the material. The backscattered Stokes light which is normally collected in an SBS process to infer mechanical properties of the material is now drowned out by the much higher power external Stokes laser. To resolve this, we introduce an additional external laser at a distinct frequency $\omega_{Probe}$ which copropagates with the pump laser and backscatters in the material from the strongly driven acoustic field. This produces a backscattered signal to be collected, $\omega_{Signal} = \omega_{Probe} - \Omega$, which is distinguishable from the high-powered Stokes laser light. A full derivation of the coupled-wave equations for this four-wave mixing process can be found in Appendix \ref{Appendix:Coupled-Wave Equations}, where the scattered power of the backscattered signal is shown to be
+Fig. \ref{fig:}(b) shows the schematic of coherently stimulated four-wave Brillouin scattering for the Stokes process. We introduce a dedicated external Stokes laser of frequency $\omega_{Stokes}$ that strongly drives the electrostrictive reinforcement of the acoustic field in the material. The backscattered Stokes light which is normally collected in an SBS process to infer mechanical properties of the material is now drowned out by the much higher power external Stokes laser. To resolve this, we introduce an additional external laser at a distinct frequency $\omega_{Probe}$ which copropagates with the pump laser and backscatters in the material from the strongly driven acoustic field. This produces a backscattered signal to be collected, $\omega_{Signal} = \omega_{Probe} - \Omega$, which is distinguishable from the high-powered Stokes laser light.
+
+A full derivation of the coupled-wave equations for this four-wave mixing process can be found in Appendix \ref{Appendix:Coupled-Wave Equations}, where the scattered power of the backscattered signal is shown to be
 \\
 \begin{equation}
-  P_{Sig} = (G_{B}L)^{2}P_{P}P_{S}P_{Pr}sinc^{2}\left(\frac{\Delta kL}{2}\right),
+  P_{Signal} = (G_{B}L)^{2}P_{Pump}P_{Stokes}P_{Probe}sinc^{2}\left(\frac{\Delta kL}{2}\right),
   \label{Eq:Theoretical Framework:Scattered Power}
 \end{equation}
 \\
 where $G_{B}$ is the coherently stimulated Brillouin scattering gain factor,
 \\
 \begin{equation}
-  G_{B} = g_{0}\frac{\big(\frac{\Gamma_{0}}{2}\big)^{2}}{(\Omega - \Omega_{B})^{2} + \big(\frac{\Gamma_{0}}{2}\big)^{2}},
+  G_{B} = g_{0}\frac{\left(\frac{\Gamma_{B}}{2}\right)^{2}}{(\Omega - \Omega_{B})^{2} + \left(\frac{\Gamma_{B}}{2}\right)^{2}},
 \end{equation}
 \\
 with the on-resonance gain factor of the material given by
 \\
 \begin{equation}
-  g_{0} = \Bigg[\frac{\epsilon_{0}^{2}\omega^{2}q^{4}\gamma_{e}^{4}}{4n^{2}c^{2}\rho_{0}^{2}}\Bigg].
+  g_{0} = \left[\frac{\epsilon_{0}^{2}\omega^{2}q^{4}\gamma_{e}^{4}}{4n^{2}c^{2}\rho_{0}^{2}}\right].
 \end{equation}
-Here, $q$ is the wavevector of the driven acoustic field, $\gamma_{e}$ is the electrostrictive constant, $\rho_{0}$ is the mean density of the material, $\Omega_{B}$ is the resonant Brillouin frequency of the material, $\Gamma_{B}$ is the Brillouin linewidth, or dissipation rate, of the material, and $\Delta k$ is the wavevector mismatch between the optical fields, to be discussed next.
+Here, $q$ is the wavevector of the driven acoustic field, $\gamma_{e}$ is the electrostrictive constant, $n$ is the refractive index of the material, $\rho_{0}$ is the mean density of the material, $\Omega_{B}$ is the resonant Brillouin frequency of the material, $\Gamma_{B}$ is the Brillouin linewidth, or dissipation rate, of the material, and $\Delta k$ is the wavevector mismatch between the optical fields, to be discussed next.
 
 
 \subsection*{Phase matching relaxation}\label{Theoretical Framework: Phase matching relaxation}
-In all nonlinear optical processes, efficiency is maximized when phase matching conditions are satisfied. A frequency mismatch (energy unconservation) or a wavevector mismatch (momentum unconservation) each result in drastically reduced efficiency of a given process.\cite{maker1962effects} This can be seen by Eq. \ref{Eq:Theoretical Framework:Scattered Power}, where the wavevector mismatch, $\Delta k$, is contained within a $sinc^{2}$ function. This $sinc^{2}$ term thereby defines the phase matching bandwidth of the system, notably scaling with effective interaction length $L$. For an effective length of one meter, a wavelength mismatch in UHNA3 fiber of only 0.6 pm drops the scattered power by half at 1.55um pump wavelength. However, for shorter effective lengths the permissible wavevector mismatch becomes more meaningful; a 36 pm wavelength separation preserves 82.5\% of max signal for a length of 1 cm. 
+In all nonlinear optical processes, efficiency is maximized when phase matching conditions are satisfied. A frequency mismatch (energy unconservation) or a wavevector mismatch (momentum unconservation) each result in drastically reduced efficiency of a given process.\cite{maker1962effects} This can be seen by Eq. \ref{Eq:Theoretical Framework:Scattered Power}, where the wavevector mismatch, $\Delta k$, is contained within a $sinc^{2}$ function. This $sinc^{2}$ term thereby defines the phase matching bandwidth of the system, notably scaling with effective interaction length $L$.
+
+We apply this wavevector mismatch allowance to the pump and probe waves ($\Delta k = k_{Pump} - k_{Probe}$) so that the backscattered signal is different than the applied Stokes wave. This choice allows for selection of the signal and rejection of the Stokes with a spectral filter. Expressed in terms of wavelengths, this gives
+\\
+\begin{equation}
+  \Delta k = \frac{4\pi n\Delta\lambda}{\lambda_{Pump}\lambda_{Probe}} \approx \frac{4\pi n\Delta\lambda}{\lambda_{Pump}^{2}}.
+\end{equation}
+\\
+We can apply this to the phasematching bandwidth term to find the fraction of maximum scattered power, $\Phi$, that can be expected for a given $L$ and phase mismatch $\Delta\lambda$ between the pump and probe,
+\\
+\begin{equation}
+  \Phi \equiv sinc^{2}\left(\frac{2\pi n\Delta\lambda L}{\lambda_{Pump}^{2}}\right).
+\end{equation}
+\\
+
+For an effective length of one meter, a wavelength mismatch in UHNA3 fiber of only 0.6 pm drops the scattered power by half at 1.55um pump wavelength. However, for shorter effective lengths the permissible wavevector mismatch becomes more meaningful; a 36 pm wavelength separation preserves 82.5\% of the maximum signal for a length of 1 cm. This separation, translating to about 4.5 GHz, is meaningful as it represents sufficient spectral separation for the backscattered signal ($\omega_{Signal} = \omega_{Probe} + \Omega$ for the Stokes case) to be isolated from the applied Stokes light.
 
 
 
