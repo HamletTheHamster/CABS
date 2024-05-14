@@ -114,17 +114,20 @@ ALorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget dolor at di
 %\tableofcontents
 
 
-\section{Introduction}\label{sec:Introduction}
+\section{Introduction}
+\label{sec:Introduction}
 
 Brillouin scattering is the inelastic scattering of light from acoustic phonons. Spontaneous Brillouin scattering is light scattering specifically with the thermodynamic fluctuations in a material. Sufficient optical power elevates this spontaneous process into stimulated Brillouin scattering: a regime in which the optical fields augment the optical properties of the material, greatly enhancing the optomechanical response. This occurs as the backscattered (e.g. Stokes) light beats with the incident pump light to induce an electrostrictive modulation that reinforces the acoustic phonons in the material. It would be desirable to introduce a high-powered fourth optical field dedicated to electrostrictive reinforcement, further stimulating the acoustic field, however phase matching conditions require that its frequency and wavevector be identical to that of the backscattered light, preventing distinguishability.
 
 In this work, we present a coherently stimulated Brillouin spectrometer that utilizes a detuned pump-probe design to perform traveling-wave phonon spectroscopy at scales previously unachievable with traditional stimulated Brillouin techniques. With this method, we achieve sub-10 femtowatt sensitivity and enable room temperature traveling-wave phonon spectroscopy at the micrometer scale. We demonstrate the capabilities of the instrument by observing Brillouin scattering at room temperature in 1 centimeter of UHNA3 fiber and 100 micrometers of bulk carbon disulfide liquid. This instrument opens the door to nanometer-scale Brillouin spectroscopy with usage of higher optical powers and enables the characterization and development of novel nano-acousto-optic devices.
 
 
-\section{Theoretical Framework}\label{Theoretical Framework}
+\section{Theoretical Framework}
+\label{Theoretical Framework}
 
-\subsection*{Coherently stimulated four-wave Brillouin scattering}\label{Theoretical Framework:Coherently stimulated five-wave Brillouin scattering}
-Stimulated Brillouin scattering, illustrated by the schematic in Fig. \ref{fig:}(a) for the Stokes process, is a three-wave mixing process in which incident pump laser light of frequency $\omega_{Pump}$ inelastically scatters from a traveling-wave phonon of frequency $\Omega$ to produce light that is frequency-shifted by the phonon frequency. In the Stokes process the phonon is retreating from the incident laser light and the scattered light is shifted down in frequency ($\omega_{Stokes} = \omega_{Pump} - \Omega$). Light scattered in the backwards direction spatially overlaps with the incident laser light, allowing the two optical fields interfere to produce a frequency at the difference between the two ($\omega_{Pump} - \omega_{Stokes}$). Since this difference frequency is exactly equal to the frequency of the acoustic field $\Omega$, the beating of the incident pump light and the backscattered Stokes light produces an electrostrictive reinforcement of the acoustic wave. This driving of the acoustic wave in turn increases the scattering rate of the incident pump light, producing a positive feedback process and an exponential increase of the amplitude of the backscattered Stokes wave.
+\subsection*{Coherently stimulated four-wave Brillouin scattering}
+\label{Theoretical Framework:Coherently stimulated five-wave Brillouin scattering}
+Stimulated Brillouin scattering, illustrated by the schematic in Fig. \ref{fig:4-Wave-Brillouin-Scattering}(a) for the Stokes process, is a three-wave mixing process in which incident pump laser light of frequency $\omega_{Pump}$ inelastically scatters from a traveling-wave phonon of frequency $\Omega$ to produce light that is frequency-shifted by the phonon frequency. In the Stokes process the phonon is retreating from the incident laser light and the scattered light is shifted down in frequency ($\omega_{Stokes} = \omega_{Pump} - \Omega$). Light scattered in the backwards direction spatially overlaps with the incident laser light, allowing the two optical fields interfere to produce a frequency at the difference between the two ($\omega_{Pump} - \omega_{Stokes}$). Since this difference frequency is exactly equal to the frequency of the acoustic field $\Omega$, the beating of the incident pump light and the backscattered Stokes light produces an electrostrictive reinforcement of the acoustic wave. This driving of the acoustic wave in turn increases the scattering rate of the incident pump light, producing a positive feedback process and an exponential increase of the amplitude of the backscattered Stokes wave.
 
 \begin{figure*}[t]
   \centering
@@ -156,7 +159,8 @@ with the on-resonance gain factor of the material given by
 Here, $q$ is the wavevector of the driven acoustic field, $\gamma_{e}$ is the electrostrictive constant, $n$ is the refractive index of the material, $\rho_{0}$ is the mean density of the material, $\Omega_{B}$ is the resonant Brillouin frequency of the material, $\Gamma_{B}$ is the Brillouin linewidth, or dissipation rate, of the material, and $\Delta k$ is the wavevector mismatch between the optical fields, to be discussed next.
 
 
-\subsection*{Phase matching relaxation}\label{Theoretical Framework: Phase matching relaxation}
+\subsection*{Phase matching relaxation}
+\label{Theoretical Framework: Phase matching relaxation}
 In all nonlinear optical processes, efficiency is maximized when phase matching conditions are satisfied. A frequency mismatch (energy unconservation) or a wavevector mismatch (momentum unconservation) each result in drastically reduced efficiency of a given process.\cite{maker1962effects} This can be seen by Eq. \ref{Eq:Theoretical Framework:Scattered Power}, where the wavevector mismatch, $\Delta k$, is contained within a $sinc^{2}$ function. This $sinc^{2}$ term thereby defines the phase matching bandwidth of the system, notably scaling with effective interaction length $L$.
 
 We apply this wavevector mismatch allowance to the pump and probe waves ($\Delta k = k_{Pump} - k_{Probe}$) so that the backscattered signal is different than the applied Stokes wave. This choice allows for selection of the signal and rejection of the Stokes with a bandpass filter. Expressed in terms of wavelengths, this gives
@@ -177,12 +181,14 @@ Using this expression for $\Phi$, we see that for an effective length of one met
 
 
 \section{Methods}\label{Methods}
-\subsection*{Instrument design}\label{Methods:Instrument Design}
+\subsection*{Instrument design}
+\label{Methods:Instrument Design}
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=.45\textwidth]{CABS.png}
-\caption{CABS design diagram}\label{fig:CABS}
+\caption{CABS design diagram}
+\label{fig:CABS}
 \end{figure}
 
 The design of the instrument is shown in the schematic in Fig. \ref{fig:CABS}. A pump and Stokes signal is synthesized from a single tunable laser source for coherent stimulation of the sample. The pump signal ($\omega_{Pump}$) is amplified by an erbium-doped fiber amplifier (EDFA) and passed through a variable optical attenuator (VOA) for power control. The output is then polarization-controlled to reflect at a polarizing beam splitter (PBS) for injection into the sample. For Stokes synthesis, an AC signal ($\Omega$) is supplied to an intensity modulator with carrier frequency nulled and a tunable filter is used to select one side band output ($\omega_{Pump} - \Omega$). This Stokes light is then amplified by an EDFA, passed through a VOA, and polarization-controlled to reflect at a second PBS for couter-propagation to the pump through the sample.
@@ -193,20 +199,23 @@ The filtered signal heterodynes via a 99-1 splitter with the LO ($\omega_{LO} = 
 
 
 \section{Results}\label{Results}
-\subsection*{Measurements}\label{Results:Measurements}
+\subsection*{Measurements}
+\label{Results:Measurements}
 
 We consider two example targets to demonstrate the capabilities of the instrument, one fiber-coupled and one bulk material. Fig. \ref{fig:1cmUHNA3} shows the spectra captured for 1 cm of UHNA3 fiber. The spectral shape is that of the expected lorentzian function, with the peak ([9.18 GHz]) indicating the Brillouin resonance frequency and the FWHM ([~80 MHz]) indicating the dissipation rate of the fiber. [comparison to regular SBS for some measurable length of UHNA3?]
 
 \begin{figure}[t]
   \centering
   \includegraphics[width=.45\textwidth]{1cmUHNA3.pdf}
-  \caption{1cm UHNA3 (fit?)}\label{fig:1cmUHNA3}
+  \caption{1cm UHNA3 (fit?)}
+  \label{fig:1cmUHNA3}
 \end{figure}
 
 \begin{figure}[t]
   \centering
   \includegraphics[width=.45\textwidth]{100umCS2.pdf}
-  \caption{100um CS2}\label{fig:100umCS2}
+  \caption{100um CS2}
+  \label{fig:100umCS2}
 \end{figure}
 
 Fig. shows the spectral measurements achieved by the instrument, overlaid with finite-difference simulation data. In Fig. we see the expected lorentzian spectral shape in good alignment with simulation data for guided longitudinal modes in the core of the UHNA3 fiber. In Fig. , however, we see a distortion of this lorentzian shape. This is expected for partially unguided longitudinal modes, such as is the case for a bulk liquid filling the volume of a ...
@@ -224,21 +233,25 @@ These three observations collectively showcase the high sensitivity, broad appli
 \begin{figure}[t]
 \centering
 \includegraphics[width=.45\textwidth]{Phase-Match.pdf}
-\caption{Phase-matching sinc func}\label{fig:Phase-Match}
+\caption{Phase-matching sinc func}
+\label{fig:Phase-Match}
 \end{figure}
 
 
 \subsection*{Instrument sensitivity and SBS comparison}
+\label{Results:Instrument sensitivity and SBS comparison}
 
 \lipsum[1-3]
 
 
-\section{Discussion}\label{Discussion}
+\section{Discussion}
+\label{Discussion}
 
 \lipsum[1-2]
 
 
-\section{Conclusion}\label{Conclusion}
+\section{Conclusion}
+\label{Conclusion}
 
 \lipsum[1]
 
@@ -268,7 +281,8 @@ These three observations collectively showcase the high sensitivity, broad appli
 \subsection{Phase Matching Bandwidth Experiments}
 \subsection{Theoretical Comparison of Phase Matching Bandwidth}
 
-\section{Coupled-Wave Equations}\label{Appendix:Coupled-Wave Equations}
+\section{Coupled-Wave Equations}
+\label{Appendix:Coupled-Wave Equations}
 
 Here we derive the coupled wave equations that describe coherent stimulated Brillouin scattering involving a pump, Stokes, probe, and backscattered optical field given respectively by
 \\
@@ -302,7 +316,8 @@ Here we derive the coupled wave equations that describe coherent stimulated Bril
 \noindent where $\Omega = \omega_{P} - \omega_{S}$ and $q = k_{P} - k_{S} = 2k_{P}$.
 
 
-\subsection{Acoustic Field}\label{Coupled-Wave Equations:Acoustic Field}
+\subsection{Acoustic Field}
+\label{Coupled-Wave Equations:Acoustic Field}
 
 As in the case of SBS \cite{boyd2020nonlinear}, we start by assuming that the material obeys the acoustic wave equation,
 \\
@@ -366,7 +381,8 @@ We thus find the acoustic field amplitude to be
 \end{equation}
 
 
-\subsection{Optical Fields}\label{Coupled-Wave Equations:Optical Fields}
+\subsection{Optical Fields}
+\label{Coupled-Wave Equations:Optical Fields}
 
 We now turn to the spatial evolution of the optical fields, described by the wave equation,
 \\
