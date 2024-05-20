@@ -184,14 +184,14 @@ Using this expression for $\Phi$, we see that for an effective length of one met
 \subsection*{Instrument design}
 \label{Methods:Instrument Design}
 
-\begin{figure}[t]
+\begin{figure*}[t]
 \centering
-\includegraphics[width=.45\textwidth]{CABS.png}
-\caption{CABS design diagram}
-\label{fig:CABS}
-\end{figure}
+\includegraphics[width=\textwidth]{Instrument-Design.pdf}
+\caption{Instrument design diagram}
+\label{fig:Instrument Design}
+\end{figure*}
 
-The design of the instrument is shown in the schematic in Fig. \ref{fig:CABS}. A pump and Stokes signal is synthesized from a single tunable laser source for coherent stimulation of the sample. The pump signal ($\omega_{Pump}$) is amplified by an erbium-doped fiber amplifier (EDFA) and passed through a variable optical attenuator (VOA) for power control. The output is then polarization-controlled to reflect at a polarizing beam splitter (PBS) for injection into the sample. For Stokes synthesis, an AC signal ($\Omega$) is supplied to an intensity modulator with carrier frequency nulled and a tunable filter is used to select one side band output ($\omega_{Pump} - \Omega$). This Stokes light is then amplified by an EDFA, passed through a VOA, and polarization-controlled to reflect at a second PBS for couter-propagation to the pump through the sample.
+The design of the instrument is shown in the schematic in Fig. \ref{fig:Instrument Design}. A pump and Stokes signal is synthesized from a single tunable laser source for coherent stimulation of the sample. The pump signal ($\omega_{Pump}$) is amplified by an erbium-doped fiber amplifier (EDFA) and passed through a variable optical attenuator (VOA) for power control. The output is then polarization-controlled to reflect at a polarizing beam splitter (PBS) for injection into the sample. For Stokes synthesis, an AC signal ($\Omega$) is supplied to an intensity modulator with carrier frequency nulled and a tunable filter is used to select one side band output ($\omega_{Pump} - \Omega$). This Stokes light is then amplified by an EDFA, passed through a VOA, and polarization-controlled to reflect at a second PBS for couter-propagation to the pump through the sample.
 
 A separate tunable laser ($\omega_{Probe} = \omega_{Pump} + \Delta k$) is used to synthesize the probe and local oscillator (LO). Probe light is amplified by an EDFA and fed through a VOA. A polarization controller aligns the polarization axis of the probe light for transmission through the first PBS and copropagation with the pump into the sample. Backscattered probe light exits the sample and transmits back through the first PBS, whereas the orthogonally polarized Stokes light reflects at this same point to be diverted to a tap for power monitoring. The backscattered signal ($\omega_{Signal} = \omega_{Probe} + \Omega$) then routes through two subsequent circulators for spectral filtering by a 5 GHz bandpass tunable filter. This filter allows the frequency-shifted probe light to pass while rejecting (1) any reflected probe light, and (2) any reflected, transmitted, or backscattered pump or Stokes light that was not already diverted by the PBS.
 
