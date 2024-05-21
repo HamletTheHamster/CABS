@@ -279,11 +279,11 @@ INPUT ./4-Wave-Brillouin-Scattering.pdf
 INPUT ./4-Wave-Brillouin-Scattering.pdf
 INPUT /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
-INPUT ./Instrument-Design.pdf
-INPUT ./Instrument-Design.pdf
-INPUT ./Instrument-Design.pdf
-INPUT ./Instrument-Design.pdf
-INPUT ./Instrument-Design.pdf
+INPUT ./Instrument-Design-V1.pdf
+INPUT ./Instrument-Design-V1.pdf
+INPUT ./Instrument-Design-V1.pdf
+INPUT ./Instrument-Design-V1.pdf
+INPUT ./Instrument-Design-V1.pdf
 INPUT ./1cmUHNA3.pdf
 INPUT ./1cmUHNA3.pdf
 INPUT ./1cmUHNA3.pdf

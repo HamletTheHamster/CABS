@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex build/main"] 1716222175.31375 "build/main.aux" "build/main.bbl" "build/main" 1716222177.24836 0
+["bibtex build/main"] 1716222175.31375 "build/main.aux" "build/main.bbl" "build/main" 1716254201.27868 0
   "./apssamp.bib" 1715204164.07428 13313 820589da77ec014fa5e4724350be34b6 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "build/main.aux" 1716222176.64881 10075 eaf5a8b7005f1814eef5411a2164beea "pdflatex"
-  "build/mainNotes.bib" 1716222176.65066 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
+  "build/main.aux" 1716254200.63215 10075 eaf5a8b7005f1814eef5411a2164beea "pdflatex"
+  "build/mainNotes.bib" 1716254200.63421 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1716222175.49151 "main.tex" "build/main.pdf" "main" 1716222177.24897 0
+["pdflatex"] 1716254199.34089 "main.tex" "build/main.pdf" "main" 1716254201.27931 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm" 1136768653 3584 1a7de6c99457381c64abc1a7c545505f ""
@@ -177,12 +177,12 @@
   "100umCS2.pdf" 1699918402.42214 203994 ea46457eec49d2e681d0a4bc0cb8b306 ""
   "1cmUHNA3.pdf" 1713803687.364 210202 add89c05f4aa6939d7830f8bb172d9c2 ""
   "4-Wave-Brillouin-Scattering.pdf" 1715650659.35266 46429 aa38dc9f03580a048a39b7ee644c781c ""
-  "Instrument-Design.pdf" 1716221942.05184 1279389 33750c25ad284b923a4c7989846d65e1 ""
+  "Instrument-Design-V1.pdf" 1716253852.35718 1428131 2c4a9bbb01d4e4f49a00f1ca3f4589a6 ""
   "Phase-Match.pdf" 1699043654.25983 201324 538f950eb91324deab405983c0fb169e ""
-  "build/main.aux" 1716222176.64881 10075 eaf5a8b7005f1814eef5411a2164beea "pdflatex"
+  "build/main.aux" 1716254200.63215 10075 eaf5a8b7005f1814eef5411a2164beea "pdflatex"
   "build/main.bbl" 1716222175.4813 3167 69c936f2a5d646537d0f8dd82c09d6ec "bibtex build/main"
-  "build/main.out" 1716222176.65029 9393 f75883edcb182b9a90d7f0eaa9bf2664 "pdflatex"
-  "main.tex" 1716222173.38046 33309 adf960951649a310827fbe81fc3f36ad ""
+  "build/main.out" 1716254200.63379 9393 f75883edcb182b9a90d7f0eaa9bf2664 "pdflatex"
+  "main.tex" 1716254199.0446 33312 9fafee25c4eaafaf827c5e6e92042dcb ""
   (generated)
   "build/main.aux"
   "build/main.log"
