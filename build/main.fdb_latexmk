@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex build/main"] 1716929289.13777 "build/main.aux" "build/main.bbl" "build/main" 1717025001.1206 0
+["bibtex build/main"] 1717444011.0149 "build/main.aux" "build/main.bbl" "build/main" 1717444026.30628 0
   "./apssamp.bib" 1716332517.76631 13906 fbe4388682e5196448ef1f54bd223374 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "build/main.aux" 1717025000.49669 10889 26c6f8623fb947b08aa2b72aedb1a175 "pdflatex"
-  "build/mainNotes.bib" 1717025000.49875 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
+  "build/main.aux" 1717444025.66019 10911 9b81264e9e3e9fa7eb5f44baf307e813 "pdflatex"
+  "build/mainNotes.bib" 1717444025.66269 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1717024999.32892 "main.tex" "build/main.pdf" "main" 1717025001.12115 0
+["pdflatex"] 1717444024.41852 "main.tex" "build/main.pdf" "main" 1717444026.30687 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm" 1136768653 3584 1a7de6c99457381c64abc1a7c545505f ""
@@ -184,10 +184,10 @@
   "4-Wave-Brillouin-Scattering.pdf" 1715650659.35266 46429 aa38dc9f03580a048a39b7ee644c781c ""
   "Instrument-Design-V1.pdf" 1716253852.35718 1428131 2c4a9bbb01d4e4f49a00f1ca3f4589a6 ""
   "Phase-Match.pdf" 1699043654.25983 201324 538f950eb91324deab405983c0fb169e ""
-  "build/main.aux" 1717025000.49669 10889 26c6f8623fb947b08aa2b72aedb1a175 "pdflatex"
-  "build/main.bbl" 1716929289.29347 4907 ad5d2469db37efe3f7a56c8420d17733 "bibtex build/main"
-  "build/main.out" 1717025000.49829 9393 5ae8f9962b8bf5830d547eddbe1c4758 "pdflatex"
-  "main.tex" 1717024999.14927 37653 c95d01e60094dc3dbdc5d15ffd20ced2 ""
+  "build/main.aux" 1717444025.66019 10911 9b81264e9e3e9fa7eb5f44baf307e813 "pdflatex"
+  "build/main.bbl" 1717444011.19028 4907 ad5d2469db37efe3f7a56c8420d17733 "bibtex build/main"
+  "build/main.out" 1717444025.66205 9393 5ae8f9962b8bf5830d547eddbe1c4758 "pdflatex"
+  "main.tex" 1717444024.22367 42655 a0247fa6c2b6c11a21dd99ae114ebaa6 ""
   (generated)
   "build/main.aux"
   "build/main.log"
