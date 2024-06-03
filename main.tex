@@ -119,6 +119,8 @@ ALorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget dolor at di
 
 Brillouin scattering is the inelastic scattering of light from acoustic phonons. Spontaneous Brillouin scattering is light scattering specifically with the thermodynamic fluctuations in a material. Sufficient optical power elevates this spontaneous process into stimulated Brillouin scattering: a regime in which the optical fields augment the optical properties of the material, greatly enhancing the optomechanical response. This occurs as the backscattered (e.g. Stokes) light beats with the incident pump light to induce an electrostrictive modulation that reinforces the acoustic phonons in the material. It would be desirable to introduce a high-powered fourth optical field dedicated to electrostrictive reinforcement, further stimulating the acoustic field, however phase matching conditions require that its frequency and wavevector be identical to that of the backscattered light, preventing distinguishability.
 
+[paragraph describing current state of the art methods from literature]
+
 In this work, we present a coherently stimulated Brillouin spectrometer that utilizes a detuned pump-probe design to perform traveling-wave phonon spectroscopy at scales previously unachievable with traditional stimulated Brillouin techniques. With this method, we achieve sub-10 femtowatt sensitivity and enable room temperature traveling-wave phonon spectroscopy at the micrometer scale. We demonstrate the capabilities of the instrument by observing Brillouin scattering at room temperature in 1 centimeter of UHNA3 fiber and 100 micrometers of bulk carbon disulfide liquid. This instrument opens the door to nanometer-scale Brillouin spectroscopy with usage of higher optical powers and enables the characterization and development of novel nano-acousto-optic devices.
 
 
@@ -202,6 +204,8 @@ The filtered signal heterodynes via a 99-1 splitter with the LO ($\omega_{LO} = 
 \subsection*{Instrument sensitivity and SBS comparison}
 \label{Results:Instrument sensitivity and SBS comparison}
 
+[Not sure if sensitivity is relevant/should be included]
+
 \begin{figure}[t]
   \centering
   \includegraphics[width=.45\textwidth]{5fWSensitivity.pdf}
@@ -243,7 +247,7 @@ We consider two sample types to test the capabilities of the instrument, one fib
   \label{fig:1cmUHNA3}
 \end{figure}
 
-Fig. \ref{fig:1cmUHNA3} shows the spectral profile captured for 1 cm of UHNA3 fiber, revealing the expected lorentzian profile. The center frequency indicates the Brillouin resonance frequency of the longitudinal mode in the fiber and the FWHM indicates the dissipation rate. The center frequency ([9.18 GHz]) and the FWHM of ([80 MHz]) of the measurement match what is seen in the literature.\cite{behunin2015long} The data shown are an average of five successive measurements and the error bars correspond to $1\sigma$ of the standard deviation of the mean, or standard error.
+Fig. \ref{fig:1cmUHNA3} shows the spectral profile captured for 1 cm of UHNA3 fiber, revealing the expected lorentzian profile. The center frequency indicates the Brillouin resonance frequency of the longitudinal mode in the fiber and the FWHM indicates the dissipation rate. The center frequency of 9.18 GHz and the FWHM of approximately 80 MHz match what is seen in the literature.\cite{behunin2015long} The data shown are a background-subtracted average of five successive measurements taken over 10 minutes and the error bars correspond to $1\sigma$ of the standard deviation of the mean, or standard error.
 
 To achieve this measurement of UHNA3 fiber, the instrument design was altered to include only fiber-coupled segments connecting the fiber ports between the two PBSs. The pump laser wavelength was set to 1549.000 nm and the probe laser wavelength was set to 1549.020 nm, giving a frequency mismatch of approximately 2.5 GHz. The pump-probe mismatch is chosen to be only as large as needed to allow the edge of the pass-band of the probe filter to split the backscattered pump and probe light, thus rejecting any backscattered light from the pump laser and accepting only the backscattered signal from the probe laser. The Stokes filter was placed at 1549.073 nm, an offet of approximately 9.18 GHz from the pump laser to capture the Stokes sideband from the intensity modulator. This corresponds to the center of the measured frequency range and was chosen to allow the Stokes sideband output from the intensity modulator to remain within the pass band of the Stokes filter as the RF signal fed to the intensity modulator is swept through the full measurement range. The probe filter was set to 1549.109 nm, an offset of approximately 11.18 GHz from the probe laser, to capture the Stokes-shifted backscattered signal from the probe. The center frequency of the backscattered signal is of course shifted 9.18 GHz from the probe laser, however an extra offset of 2 GHz is chosen for improved rejection of any pump light as the pass band of our filter extends approximately 2.5 GHz on either side of center.
 
@@ -290,12 +294,6 @@ Placement of the Stokes filter is critical for measurements of materials that gi
 \label{Discussion}
 
 \lipsum[1-2]
-
-
-\section{Conclusion}
-\label{Conclusion}
-
-\lipsum[1]
 
 
 \begin{acknowledgments}
