@@ -484,7 +484,7 @@ We again assume steady-state conditions, allowing the time derivative term to be
 \end{equation}
 \\
 \begin{equation}
-    \frac{\partial A_{S}}{\partial z} = -\frac{i\epsilon_{0}\omega_{S} q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{|A_{P}|^{2}A_{S}^{*} + A_{Pr}A_{Sig}^{*}A_{P}e^{-i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}}
+    \frac{\partial A_{S}}{\partial z} = -\frac{i\epsilon_{0}\omega_{S} q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{|A_{P}|^{2}A_{S}^{*} + A_{Pr}A_{Sig}^{*}A_{P}e^{-i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} + i\Omega\Gamma_{B}}
 \end{equation}
 \\
 \begin{equation}
@@ -492,26 +492,26 @@ We again assume steady-state conditions, allowing the time derivative term to be
 \end{equation}
 \\
 \begin{equation}
-    \frac{\partial A_{Sig}}{\partial z} = -\frac{i\epsilon_{0}\omega_{Sig} q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}A_{S}^{*}A_{Pr} + |A_{Pr}|^{2}A_{Sig}^{*}e^{-i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}}
+    \frac{\partial A_{Sig}}{\partial z} = -\frac{i\epsilon_{0}\omega_{Sig} q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}A_{S}^{*}A_{Pr} + |A_{Pr}|^{2}A_{Sig}^{*}e^{-i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} + i\Omega\Gamma_{B}}
     \label{eq:Signal coupled-amplitude wave equation}
 \end{equation}
 \\
 Integrating Eq. \ref{eq:Signal coupled-amplitude wave equation} along the effective length gives the amplitudes of each optical field,
 \\
 \begin{equation}
-  A_{P} = \frac{i\epsilon_{0}\omega_{P}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}|A_{S}|^{2} + A_{Pr}A_{Sig}^{*}A_{S}}{\Omega_{B}^{2}-\Omega^{2}-i\Omega\Gamma_{B}} \frac{e^{i\Delta kL}-1}{i\Delta k},
+  A_{P} = \frac{i\epsilon_{0}\omega_{P}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}|A_{S}|^{2} + A_{Pr}A_{Sig}^{*}A_{S}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}} \frac{e^{i\Delta kL} - 1}{i\Delta k},
 \end{equation}
 \\
 \begin{equation}
-  A_{S} = -\frac{i\epsilon_{0}\omega_{S}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{|A_{P}|^{2}A_{S}^{*} + A_{Pr}A_{Sig}^{*}A_{P}}{\Omega_{B}^{2}-\Omega^{2}-i\Omega\Gamma_{B}} \frac{e^{-i\Delta kL}-1}{-i\Delta k},
+  A_{S} = -\frac{i\epsilon_{0}\omega_{S}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{|A_{P}|^{2}A_{S}^{*} + A_{Pr}A_{Sig}^{*}A_{P}}{\Omega_{B}^{2} - \Omega^{2} + i\Omega\Gamma_{B}} \frac{e^{-i\Delta kL} - 1}{-i\Delta k},
 \end{equation}
 \\
 \begin{equation}
-  A_{Pr} = \frac{i\epsilon_{0}\omega_{Pr}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}A_{S}^{*}A_{Sig} + A_{Pr}|A_{Sig}|^{2}}{\Omega_{B}^{2}-\Omega^{2}-i\Omega\Gamma_{B}} \frac{e^{i\Delta kL}-1}{i\Delta k},
+  A_{Pr} = \frac{i\epsilon_{0}\omega_{Pr}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}A_{S}^{*}A_{Sig} + A_{Pr}|A_{Sig}|^{2}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}} \frac{e^{i\Delta kL} - 1}{i\Delta k},
 \end{equation}
 \\
 \begin{equation}
-  A_{Sig} = -\frac{i\epsilon_{0}\omega_{Sig}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}A_{S}^{*}A_{Pr} + |A_{Pr}|^{2}A_{Sig}^{*}}{\Omega_{B}^{2}-\Omega^{2}-i\Omega\Gamma_{B}} \frac{e^{-i\Delta kL}-1}{-i\Delta k}.
+  A_{Sig} = -\frac{i\epsilon_{0}\omega_{Sig}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}A_{S}^{*}A_{Pr} + |A_{Pr}|^{2}A_{Sig}^{*}}{\Omega_{B}^{2} - \Omega^{2} + i\Omega\Gamma_{B}} \frac{e^{-i\Delta kL} - 1}{-i\Delta k}.
 \end{equation}
 \\
 The intensity of the backscattered signal is given by the magnitude of the time-averaged Poynting vector, given by
