@@ -368,11 +368,11 @@ Here we derive the coupled wave equations that describe coherent stimulated Bril
 As in the case of SBS \cite{boyd2020nonlinear}, we start by assuming that the material obeys the acoustic wave equation,
 \\
 \begin{equation}
-    \frac{\partial^{2}\tilde{\rho}}{\partial t^{2}} - \Gamma^{\prime}\nabla^{2}\frac{\partial\tilde{\rho}}{\partial t} - v^{2}\nabla^{2}\tilde{\rho} = \nabla\cdot\vec{f},
+    \frac{\partial^{2}\tilde{\rho}}{\partial t^{2}} - \Gamma^{\prime}\nabla^{2}\frac{\partial\tilde{\rho}}{\partial t} - v_{s}^{2}\nabla^{2}\tilde{\rho} = \nabla\cdot\vec{f},
     \label{eq:acoustic wave equation}
 \end{equation}
 \\
-\noindent where $v$ is the sound speed in the material and $\Gamma^{\prime}$ is a damping parameter given by
+\noindent where $v_{s}$ is the sound speed in the material and $\Gamma^{\prime}$ is a damping parameter given by
 \\
 \begin{equation}
     \Gamma^{\prime} = \frac{1}{\rho}\left[\frac{4}{3}\eta_{s} + \eta_{b} + \frac{\kappa}{C_{p}}(\gamma - 1)\right],
@@ -390,39 +390,39 @@ As in the case of SBS \cite{boyd2020nonlinear}, we start by assuming that the ma
 which yields, after applying the slowly varying amplitude approximation,
 \\
 \begin{equation}
-    \nabla\cdot\vec{f} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*}e^{i\Delta kz}),
+    \nabla\cdot\vec{f} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz},
 \end{equation}
 \\
 Where $\Delta k = (k_{Pr} - k_{Sig}) - (k_{P} - k_{S})$ is the phase mismatch between the four optical fields. Only two electrostrictive terms survive terms after accounting for the orthogonal polarization of the pump and Stokes fields with respect to that of the probe and backscattered signal. Inserting this electrostrictive force term and the acoustic field (Eq. (\ref{eq:acoustic field})) into Eq. (\ref{eq:acoustic wave equation}) and assuming a slowly varying acoustic amplitude we find
 \\
 \begin{equation}
-    -2i\Omega\frac{\partial\rho}{\partial t} - \Gamma^{\prime}2iq^{2}\Omega\rho - 2iqv^{2}\frac{\partial\rho}{\partial z} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*}e^{i\Delta kz}),
+    -2i\Omega\frac{\partial\rho}{\partial t} - \Gamma^{\prime}2iq^{2}\Omega\rho - 2iqv_{s}^{2}\frac{\partial\rho}{\partial z} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz},
 \end{equation}
 \\
 which can be restated in terms of the Brillouin linewidth, $\Gamma_{B} = q^{2}\Gamma^{\prime}$, as
 \\
 \begin{equation}
-    -2i\Omega\frac{\partial\rho}{\partial t} - 2i\Omega\Gamma_{B}\rho - 2iqv^{2}\frac{\partial\rho}{\partial z} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*}e^{i\Delta kz}).
+    -2i\Omega\frac{\partial\rho}{\partial t} - 2i\Omega\Gamma_{B}\rho - 2iqv_{s}^{2}\frac{\partial\rho}{\partial z} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz}.
     \label{eq:in terms of Brillouin linewidth}
 \end{equation}
 \\
-Given the phonon dispersion relations $\Omega_{B} = |q_{B}|v$ and $\Omega^{2} = q^{2}\left(v^{2} - i\Omega\Gamma^{\prime}\right)$, Eq. (\ref{eq:in terms of Brillouin linewidth}) can be rewritten as
+Given the phonon dispersion relations $\Omega_{B} = |q_{B}|v_{s}$ and $\Omega^{2} = q^{2}\left(v^{2} - i\Omega\Gamma^{\prime}\right)$, Eq. (\ref{eq:in terms of Brillouin linewidth}) can be rewritten as
 \\
 \begin{equation}
-    -2i\Omega\frac{\partial\rho}{\partial t} + \left(\Omega^{2} - \Omega^{2} - i\Omega\Gamma_{B}\right)\rho - 2iqv^{2}\frac{\partial\rho}{\partial z} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*}e^{i\Delta kz}).
+    -2i\Omega\frac{\partial\rho}{\partial t} + \left(\Omega^{2} - \Omega^{2} - i\Omega\Gamma_{B}\right)\rho - 2iqv_{s}^{2}\frac{\partial\rho}{\partial z} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz}.
     \label{eq:in terms of Omega_B}
 \end{equation}
 \\
 We take the common assumption that the phonon propagation distance is small compared to the distance over which the source term varies significantly, which allows the spatial derivative term in Eq. (\ref{eq:in terms of Omega_B}). We further assume steady-state conditions such that the time derivative term also vanishes, leaving
 \\
 \begin{equation}
-    (\Omega^{2}_{B} - \Omega^{2} - i\Omega\Gamma_{B})_{\rho} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*}e^{i\Delta kz}).
+    (\Omega^{2}_{B} - \Omega^{2} - i\Omega\Gamma_{B})_{\rho} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz}.
 \end{equation}
 \\
 We thus find the acoustic field amplitude to be
 \\
 \begin{equation}
-    \rho(z,t) = \epsilon_{0}\gamma_{e}q^{2}\frac{A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*}e^{i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}}.
+    \rho(z,t) = \epsilon_{0}\gamma_{e}q^{2}\frac{(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}}.
     \label{eq:Acoustic field amplitude}
 \end{equation}
 
@@ -486,48 +486,43 @@ Inserting the optical fields (Eqs. \ref{eq:Pump optical field}-\ref{eq:Signal op
 We again assume steady-state conditions, allowing the time derivative term to be dropped. Plugging in the acoustic field amplitude (Eq. \ref{eq:Acoustic field amplitude}), we arrive at the coupled-amplitude wave equations for the optical fields,
 \\
 \begin{equation}
-    \frac{\partial A_{P}}{\partial z} = \frac{i\epsilon_{0}\omega_{P} q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}|A_{S}|^{2} + A_{Pr}A_{Sig}^{*}A_{S}e^{i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}}
+    \frac{\partial A_{P}}{\partial z} = \frac{i\epsilon_{0}\omega_{P} q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{(A_{P}|A_{S}|^{2} + A_{Pr}A_{Sig}^{*}A_{S})e^{i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}}
+    \label{eq:Pump coupled-amplitude wave equation}
 \end{equation}
 \\
 \begin{equation}
-    \frac{\partial A_{S}}{\partial z} = -\frac{i\epsilon_{0}\omega_{S} q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{|A_{P}|^{2}A_{S}^{*} + A_{Pr}A_{Sig}^{*}A_{P}e^{-i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} + i\Omega\Gamma_{B}}
+    \frac{\partial A_{S}}{\partial z} = -\frac{i\epsilon_{0}\omega_{S} q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{(|A_{P}|^{2}A_{S}^{*} + A_{Pr}A_{Sig}^{*}A_{P})e^{-i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} + i\Omega\Gamma_{B}}
 \end{equation}
 \\
 \begin{equation}
-    \frac{\partial A_{Pr}}{\partial z} = \frac{i\epsilon_{0}\omega_{Pr} q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}A_{S}^{*}A_{Sig} + A_{Pr}|A_{Sig}|^{2}e^{i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}}
+    \frac{\partial A_{Pr}}{\partial z} = \frac{i\epsilon_{0}\omega_{Pr} q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{(A_{P}A_{S}^{*}A_{Sig} + A_{Pr}|A_{Sig}|^{2})e^{i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}}
 \end{equation}
 \\
 \begin{equation}
-    \frac{\partial A_{Sig}}{\partial z} = -\frac{i\epsilon_{0}\omega_{Sig} q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}A_{S}^{*}A_{Pr} + |A_{Pr}|^{2}A_{Sig}^{*}e^{-i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} + i\Omega\Gamma_{B}}
+    \frac{\partial A_{Sig}}{\partial z} = -\frac{i\epsilon_{0}\omega_{Sig} q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{(A_{P}A_{S}^{*}A_{Pr} + |A_{Pr}|^{2}A_{Sig}^{*})e^{-i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} + i\Omega\Gamma_{B}}
     \label{eq:Signal coupled-amplitude wave equation}
 \end{equation}
 \\
-Integrating Eq. \ref{eq:Signal coupled-amplitude wave equation} along the effective length gives the amplitudes of each optical field,
+We drop the very small signal amplitude terms on the right side of Eqs. \ref{eq:Pump coupled-amplitude wave equation}-\ref{eq:Signal coupled-amplitude wave equation} and integrate each along the effective length to get the amplitudes,
 \\
 \begin{equation}
-  A_{P} = \frac{i\epsilon_{0}\omega_{P}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}|A_{S}|^{2} + A_{Pr}A_{Sig}^{*}A_{S}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}} \frac{e^{i\Delta kL} - 1}{i\Delta k},
+  A_{P} = \frac{i\epsilon_{0}\omega_{P}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}|A_{S}|^{2}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}} \frac{e^{i\Delta kL} - 1}{i\Delta k},
 \end{equation}
 \\
 \begin{equation}
-  A_{S} = -\frac{i\epsilon_{0}\omega_{S}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{|A_{P}|^{2}A_{S}^{*} + A_{Pr}A_{Sig}^{*}A_{P}}{\Omega_{B}^{2} - \Omega^{2} + i\Omega\Gamma_{B}} \frac{e^{-i\Delta kL} - 1}{-i\Delta k},
+  A_{S} = -\frac{i\epsilon_{0}\omega_{S}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{|A_{P}|^{2}A_{S}^{*}}{\Omega_{B}^{2} - \Omega^{2} + i\Omega\Gamma_{B}} \frac{e^{-i\Delta kL} - 1}{-i\Delta k},
 \end{equation}
 \\
 \begin{equation}
-  A_{Pr} = \frac{i\epsilon_{0}\omega_{Pr}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}A_{S}^{*}A_{Sig} + A_{Pr}|A_{Sig}|^{2}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}} \frac{e^{i\Delta kL} - 1}{i\Delta k},
+  A_{Pr} = \frac{i\epsilon_{0}\omega_{Pr}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}A_{S}^{*}A_{Sig}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}} \frac{e^{i\Delta kL} - 1}{i\Delta k},
 \end{equation}
-\\
-\begin{equation}
-  A_{Sig} = -\frac{i\epsilon_{0}\omega_{Sig}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}A_{S}^{*}A_{Pr} + |A_{Pr}|^{2}A_{Sig}^{*}}{\Omega_{B}^{2} - \Omega^{2} + i\Omega\Gamma_{B}} \frac{e^{-i\Delta kL} - 1}{-i\Delta k}.
-  \label{eq:Signal amplitude}
-\end{equation}
-\\
-We focus on the signal amplitude given by Eq. \ref{eq:Signal amplitude}, noting that the second term in the numerator containing $A_{Sig}^{*}$ is very small and can be dropped,
 \\
 \begin{equation}
   A_{Sig} = -\frac{i\epsilon_{0}\omega_{Sig}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}A_{S}^{*}A_{Pr}}{\Omega_{B}^{2} - \Omega^{2} + i\Omega\Gamma_{B}} \frac{e^{-i\Delta kL} - 1}{-i\Delta k}.
+  \label{eq:Signal amplitude}
 \end{equation}
 \\
-Close to resonance, the denomenator of the middle term containing $\Omega$ can be approximated as,
+We focus on the signal amplitude given by Eq. \ref{eq:Signal amplitude}, noting that close to resonance, the denomenator of the middle term containing $\Omega$ can be approximated as,
 \\
 \begin{equation}
 \Omega_{B}^{2} - \Omega^{2} + i\Omega\Gamma_{B} \approx \Omega_{B}(\Omega - \Omega_{B} + i\Gamma_{B})
@@ -536,7 +531,31 @@ Close to resonance, the denomenator of the middle term containing $\Omega$ can b
 giving
 \\
 \begin{equation}
-  A_{Sig} = -\frac{i\epsilon_{0}\omega_{Sig}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}A_{S}^{*}A_{Pr}}{\Omega_{B}(\Omega - \Omega_{B} + i\Gamma_{B})} \frac{e^{-i\Delta kL} - 1}{-i\Delta k}.
+  A_{Sig} = -\frac{i\epsilon_{0}\omega_{Sig}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}A_{S}^{*}A_{Pr}}{\Omega_{B}(\Omega - \Omega_{B} + i\Gamma_{B})} \frac{e^{-i\Delta kL} - 1}{-i\Delta k},
+  \label{eq:resonance}
+\end{equation}
+\\
+and in fact on resonance the expression reduces to
+\\
+\begin{equation}
+  A_{Sig} = -\frac{i\epsilon_{0}\omega_{Sig}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}A_{S}^{*}A_{Pr}}{\Omega_{B}i\Gamma_{B}} \frac{e^{-i\Delta kL} - 1}{-i\Delta k}.
+\end{equation}
+\\
+Remembering that $q = 2k_{P} = 2\omega n/c$ and also that $q = \Omega_{B}/v_{s}$, we can express the leading terms as
+\\
+\begin{equation}
+  A_{Sig} = -\frac{\epsilon_{0}\omega^{2}\gamma_{e}^{2}}{c^{2}v_{s}\rho_{0}\Gamma_{B}}A_{P}A_{S}^{*}A_{Pr} \frac{e^{-i\Delta kL} - 1}{-i\Delta k},
+\end{equation}
+\\
+where we have dropped the signal designator on $\omega$. Defining $g_{0}$, as Boyd does, as
+\\
+\begin{equation}
+  g_{0} = \frac{\gamma_{e}^{2}\omega^{2}}{nvc^{3}\rho_{0}\Gamma_{B}},
+\end{equation}
+reduces this expression to
+\\
+\begin{equation}
+  A_{Sig} = -\epsilon_{0}ncg_{0}A_{P}A_{S}^{*}A_{Pr} \frac{e^{-i\Delta kL} - 1}{-i\Delta k}.
 \end{equation}
 \\
 The intensity of the backscattered signal is given by the magnitude of the time-averaged Poynting vector, given by
@@ -545,10 +564,11 @@ The intensity of the backscattered signal is given by the magnitude of the time-
   I_{i} = 2n\epsilon_{0}c|A_{i}|^{2}, \qquad i = 1,2,3,
 \end{equation}
 \\
-which produces
+which produces for the signal intensity
 \\
 \begin{equation}
-  I_{Sig} = \frac{\epsilon_{0}^{2}\omega^{2}_{Sig}q^{4}\gamma_{e}^{4}}{4n^{2}c^{2}\rho_{0}^{2}}\frac{|A_{P}|^{2}|A_{S}^{*}|^{2}|A_{Pr}|^{2}}{|\Omega_{B}(\Omega - \Omega_{B} + i\Gamma_{B})|^{2}}\bigg|\frac{e^{-i\Delta kL} - 1}{-i\Delta k}\bigg|^{2}.
+  I_{Sig} = 2\epsilon_{0}nc(\epsilon_{0}ncg_{0})^{2}|A_{P}|^{2}|A_{S}^{*}|^{2}|A_{Pr}|^{2}\left|\frac{e^{-e\Delta kL} - 1}{-i\Delta k}\right|^{2}
+  = 2\epsilon_{0}^{3}\epsilon_{0}n^{3}c^{3}g_{0}^{2}\frac{I_{P}}{2\epsilon_{0}nc}\frac{I_{S}}{2\epsilon_{0}nc}\frac{I_{Pr}}{2\epsilon_{0}nc}\left|\frac{e^{-e\Delta kL} - 1}{-i\Delta k}\right|^{2}.
 \end{equation}
 \\
 The squared modulus term containing $\Delta k$ can be reduced as
@@ -558,73 +578,94 @@ The squared modulus term containing $\Delta k$ can be reduced as
   = \frac{2L^{2}(1 - cos\Delta kL)}{(\Delta kL)^{2}} = \frac{4L^{2}sin^{2}\big(\frac{\Delta kL}{2}\big)}{\big(\Delta kL\big)^{2}} = \frac{L^{2}sin^{2}\big(\frac{\Delta kL}{2}\big)}{\big(\frac{\Delta kL}{2}\big)^{2}} = L^{2}sinc^{2}\bigg(\frac{\Delta kL}{2}\bigg)
 \end{gather}
 \\
-and the denomenator containing $\Omega$ may be evaluated to produce
+giving as a final expression for backscattered signal intensity,
 \\
 \begin{equation}
-  I_{Sig} = \frac{\epsilon_{0}^{2}\omega^{2}_{Sig}q^{4}\gamma_{e}^{4}}{4n^{2}c^{2}\rho_{0}^{2}}\frac{|A_{P}|^{2}|A_{S}^{*}|^{2}|A_{Pr}|^{2}}{\Omega_{B}^{2}\Gamma_{B}}\frac{\Gamma_{B}}{(\Omega_{B} - \Omega)^{2} + \Gamma_{B}^{2}}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right),
+I_{Sig} = \frac{1}{4}(g_{0}L)^{2}I_{P}I_{S}I_{Pr}sinc^{2}\left(\frac{\Delta kL}{2}\right).
 \end{equation}
 \\
-where we have multiplied top and bottom by $\Gamma_{B}$ to recognize the form of a Lorentzian. Since $\Gamma_{B}$ represents the FWHM, we modify the $\Gamma_{B}$ terms in the Lorentzian to reflect this and adopt the more physically meaningful three-parameter Lorentzian function,
+
+% \begin{equation}
+%   I_{Sig} = \frac{\epsilon_{0}^{2}\omega^{2}_{Sig}q^{4}\gamma_{e}^{4}}{4n^{2}c^{2}\rho_{0}^{2}}\frac{|A_{P}|^{2}|A_{S}^{*}|^{2}|A_{Pr}|^{2}}{\Omega_{B}^{2}\Gamma_{B}}\frac{\Gamma_{B}}{(\Omega_{B} - \Omega)^{2} + \Gamma_{B}^{2}}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right),
+% \end{equation}
+% \\
+% where we have multiplied top and bottom by $\Gamma_{B}$ to recognize the form of a Lorentzian. Since $\Gamma_{B}$ represents the FWHM, we modify the $\Gamma_{B}$ terms in the Lorentzian to reflect this and adopt the more physically meaningful three-parameter Lorentzian function,
+% \\
+% \begin{equation}
+%   I_{Sig} = \frac{\epsilon_{0}^{2}\omega^{2}_{Sig}q^{4}\gamma_{e}^{4}}{4n^{2}c^{2}\rho_{0}^{2}}\frac{|A_{P}|^{2}|A_{S}^{*}|^{2}|A_{Pr}|^{2}}{\Omega_{B}^{2}\Gamma_{B}}\frac{\left(\frac{\Gamma_{B}}{2}\right)^{2}}{(\Omega_{B} - \Omega)^{2} + \left(\frac{\Gamma_{B}}{2}\right)^{2}}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right).
+% \end{equation}
+% \\
+% Finally, we evaluate the optical fields as
+% \\
+% \begin{equation}
+%   I_{Sig} = \frac{\epsilon_{0}\omega^{2}_{Sig}q^{4}\gamma_{e}^{4}}{8n^{3}c^{3}\rho_{0}^{2}}\frac{I_{P}|A_{S}^{*}|^{2}|A_{Pr}|^{2}}{\Omega_{B}^{2}\Gamma_{B}}\frac{\left(\frac{\Gamma_{B}}{2}\right)^{2}}{(\Omega_{B} - \Omega)^{2} + \left(\frac{\Gamma_{B}}{2}\right)^{2}}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right)
+% \end{equation}
+% \\
+% \begin{equation}
+%   I_{Sig} = \frac{\omega^{2}_{Sig}q^{4}\gamma_{e}^{4}}{16n^{4}c^{4}\rho_{0}^{2}}\frac{I_{P}I_{S}|A_{Pr}|^{2}}{\Omega_{B}^{2}\Gamma_{B}}\frac{\left(\frac{\Gamma_{B}}{2}\right)^{2}}{(\Omega_{B} - \Omega)^{2} + \left(\frac{\Gamma_{B}}{2}\right)^{2}}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right)
+% \end{equation}
+% \\
+% \begin{equation}
+%   I_{Sig} = \frac{\omega^{2}_{Sig}q^{4}\gamma_{e}^{4}}{32\epsilon_{0}n^{5}c^{5}\rho_{0}^{2}}\frac{I_{P}I_{S}I_{Pr}}{\Omega_{B}^{2}\Gamma_{B}}\frac{\left(\frac{\Gamma_{B}}{2}\right)^{2}}{(\Omega_{B} - \Omega)^{2} + \left(\frac{\Gamma_{B}}{2}\right)^{2}}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right)
+% \end{equation}
+% \\
+% The acoustic wavevector, $q$, can be written in more convenient terms of the frequency, $\Omega$, and sound speed, $v_{s}$,
+% \\
+% \begin{equation}
+%   I_{Sig} = \frac{\omega^{2}_{Sig}\Omega^{4}\gamma_{e}^{4}}{32\epsilon_{0}n^{5}v_{s}^{4}c^{5}\rho_{0}^{2}}\frac{I_{P}I_{S}I_{Pr}}{\Omega_{B}^{2}\Gamma_{B}}\frac{\left(\frac{\Gamma_{B}}{2}\right)^{2}}{(\Omega_{B} - \Omega)^{2} + \left(\frac{\Gamma_{B}}{2}\right)^{2}}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right),
+% \end{equation}
+% \\
+% and the signal frequency, $\omega_{Sig}$, can be expressed in terms of the speed of light, $c$, and the material refractive index, $n$, simplifying the expression slightly to
+% \\
+% \begin{equation}
+%   I_{Sig} = \frac{\Omega^{4}\gamma_{e}^{4}}{32\epsilon_{0}n^{3}v_{s}^{4}c^{7}\rho_{0}^{2}}\frac{I_{P}I_{S}I_{Pr}}{\Omega_{B}^{2}\Gamma_{B}}\frac{\left(\frac{\Gamma_{B}}{2}\right)^{2}}{(\Omega_{B} - \Omega)^{2} + \left(\frac{\Gamma_{B}}{2}\right)^{2}}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right).
+% \end{equation}
+% \\
+% Having already made the assumption of being close to resonance ($\Omega \approx \Omega_{B}$), we allow the $\Omega$ and $\Omega_{B}$ terms to cancel, leaving
+% \\
+% \begin{equation}
+%   I_{Sig} = \frac{\Omega^{2}\gamma_{e}^{4}}{32\epsilon_{0}n^{3}v_{s}^{4}c^{7}\rho_{0}^{2}\Gamma_{B}}I_{P}I_{S}I_{Pr}\frac{\left(\frac{\Gamma_{B}}{2}\right)^{2}}{(\Omega_{B} - \Omega)^{2} + \left(\frac{\Gamma_{B}}{2}\right)^{2}}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right).
+% \end{equation}
+% \\
+% We now simplify this expression as
+% \\
+% \begin{equation}
+%   I_{Sig} = G_{CoBS}I_{P}I_{S}I_{Pr}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right),
+% \end{equation}
+% \\
+% where we have defined $G_{CoBS}$ to be the gain term for this 4-wave mixing coherently stimulated Brillouin scattering process,
+% \\
+% \begin{equation}
+%   G_{CoBS} = g_{0}\frac{\left(\frac{\Gamma_{B}}{2}\right)^{2}}{(\Omega_{B} - \Omega)^{2} + \left(\frac{\Gamma_{B}}{2}\right)^{2}},
+% \end{equation}
+% \\
+% with $g_{0}$ given by
+% \\
+% \begin{equation}
+%   g_{0} = \frac{\Omega^{2}\gamma_{e}^{4}}{32\epsilon_{0}n^{3}v_{s}^{4}c^{7}\rho_{0}^{2}\Gamma_{B}}.
+% \end{equation}
+% \\
+
+To find the power of the backscattered signal, we would integrate this intensity over the effective area. For a uniform area $A_{eff}$, this gives
 \\
 \begin{equation}
-  I_{Sig} = \frac{\epsilon_{0}^{2}\omega^{2}_{Sig}q^{4}\gamma_{e}^{4}}{4n^{2}c^{2}\rho_{0}^{2}}\frac{|A_{P}|^{2}|A_{S}^{*}|^{2}|A_{Pr}|^{2}}{\Omega_{B}^{2}\Gamma_{B}}\frac{\left(\frac{\Gamma_{B}}{2}\right)^{2}}{(\Omega_{B} - \Omega)^{2} + \left(\frac{\Gamma_{B}}{2}\right)^{2}}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right).
+  P_{Sig} = I_{Sig}A_{eff} = \frac{1}{4}(g_{0}L)^{2}\frac{A_{eff}}{A_{eff}}I_{P}\frac{A_{eff}}{A_{eff}}I_{S}\frac{A_{eff}}{A_{eff}}I_{Pr}sinc^{2}\left(\frac{\Delta kL}{2}\right)A_{eff}
 \end{equation}
 \\
-Finally, we evaluate the optical fields as
+or,
 \\
 \begin{equation}
-  I_{Sig} = \frac{\epsilon_{0}\omega^{2}_{Sig}q^{4}\gamma_{e}^{4}}{8n^{3}c^{3}\rho_{0}^{2}}\frac{I_{P}|A_{S}^{*}|^{2}|A_{Pr}|^{2}}{\Omega_{B}^{2}\Gamma_{B}}\frac{\left(\frac{\Gamma_{B}}{2}\right)^{2}}{(\Omega_{B} - \Omega)^{2} + \left(\frac{\Gamma_{B}}{2}\right)^{2}}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right)
+  P_{Sig} = \frac{1}{4}(G_{B}L)^{2}P_{P}P_{S}P_{Pr}sinc^{2}\left(\frac{\Delta kL}{2}\right),
 \end{equation}
+\\
+where,
 \\
 \begin{equation}
-  I_{Sig} = \frac{\omega^{2}_{Sig}q^{4}\gamma_{e}^{4}}{16n^{4}c^{4}\rho_{0}^{2}}\frac{I_{P}I_{S}|A_{Pr}|^{2}}{\Omega_{B}^{2}\Gamma_{B}}\frac{\left(\frac{\Gamma_{B}}{2}\right)^{2}}{(\Omega_{B} - \Omega)^{2} + \left(\frac{\Gamma_{B}}{2}\right)^{2}}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right)
+  G_{B} = \frac{g_{0}}{A_{eff}}.
 \end{equation}
 \\
-\begin{equation}
-  I_{Sig} = \frac{\omega^{2}_{Sig}q^{4}\gamma_{e}^{4}}{32\epsilon_{0}n^{5}c^{5}\rho_{0}^{2}}\frac{I_{P}I_{S}I_{Pr}}{\Omega_{B}^{2}\Gamma_{B}}\frac{\left(\frac{\Gamma_{B}}{2}\right)^{2}}{(\Omega_{B} - \Omega)^{2} + \left(\frac{\Gamma_{B}}{2}\right)^{2}}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right)
-\end{equation}
-\\
-The acoustic wavevector, $q$, can be written in more convenient terms of the frequency, $\Omega$, and sound speed, $v_{s}$,
-\\
-\begin{equation}
-  I_{Sig} = \frac{\omega^{2}_{Sig}\Omega^{4}\gamma_{e}^{4}}{32\epsilon_{0}n^{5}v_{s}^{4}c^{5}\rho_{0}^{2}}\frac{I_{P}I_{S}I_{Pr}}{\Omega_{B}^{2}\Gamma_{B}}\frac{\left(\frac{\Gamma_{B}}{2}\right)^{2}}{(\Omega_{B} - \Omega)^{2} + \left(\frac{\Gamma_{B}}{2}\right)^{2}}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right),
-\end{equation}
-\\
-and the signal frequency, $\omega_{Sig}$, can be expressed in terms of the speed of light, $c$, and the material refractive index, $n$, simplifying the expression slightly to
-\\
-\begin{equation}
-  I_{Sig} = \frac{\Omega^{4}\gamma_{e}^{4}}{32\epsilon_{0}n^{3}v_{s}^{4}c^{7}\rho_{0}^{2}}\frac{I_{P}I_{S}I_{Pr}}{\Omega_{B}^{2}\Gamma_{B}}\frac{\left(\frac{\Gamma_{B}}{2}\right)^{2}}{(\Omega_{B} - \Omega)^{2} + \left(\frac{\Gamma_{B}}{2}\right)^{2}}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right).
-\end{equation}
-\\
-Having already made the assumption of being close to resonance ($\Omega \approx \Omega_{B}$), we allow the $\Omega$ and $\Omega_{B}$ terms to cancel, leaving
-\\
-\begin{equation}
-  I_{Sig} = \frac{\Omega^{2}\gamma_{e}^{4}}{32\epsilon_{0}n^{3}v_{s}^{4}c^{7}\rho_{0}^{2}\Gamma_{B}}I_{P}I_{S}I_{Pr}\frac{\left(\frac{\Gamma_{B}}{2}\right)^{2}}{(\Omega_{B} - \Omega)^{2} + \left(\frac{\Gamma_{B}}{2}\right)^{2}}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right).
-\end{equation}
-\\
-We now simplify this expression as
-\\
-\begin{equation}
-  I_{Sig} = G_{CoBS}I_{P}I_{S}I_{Pr}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right),
-\end{equation}
-\\
-where we have defined $G_{CoBS}$ to be the gain term for this 4-wave mixing coherently stimulated Brillouin scattering process,
-\\
-\begin{equation}
-  G_{CoBS} = g_{0}\frac{\left(\frac{\Gamma_{B}}{2}\right)^{2}}{(\Omega_{B} - \Omega)^{2} + \left(\frac{\Gamma_{B}}{2}\right)^{2}},
-\end{equation}
-\\
-with $g_{0}$ given by
-\\
-\begin{equation}
-  g_{0} = \frac{\Omega^{2}\gamma_{e}^{4}}{32\epsilon_{0}n^{3}v_{s}^{4}c^{7}\rho_{0}^{2}\Gamma_{B}}.
-\end{equation}
-\\
-To find the power of the backscattered signal, we would integrate this intensity over the effective area. Approximated for fiber as a uniform circular mode of area $\pi r^{2}$, where r is the effective mode field radius, gives
-\\
-\begin{equation}
-  P_{Sig} = \pi r^{2}G_{CoBS}I_{P}I_{S}I_{Pr}L^{2}sinc^{2}\left(\frac{\Delta kL}{2}\right).
-\end{equation}
+We can also see that off resonance, the $\Omega$ term from Eq. \ref{eq:resonance} goes to a lorentzian form after taking the squared modulus for intensity.
+
 \newpage
 
 \section{Instrument Details}
