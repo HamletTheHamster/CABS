@@ -131,7 +131,7 @@ Stimulated Brillouin scattering, illustrated by the schematic in Fig. \ref{fig:4
 \begin{figure*}[t]
   \centering
   \includegraphics[width=.5\textwidth]{4-Wave-Brillouin-Scattering.pdf}
-  \caption{Illustration of 4-Wave Brillouin Scattering. [stand-in figure]}
+  \caption{Illustration of 4-Wave Brillouin Scattering.}
   \label{fig:4-Wave-Brillouin-Scattering}
 \end{figure*}
 
@@ -140,22 +140,23 @@ Fig. \ref{fig:4-Wave-Brillouin-Scattering}(b) shows the schematic of coherently 
 A full derivation of the coupled-wave equations for this four-wave mixing process can be found in Appendix \ref{Appendix:Coupled-Wave Equations}, where the scattered power of the backscattered signal is shown to be
 \\
 \begin{equation}
-  P_{Signal} = \left[(G_{B}L)^{2}P_{Pump}P_{Stokes}P_{Probe}sinc^{2}\left(\frac{\Delta kL}{2}\right)\right],
+  P_{Signal} = (G_{B}L)^{2}P_{Pump}P_{Stokes}P_{Probe}sinc^{2}\left(\frac{\Delta kL}{2}\right),
   \label{Eq:Theoretical Framework:Scattered Power} %compress sinc term into Psi here?
 \end{equation}
 \\
 where $G_{B}$ is the coherently stimulated Brillouin scattering gain factor,
 \\
 \begin{equation}
-  G_{B} = g_{0}\frac{\left(\frac{\Gamma_{B}}{2}\right)^{2}}{(\Omega - \Omega_{B})^{2} + \left(\frac{\Gamma_{B}}{2}\right)^{2}},
+  G_{B} = \frac{g_{0}}{A_{eff}}\frac{\left(\frac{\Gamma_{B}}{2}\right)^{2}}{(\Omega - \Omega_{B})^{2} + \left(\frac{\Gamma_{B}}{2}\right)^{2}},
 \end{equation}
 \\
 with the on-resonance gain factor of the material given by
 \\
 \begin{equation}
-  g_{0} = \left[\frac{\epsilon_{0}^{2}\omega^{2}q^{4}\gamma_{e}^{4}}{n^{2}c^{2}\rho_{0}^{2}}\right].
+  g_{0} = \frac{\gamma_{e}^{2}\omega^{2}}{nvc^{3}\rho_{0}\Gamma_{B}}.
 \end{equation}
-Here, $q$ is the wavevector of the driven acoustic field, $\gamma_{e}$ is the electrostrictive constant, $n$ is the refractive index of the material, $\rho_{0}$ is the mean density of the material, $\Omega_{B}$ is the resonant Brillouin frequency of the material, $\Gamma_{B}$ is the Brillouin linewidth, or dissipation rate, of the material, and $\Delta k$ is the wavevector mismatch between the optical fields, to be discussed next.
+\\
+Here, $\gamma_{e}$ is the electrostrictive constant, $\omega$ is the pump frequency, $n$ is the refractive index of the material, $v$ is the sound speed of the material, $\rho_{0}$ is the mean density of the material, and $\Gamma_{B}$ is the Brillouin linewidth, or dissipation rate, of the material. Above, $\Omega_{B}$ is the resonant Brillouin frequency of the material, $A_{eff}$ is the effective area of the material, $\Delta k$ is the wavevector mismatch between the optical fields, to be discussed next, and $L$ is the effective length of the material.
 
 
 \subsection*{Phase matching relaxation}
