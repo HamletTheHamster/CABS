@@ -206,30 +206,28 @@ The filtered signal heterodynes via a 99-1 splitter with the LO ($\omega_{LO} = 
   \centering
   \includegraphics[width=.45\textwidth]{5fWSensitivity.pdf}
   \caption{~5 fW sensitivity measurement}
-  \label{fig:10fWSensitivity}
+  \label{fig:5fWSensitivity}
 \end{figure}
 
-We begin by testing the sensitivity of the instrument as a way of defining a performance metric for the instrument which can be used to indicate what material, power, and length combinations might be possible to measure. From Eq. \ref{Eq:Theoretical Framework:Scattered Power}, the sensitivity of the instrument is the minimum scattered power, $P_{Signal}$, to produce a statistically significant measurement. To determine this, we target a specific length, $L$, of a sample of known effective Brillouin gain, $G_{0}$. We keep the pump-probe detuning, $\Delta\lambda$, constant across measurements and record the pump, Stokes, and probe optical powers to calculate the scattered power. Starting with sufficient optical powers to produce a clearly distinguishable measurement, we gradually reduce the optical powers until the sensitivity floor is reached.
+We begin by testing the sensitivity of the instrument as a way of defining a performance metric for the instrument which can be used to indicate what material, power, and length combinations might be possible to measure. From Eq. \ref{Eq:Theoretical Framework:Scattered Power}, the sensitivity of the instrument is the minimum scattered power, $P_{Signal}$, to produce a statistically significant measurement. To determine this, we target a specific length, $L$, of a sample of known effective Brillouin gain, $G_{B}$. We keep the pump-probe detuning, $\Delta\lambda$, constant across measurements and record the pump, Stokes, and probe optical powers to calculate the scattered power. Starting with sufficient optical powers to produce a clearly distinguishable measurement, we gradually reduce the optical powers until the sensitivity floor is reached.
 
-To serve as our sensitivity testbed of known effective Brillouin gain, we prepared a length of 1 cm of Nufern's UHNA3 fiber. The properties of UHNA3 fiber are well studied\cite{behunin2015long} and favorable for unambiguous detection of the Brillouin signal for two reasons. First, it offers a Brillouin shift that is spectrally far from that of the single-mode fiber (SMF28) which constitutes much of our instrument. This ensures that the Brillouin response of our sample is not conflated with the Brillouin response of the instrument itself. Additionally, due to its high germanium concentration in the core, UHNA3 fiber has a large refractive index difference between core and cladding, producing exceptionally high optical and acoustic guidance. Finally, UHNA3 fiber offers a high optomechanical nonlinear response; the Brillouin gain of UHNA3 fiber is approximately 0.6 $W^{-1}m^{-1}$ at room temperature\cite{behunin2015long}, which is about an order of magnitude larger than that of SMF28\cite{nikles1997brillouin}.
+To serve as our sensitivity testbed, we prepared 1 cm of Nufern's UHNA3 fiber, a well-studied fiber with known effective Brillouin gain\cite{behunin2015long}. Additionally, UHNA3 fiber offers several properties that make it ideal for this task of unambiguous detection of the Brillouin signal as it diminishes with each subsequent reduction in optical powers. First, it offers a Brillouin shift that is spectrally far from that of the single-mode fiber (SMF28) which constitutes much of the instrument. This ensures that the Brillouin response of the sample is not conflated with the Brillouin response of the instrument itself. Additionally, the core of UHNA3 fiber features a high concentration of germanium which improves the optical and acoustic guidance in the fiber as a result of the large refractive index difference between core and cladding. Finally, UHNA3 fiber offers a high optomechanical nonlinear response, with an effective Brillouin gain of 0.6 $W^{-1}m^{-1}$ measured at room temperature\cite{behunin2015long}. This gain factor is larger than that of SMF28 by an order of magnitude\cite{nikles1997brillouin}.
 
-Fig. \ref{fig:10fWSensitivity} shows the Brillouin signal for a sensitivity of $P_{Signal}$ = [5]\,fW. We find the signal-to-noise ratio (SNR) of this measurement to be [>5], determined by taking the ratio of the peak spectral density at the center frequency (9.18 GHz) and the standard error in the spectral density completely off resonance. Assuming a normal noise distrubution profile, an SNR of [5] is equivalent to a [5]$\sigma$ confidence interval, or 99.7\% confidence in the statistical significance of this measurement. Parameters for this measurement and calculation of scattered power are listed in Table \ref{tab:sensitivity}.
+The Brillouin signal for a sensitivity of $P_{Signal}$ = 5\,fW is shown in Fig. \ref{fig:5fWSensitivity} and offers a signal-to-noise ratio (SNR) greater than 5, determined by taking the ratio of the peak spectral density at the center frequency (9.18 GHz) and the standard error in the spectral density completely off resonance. Assuming a normal noise distrubution profile, an SNR of 5 is equivalent to a 5$\sigma$ confidence interval, or 99.7\% confidence in the statistical significance of this measurement. Parameters for this measurement and calculation of on-resonance scattered power are listed in Table \ref{tab:sensitivity}.
 
 \begin{table}[h]
     \centering
     \begin{tabular}{|c|c|c|c|c|c|}
         \hline
-        $g_{0}$ & $L$ & $P_{P}$ & $P_{S}$ & $P_{Pr}$ & $\Delta\lambda$ \\
-        $(W^{-1}m^{-1})$ & $(m)$ & $(\mu W)$ & $(\mu W)$ & $(\mu W)$ & $(pm)$ \\
+        $G_{B}$ & $L$ & $P_{P}$ & $P_{S}$ & $P_{Pr}$ & $\Delta\lambda$ \\
+        $(W^{-1}m^{-1})$ & $(m)$ & $(\mu W)$ & $(\mu W)$ & $(mW)$ & $(pm)$ \\
         \hline
-        0.6 & 0.01 & 250 & 250 & 1 & 20 \\
+        0.6 & 0.01 & 506 & 504 & 2.01 & 20 \\
         \hline
     \end{tabular}
-    \caption{Measurement parameters for sensitivity measurement.}
+    \caption{Measurement parameters for sensitivity measurement and calculation.}
     \label{tab:sensitivity}
 \end{table}
-
-The low optical powers required to obtain a measurement of just 1 cm of UHNA3 fiber illustrates the supremacy of the instrument over traditional SBS. An SBS measurement of 1 cm of UHNA3 fiber would require [depends on g0] W of pump power to achieve the same scattered power.
 
 \subsection*{Measurements}
 \label{Results:Measurements}
