@@ -173,6 +173,7 @@ We can apply this to the phasematching bandwidth term to find the fraction of ma
 \\
 \begin{equation}
   \Phi \equiv sinc^{2}\left(\frac{2\pi n\Delta\lambda L}{\lambda_{Pump}^{2}}\right).
+  \label{Eq:Phi}
 \end{equation}
 \\
 Using this expression for $\Phi$, we see that for an effective length of one meter a wavelength mismatch of only 0.6 pm from 1.55 $\mu$m pump light in UHNA3 fiber drops the scattered power to one half of maximum. However, for shorter effective lengths the wavevector mismatch becomes more forgiving; a 36 pm mismatch preserves 82.5\% of the maximum signal for a length of 1 cm and all else equal. This separation, translating to about  4.5 GHz, is meaningful, as it represents sufficient spectral separation for the backscattered signal to be isolated from the applied Stokes light.
@@ -279,13 +280,12 @@ Placement of the Stokes filter is critical for measurements of materials that gi
 \subsection*{Phase Matching Characterization}
 \label{Results:Phase Matching Characterization}
 
-Fig. \ref{fig:Phase-Match}
-\lipsum[1]
+We performed an additional experiment to characterize the phase matching tolerance of the instrument. In this experiment, a series of measurements were taken of 1 cm of UHNA3 with varying phase mismatch between the pump and probe lasers while optical powers were constant. According to Eq. \ref{Eq:Theoretical Framework:Scattered Power} and equally by Eq. \ref{Eq:Phi}, we expect the amplitudes of these measurements to trace out a $sinc^{2}$ function. The result of this experiment is plotted in Fig. \ref{fig:Phase-Match}, with the peak amplitude of each individual measurement represented by a point.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=.45\textwidth]{Phase-Match.pdf}
-\caption{Phase-matching sinc func}
+\caption{Phase-matching $sinc^{2}$ func}
 \label{fig:Phase-Match}
 \end{figure}
 

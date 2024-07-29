@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.8)  29 JUL 2024 15:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.8)  29 JUL 2024 15:32
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -679,24 +679,24 @@ d PDF version <1.7>, but at most version <1.5> allowed
 <Instrument-Design-V1.pdf, id=239, 794.97pt x 674.46577pt>
 File: Instrument-Design-V1.pdf Graphic file (type pdf)
 <use Instrument-Design-V1.pdf>
-Package pdftex.def Info: Instrument-Design-V1.pdf  used on input line 189.
+Package pdftex.def Info: Instrument-Design-V1.pdf  used on input line 190.
 (pdftex.def)             Requested size: 510.0pt x 432.70636pt.
 [2 <./4-Wave-Brillouin-Scattering.pdf>]
 <5fWSensitivity.pdf, id=269, 1084.05pt x 1084.05pt>
 File: 5fWSensitivity.pdf Graphic file (type pdf)
 <use 5fWSensitivity.pdf>
-Package pdftex.def Info: 5fWSensitivity.pdf  used on input line 207.
+Package pdftex.def Info: 5fWSensitivity.pdf  used on input line 208.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
  [3]
 <1cmUHNA3.pdf, id=289, 1084.05pt x 1084.05pt>
 File: 1cmUHNA3.pdf Graphic file (type pdf)
 <use 1cmUHNA3.pdf>
-Package pdftex.def Info: 1cmUHNA3.pdf  used on input line 239.
+Package pdftex.def Info: 1cmUHNA3.pdf  used on input line 240.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
  [4 <./Instrument-Design-V1.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 247.
+ on input line 248.
 
 [5 <./5fWSensitivity.pdf> <./1cmUHNA3.pdf
 
@@ -706,19 +706,18 @@ th page group included in a single page
 <100umCS2.pdf, id=406, 1084.05pt x 1084.05pt>
 File: 100umCS2.pdf Graphic file (type pdf)
 <use 100umCS2.pdf>
-Package pdftex.def Info: 100umCS2.pdf  used on input line 256.
+Package pdftex.def Info: 100umCS2.pdf  used on input line 257.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
-<Phase-Match.pdf, id=411, 1084.05pt x 1084.05pt>
+<Phase-Match.pdf, id=413, 1084.05pt x 1084.05pt>
 File: Phase-Match.pdf Graphic file (type pdf)
 <use Phase-Match.pdf>
 Package pdftex.def Info: Phase-Match.pdf  used on input line 287.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
- [6 <./100umCS2.pdf>]
+ [6 <./100umCS2.pdf> <./Phase-Match.pdf
 
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 305.
-
-[7 <./Phase-Match.pdf>]
+pdfTeX warning: pdflatex (file ./Phase-Match.pdf): PDF inclusion: multiple pdfs
+ with page group included in a single page
+>] [7]
 Underfull \hbox (badness 10000) in paragraph at lines 327--329
 
  []
@@ -957,10 +956,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B4F66EBD6D599BD2A3C51BF47C6E448F;9504.
  ) 
 Here is how much of TeX's memory you used:
- 15335 strings out of 474050
- 250134 string characters out of 5742270
- 1953751 words of memory out of 5000000
- 37343 multiletter control sequences out of 15000+600000
+ 15336 strings out of 474050
+ 250142 string characters out of 5742270
+ 1954751 words of memory out of 5000000
+ 37344 multiletter control sequences out of 15000+600000
  577536 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,19n,93p,1534b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -986,10 +985,10 @@ t/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2024/texmf-dist/
 fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fo
 nts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2024/texmf-dist/font
 s/type1/public/cm-super/sfti0900.pfb>
-Output written on build/main.pdf (15 pages, 2595760 bytes).
+Output written on build/main.pdf (15 pages, 2596796 bytes).
 PDF statistics:
- 660 PDF objects out of 1000 (max. 8388607)
- 534 compressed objects within 6 object streams
+ 661 PDF objects out of 1000 (max. 8388607)
+ 535 compressed objects within 6 object streams
  128 named destinations out of 1000 (max. 500000)
  443 words of extra memory for PDF output out of 10000 (max. 10000000)
 
