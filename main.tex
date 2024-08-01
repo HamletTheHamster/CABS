@@ -93,7 +93,7 @@
 \date{\today}
 
 \begin{abstract}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget dolor at diam volutpat congue sit amet non magna. Phasellus sed ante ornare, commodo elit id, euismod enim. Mauris posuere, erat id vehicula ultrices, erat nisi faucibus lorem, at vehicula enim orci in dui. Nulla facilisi. Integer sed tortor venenatis, aliquet nulla quis, fermentum libero. Proin sit amet metus nec ante fermentum gravida at nec odio. Praesent id nisi ut sapien rutrum hendrerit. Donec vel sapien et eros accumsan tempus. Maecenas non velit nec nulla cursus faucibus sit amet sed dui. Ut eleifend, magna in fermentum efficitur, ligula ipsum blandit libero, sed iaculis eros magna ut arcu. Fusce eget lectus aliquet, consequat dolor at, aliquam urna. Curabitur pharetra, arcu sed vehicula maximus, nibh leo sollicitudin elit, vitae dapibus odio metus gravida ante. Aliquam erat volutpat. Donec venenatis erat vel ultrices suscipit. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+We present a novel coherently stimulated Brillouin spectrometer utilizing a detuned pump-probe design that exploits a relaxation of phase-matching requirements at small lengths, enabling room temperature traveling-wave phonon spectroscopy at the micrometer scale with sub-10 femtowatt sensitivity. This approach surpasses the limitations of traditional stimulated Brillouin techniques. Our instrument's sensitivity was validated using 1 cm of UHNA3 fiber and 100 micrometers of bulk carbon disulfide liquid, demonstrating its capability to measure Brillouin scattering in materials with low Brillouin gain or, with particular advantage, small effective lengths. This advancement opens new possibilities for nanometer-scale Brillouin spectroscopy and the development of nano-acousto-optic devices.
 
 %\begin{description}
 %\item[Usage]
@@ -177,10 +177,9 @@ We can apply this to the phasematching bandwidth term to find the fraction of ma
   \label{Eq:Phi}
 \end{equation}
 \\
-Using this expression for $\Phi$, we see that for an effective length of one meter a wavelength mismatch of only 0.6 pm from 1.55 $\mu$m pump light in UHNA3 fiber drops the scattered power to one half of maximum. However, for shorter effective lengths the wavevector mismatch becomes more forgiving; a 36 pm mismatch preserves 82.5\% of the maximum signal for a length of 1 cm and all else equal. This separation, translating to about  4.5 GHz, is meaningful, as it represents sufficient spectral separation for the backscattered signal to be isolated from the applied Stokes light.
+Using this expression for $\Phi$, we see that for an effective length of one meter a wavelength mismatch of only 0.6 pm from 1.55 $\mu$m pump light in UHNA3 fiber drops the scattered power to one half of maximum. However, for shorter effective lengths the wavevector mismatch becomes more forgiving; a 36 pm mismatch preserves 82.5\% of the maximum signal for a length of 1 cm and all else equal. This separation, translating to about 4.5 GHz, is meaningful, as it represents sufficient spectral separation for the backscattered signal to be isolated from the applied Stokes light.
 
-
-
+Further, for even smaller lengths, Eq. \ref{Eq:Phi} gives an increase in the fraction of the maximum signal produced, given equivalent wavelength mismatch between pump and probe, because the $sinc^{2}$ function is sampled closer to its peak center. Alternatively, as length decreases, the probe may be further detuned from the pump and still achieve the same fraction of the maximum signal as for longer lengths, perhaps offering a slight advantage in noise reduction. It should be noted that the scattered power, as given by Eq. \ref{Eq:Theoretical Framework:Scattered Power}, scales with the square of the effective length. Thus, while smaller lengths allow for the ability to capture a larger fraction of this maximum scattered power, the actual amount of scattered power decreases dramatically as length decreases.
 
 \section{Methods}\label{Methods}
 \subsection*{Instrument design}
