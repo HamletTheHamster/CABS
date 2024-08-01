@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.8)  29 JUL 2024 15:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.8)  1 AUG 2024 10:50
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -630,11 +630,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Class revtex4-2 Warning: If you want your keywords to appear in your output, us
 e document class option showkeys.
 
-
-Underfull \hbox (badness 1028) in paragraph at lines 129--130
-[]\T1/cmr/m/n/10 Stimulated Bril-louin scat-ter-ing, il-lus-trated by the
- []
-
 <4-Wave-Brillouin-Scattering.pdf, id=213, 565.16626pt x 244.14099pt>
 File: 4-Wave-Brillouin-Scattering.pdf Graphic file (type pdf)
 <use 4-Wave-Brillouin-Scattering.pdf>
@@ -643,6 +638,11 @@ Package pdftex.def Info: 4-Wave-Brillouin-Scattering.pdf  used on input line 13
 (pdftex.def)             Requested size: 255.0pt x 110.15672pt.
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+Underfull \hbox (badness 1168) in paragraph at lines 140--142
+\T1/cmr/m/n/10 pro-cess. These equa-tions de-scribe the re-la-tion-ship
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
@@ -653,22 +653,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--149
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--155
+Underfull \hbox (badness 10000) in paragraph at lines 152--156
 
  []
 
 
-Underfull \hbox (badness 2538) in paragraph at lines 164--165
+Underfull \hbox (badness 2538) in paragraph at lines 165--166
 \T1/cmr/m/n/10 i-mized when phase match-ing con-di-tions are sat-is-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--168
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--174
+Underfull \hbox (badness 10000) in paragraph at lines 171--175
 
  []
 
@@ -676,274 +676,279 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--174
 
 pdfTeX warning: pdflatex (file ./Instrument-Design-V1.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<Instrument-Design-V1.pdf, id=239, 794.97pt x 674.46577pt>
+<Instrument-Design-V1.pdf, id=240, 794.97pt x 674.46577pt>
 File: Instrument-Design-V1.pdf Graphic file (type pdf)
 <use Instrument-Design-V1.pdf>
-Package pdftex.def Info: Instrument-Design-V1.pdf  used on input line 190.
+Package pdftex.def Info: Instrument-Design-V1.pdf  used on input line 191.
 (pdftex.def)             Requested size: 510.0pt x 432.70636pt.
 [2 <./4-Wave-Brillouin-Scattering.pdf>]
-<5fWSensitivity.pdf, id=269, 1084.05pt x 1084.05pt>
+<5fWSensitivity.pdf, id=270, 1084.05pt x 1084.05pt>
 File: 5fWSensitivity.pdf Graphic file (type pdf)
 <use 5fWSensitivity.pdf>
-Package pdftex.def Info: 5fWSensitivity.pdf  used on input line 208.
+Package pdftex.def Info: 5fWSensitivity.pdf  used on input line 209.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
- [3]
-<1cmUHNA3.pdf, id=289, 1084.05pt x 1084.05pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3]
+<1cmUHNA3.pdf, id=286, 1084.05pt x 1084.05pt>
 File: 1cmUHNA3.pdf Graphic file (type pdf)
 <use 1cmUHNA3.pdf>
-Package pdftex.def Info: 1cmUHNA3.pdf  used on input line 240.
+Package pdftex.def Info: 1cmUHNA3.pdf  used on input line 241.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
  [4 <./Instrument-Design-V1.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 248.
+ on input line 249.
 
 [5 <./5fWSensitivity.pdf> <./1cmUHNA3.pdf
 
 pdfTeX warning: pdflatex (file ./1cmUHNA3.pdf): PDF inclusion: multiple pdfs wi
 th page group included in a single page
 >]
-<100umCS2.pdf, id=406, 1084.05pt x 1084.05pt>
+<100umCS2.pdf, id=408, 1084.05pt x 1084.05pt>
 File: 100umCS2.pdf Graphic file (type pdf)
 <use 100umCS2.pdf>
-Package pdftex.def Info: 100umCS2.pdf  used on input line 257.
+Package pdftex.def Info: 100umCS2.pdf  used on input line 258.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
-<Phase-Match.pdf, id=413, 1084.05pt x 1084.05pt>
+<Phase-Match.pdf, id=414, 1084.05pt x 1084.05pt>
 File: Phase-Match.pdf Graphic file (type pdf)
 <use Phase-Match.pdf>
-Package pdftex.def Info: Phase-Match.pdf  used on input line 287.
+Package pdftex.def Info: Phase-Match.pdf  used on input line 288.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
- [6 <./100umCS2.pdf> <./Phase-Match.pdf
+ [6 <./100umCS2.pdf>]
 
-pdfTeX warning: pdflatex (file ./Phase-Match.pdf): PDF inclusion: multiple pdfs
- with page group included in a single page
->] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 327--329
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 298.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--334
+[7 <./Phase-Match.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 328--330
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--339
+Underfull \hbox (badness 10000) in paragraph at lines 333--335
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--344
+Underfull \hbox (badness 10000) in paragraph at lines 338--340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--351
+Underfull \hbox (badness 10000) in paragraph at lines 343--345
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--364
+Underfull \hbox (badness 10000) in paragraph at lines 348--352
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--371
+Underfull \hbox (badness 10000) in paragraph at lines 363--365
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--377
+Underfull \hbox (badness 10000) in paragraph at lines 368--372
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--378
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 382--386
+Underfull \hbox (badness 10000) in paragraph at lines 383--387
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 388--392
+Underfull \hbox (badness 10000) in paragraph at lines 389--393
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--398
+Underfull \hbox (badness 10000) in paragraph at lines 395--399
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--405
+Underfull \hbox (badness 10000) in paragraph at lines 402--406
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--412
+Underfull \hbox (badness 10000) in paragraph at lines 409--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--418
+Underfull \hbox (badness 10000) in paragraph at lines 415--419
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--429
+Underfull \hbox (badness 10000) in paragraph at lines 428--430
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 432--436
+Underfull \hbox (badness 10000) in paragraph at lines 433--437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--442
+Underfull \hbox (badness 10000) in paragraph at lines 439--443
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--447
+Underfull \hbox (badness 10000) in paragraph at lines 446--448
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 450--452
+Underfull \hbox (badness 10000) in paragraph at lines 451--453
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--457
+Underfull \hbox (badness 10000) in paragraph at lines 456--458
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--464
+Underfull \hbox (badness 10000) in paragraph at lines 461--465
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--468
+Underfull \hbox (badness 10000) in paragraph at lines 467--469
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--472
+Underfull \hbox (badness 10000) in paragraph at lines 471--473
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--476
+Underfull \hbox (badness 10000) in paragraph at lines 475--477
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 478--482
+Underfull \hbox (badness 10000) in paragraph at lines 479--483
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--487
+Underfull \hbox (badness 10000) in paragraph at lines 486--488
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 489--491
+Underfull \hbox (badness 10000) in paragraph at lines 490--492
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 493--495
+Underfull \hbox (badness 10000) in paragraph at lines 494--496
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--502
+Underfull \hbox (badness 10000) in paragraph at lines 499--503
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 504--506
+Underfull \hbox (badness 10000) in paragraph at lines 505--507
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--510
+Underfull \hbox (badness 10000) in paragraph at lines 509--511
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--514
+Underfull \hbox (badness 10000) in paragraph at lines 513--515
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--521
+Underfull \hbox (badness 10000) in paragraph at lines 518--522
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 523--527
+Underfull \hbox (badness 10000) in paragraph at lines 524--528
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 530--534
+Underfull \hbox (badness 10000) in paragraph at lines 531--535
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 536--540
+Underfull \hbox (badness 10000) in paragraph at lines 537--541
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--546
+Underfull \hbox (badness 10000) in paragraph at lines 543--547
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 548--551
+Underfull \hbox (badness 10000) in paragraph at lines 549--552
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 553--557
+Underfull \hbox (badness 10000) in paragraph at lines 554--558
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--563
+Underfull \hbox (badness 10000) in paragraph at lines 560--564
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 566--570
+Underfull \hbox (badness 10000) in paragraph at lines 567--571
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--577
+Underfull \hbox (badness 10000) in paragraph at lines 574--578
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--581
+Underfull \hbox (badness 10000) in paragraph at lines 580--582
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 643--645
+Underfull \hbox (badness 10000) in paragraph at lines 644--646
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 647--651
+Underfull \hbox (badness 10000) in paragraph at lines 648--652
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 653--657
+Underfull \hbox (badness 10000) in paragraph at lines 654--658
 
  []
 
@@ -953,13 +958,13 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B4F66EBD6D599BD2A3C51BF47C6E448F;9504.
+(rerunfilecheck)             Checksum: 647AA8D2D8070017715CA2E5F181EA1D;9365.
  ) 
 Here is how much of TeX's memory you used:
- 15336 strings out of 474050
- 250142 string characters out of 5742270
+ 15337 strings out of 474050
+ 250171 string characters out of 5742270
  1954751 words of memory out of 5000000
- 37344 multiletter control sequences out of 15000+600000
+ 37345 multiletter control sequences out of 15000+600000
  577536 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,19n,93p,1534b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -985,10 +990,10 @@ t/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2024/texmf-dist/
 fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fo
 nts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2024/texmf-dist/font
 s/type1/public/cm-super/sfti0900.pfb>
-Output written on build/main.pdf (15 pages, 2596796 bytes).
+Output written on build/main.pdf (15 pages, 2597890 bytes).
 PDF statistics:
- 661 PDF objects out of 1000 (max. 8388607)
- 535 compressed objects within 6 object streams
+ 663 PDF objects out of 1000 (max. 8388607)
+ 537 compressed objects within 6 object streams
  128 named destinations out of 1000 (max. 500000)
  443 words of extra memory for PDF output out of 10000 (max. 10000000)
 
