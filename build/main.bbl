@@ -7,7 +7,7 @@
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{4}%
+\begin{thebibliography}{7}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -51,6 +51,51 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
+\bibitem [{\citenamefont {Boyd}(2020)}]{boyd2020nonlinear}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont
+  {Boyd}},\ }\href@noop {} {\emph {\bibinfo {title} {Nonlinear Optics}}}\
+  (\bibinfo  {publisher} {Academic Press},\ \bibinfo {year} {2020})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Pant}\ \emph {et~al.}(2011)\citenamefont {Pant},
+  \citenamefont {Li}, \citenamefont {Choi}, \citenamefont {Poulton},
+  \citenamefont {Madden}, \citenamefont {Luther-Davies},\ and\ \citenamefont
+  {Eggleton}}]{pant2011cavity}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Pant}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Li}}, \bibinfo
+  {author} {\bibfnamefont {D.-Y.}\ \bibnamefont {Choi}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Poulton}}, \bibinfo {author} {\bibfnamefont
+  {S.~J.}\ \bibnamefont {Madden}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {Luther-Davies}},\ and\ \bibinfo {author} {\bibfnamefont
+  {B.~J.}\ \bibnamefont {Eggleton}},\ }\bibfield  {title} {\bibinfo {title}
+  {Cavity enhanced stimulated brillouin scattering in an optical chip for
+  multiorder stokes generation},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Optics letters}\ }\textbf {\bibinfo {volume} {36}},\
+  \bibinfo {pages} {3687} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kittlaus}\ \emph {et~al.}(2017)\citenamefont
+  {Kittlaus}, \citenamefont {Otterstrom},\ and\ \citenamefont
+  {Rakich}}]{kittlaus2017chip}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~A.}\ \bibnamefont
+  {Kittlaus}}, \bibinfo {author} {\bibfnamefont {N.~T.}\ \bibnamefont
+  {Otterstrom}},\ and\ \bibinfo {author} {\bibfnamefont {P.~T.}\ \bibnamefont
+  {Rakich}},\ }\bibfield  {title} {\bibinfo {title} {On-chip inter-modal
+  brillouin scattering},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature communications}\ }\textbf {\bibinfo {volume} {8}},\
+  \bibinfo {pages} {15819} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Shlomovits}\ \emph {et~al.}(2015)\citenamefont
+  {Shlomovits}, \citenamefont {Langer},\ and\ \citenamefont
+  {Tur}}]{shlomovits2015effect}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Shlomovits}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Langer}},\
+  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Tur}},\ }\bibfield
+  {title} {\bibinfo {title} {The effect of source phase noise on stimulated
+  brillouin amplification},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Lightwave Technology}\ }\textbf {\bibinfo {volume}
+  {33}},\ \bibinfo {pages} {2639} (\bibinfo {year} {2015})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Maker}\ \emph {et~al.}(1962)\citenamefont {Maker},
   \citenamefont {Terhune}, \citenamefont {Nisenoff},\ and\ \citenamefont
   {Savage}}]{maker1962effects}%
@@ -90,10 +135,4 @@
   {journal} {\bibinfo  {journal} {Journal of Lightwave Technology}\ }\textbf
   {\bibinfo {volume} {15}},\ \bibinfo {pages} {1842} (\bibinfo {year}
   {1997})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Boyd}(2020)}]{boyd2020nonlinear}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont
-  {Boyd}},\ }\href@noop {} {\emph {\bibinfo {title} {Nonlinear Optics}}}\
-  (\bibinfo  {publisher} {Academic Press},\ \bibinfo {year} {2020})\BibitemShut
-  {NoStop}%
 \end{thebibliography}%
