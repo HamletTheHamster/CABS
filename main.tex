@@ -69,6 +69,7 @@
 %%total={6.5in,8.75in}, top=1.2in, left=0.9in, includefoot,
 %%height=10in,a5paper,hmargin={3cm,0.8in},
 %]{geometry}
+\usepackage{subcaption}
 \usepackage{lipsum}
 
 \begin{document}
@@ -671,7 +672,7 @@ We can also see that off resonance, the $\Omega$ term from Eq. \ref{eq:resonance
 
 Equation (1) verifies the somewhat counterintuitive result that the powers of the Pump, Stokes, and Probe waves contribute equally to the scattered power of the Signal. Initially, this experiment was motivated by a practical consideration: we had obtained an amplifier with significantly greater amplification than the others and we wanted to determine if its placement on any specific line (Pump, Stokes, or Probe) would offer any advantage over another.
 
-To test this, we conducted a controlled experiment with a 1 mm carbon disulfide ($CS_{2}$) sample. For each measurement, one of the three source powers (Pump, Stokes, or Probe) was systematically reduced by 75\% while holding the others constant, ensuring consistent experimental conditions across trials. The table below shows the respective powers for each source during the three measurements, along with the multiplicative total of the three powers for each measurement.
+To test this, we conducted a controlled experiment with a 1 mm carbon disulfide ($CS_{2}$) sample. For each measurement, one of the three source powers (Pump, Stokes, or Probe) was systematically reduced by 75\% while holding the others constant, ensuring consistent experimental conditions across trials. Table \ref{tab:PSPr-Contribute-Equally} shows the respective powers for each source during the three measurements, along with the multiplicative total of the three powers for each measurement.
 
 \begin{table}[h]
   \centering
@@ -693,21 +694,39 @@ Figure \ref{fig:PSPr-Contribute-Equally} displays the average results from these
 
 This experiment confirmed that the scattered Signal power indeed depends equally on each of the three contributing wave powers, as expected from the theoretical framework. Consequently, the placement of the amplifier does not impact the Signal power, allowing flexibility in its use across any of the three lines. This result reinforces the reliability of Equation (1) for predicting Signal power across a range of power distributions within practical settings.
 
-
+% \begin{figure}[h]
+%   \centering
+%   \includegraphics[width=.45\textwidth]{PSPr-Contribute-Equally.pdf}
+%   \caption{Signal power contributions with error bars representing one standard deviation of the mean for each measurement.}
+%   \label{fig:PSPr-Contribute-Equally}
+% \end{figure}
+%
+% \begin{figure}[h]
+%   \centering
+%   \includegraphics[width=.45\textwidth]{PSPr-Contribute-Equally-2sigma.pdf}
+%   \caption{Signal power contributions with error bars extended to two standard deviations of the mean for each measurement.}
+%   \label{fig:PSPr-Contribute-Equally-2sigma}
+% \end{figure}
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=.45\textwidth]{PSPr-Contribute-Equally.pdf}
-  \caption{1sigma}
-  \label{fig:PSPr-Contribute-Equally}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{PSPr-Contribute-Equally.pdf}
+    \caption{Signal power contributions with error bars representing one standard deviation of the mean for each measurement.}
+    \label{fig:PSPr-Contribute-Equally}
+  \end{subfigure}%
+  \hfill
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{PSPr-Contribute-Equally-2sigma.pdf}
+    \caption{Signal power contributions with error bars extended to two standard deviations of the mean for each measurement.}
+    \label{fig:PSPr-Contribute-Equally-2sigma}
+  \end{subfigure}
+  \caption{Comparison of Signal power contributions with error bars representing one (a) and two (b) standard deviations of the mean for each measurement.}
+  \label{fig:combined}
 \end{figure}
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.45\textwidth]{PSPr-Contribute-Equally-2sigma.pdf}
-  \caption{2sigma}
-  \label{fig:PSPr-Contribute-Equally-2sigma}
-\end{figure}
 
 \section{Comparison to SBS}
 \subsection{1 Centimeter UHNA3 Scattered Power}

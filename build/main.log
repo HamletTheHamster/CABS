@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.8)  29 OCT 2024 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.8)  29 OCT 2024 21:38
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -547,80 +547,120 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen169
+\captionmargin=\dimen170
+\caption@leftmargin=\dimen171
+\caption@rightmargin=\dimen172
+\caption@width=\dimen173
+\caption@indent=\dimen174
+\caption@parindent=\dimen175
+\caption@hangindent=\dimen176
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\par \vskip \abovecapti
+onskip \begingroup \small \rmfamily \sbox \@tempboxa {\let \\\heading@cr \@make
+@capt@title {#1}{#2}}\@ifdim {\wd \@tempboxa >\hsize }{\begingroup \samepage \f
+lushing \let \footnote \@footnotemark@gobble \@make@capt@title {#1}{#2}\par \en
+dgroup }{\global \@minipagefalse \hb@xt@ \hsize {\hfil \unhbox \@tempboxa \hfil
+ }}\endgroup \vskip \belowcaptionskip  on input line 1175.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count304
+\c@continuedfloat=\count305
+Package caption Info: hyperref package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count306
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count307
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.sty
 (/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 (/usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2024-04-11 L3 programming layer (loader) 
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count304
+\l__color_backend_stack_int=\count308
 \l__pdf_internal_box=\box72
 ))
 Package: l3keys2e 2024-03-14 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count305
-\l__lipsum_a_int=\count306
-\l__lipsum_b_int=\count307
+\g__lipsum_par_int=\count309
+\l__lipsum_a_int=\count310
+\l__lipsum_b_int=\count311
 (/usr/local/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 Class revtex4-2 Info: Unrecognized array package. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 74.
-Class revtex4-2 Info: cite was not loaded (OK!) on input line 74.
-Class revtex4-2 Info: mcite was not loaded (OK!) on input line 74.
-Class revtex4-2 Info: multicol was not loaded (OK!) on input line 74.
+lass! (Proceeding with fingers crossed.) on input line 75.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 75.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 75.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 75.
 
 (build/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count308
-\scratchdimen=\dimen169
+\scratchcounter=\count312
+\scratchdimen=\dimen177
 \scratchbox=\box73
-\nofMPsegments=\count309
-\nofMParguments=\count310
+\nofMPsegments=\count313
+\nofMParguments=\count314
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count311
-\MPscratchDim=\dimen170
-\MPnumerator=\count312
-\makeMPintoPDFobject=\count313
+\MPscratchCnt=\count315
+\MPscratchDim=\dimen178
+\MPnumerator=\count316
+\makeMPintoPDFobject=\count317
 \everyMPtoPDFconversion=\toks37
 )
-Package hyperref Info: Link coloring ON on input line 74.
+Package hyperref Info: Link coloring ON on input line 75.
  (build/main.out) (build/main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 74.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 75.
 \openout3 = `mainNotes.bib'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 109
+LaTeX Font Info:    Trying to load font information for U+msa on input line 110
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 109
+LaTeX Font Info:    Trying to load font information for U+msb on input line 110
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -631,7 +671,7 @@ Class revtex4-2 Warning: If you want your keywords to appear in your output, us
 e document class option showkeys.
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 117--118
+Underfull \hbox (badness 1221) in paragraph at lines 118--119
 \T1/cmr/m/n/10 light and acous-tic phonons, is a fun-da-men-tal phe-
  []
 
@@ -641,40 +681,40 @@ ocal/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
 File: 4-Wave-Brillouin-Scattering.pdf Graphic file (type pdf)
 <use 4-Wave-Brillouin-Scattering.pdf>
 Package pdftex.def Info: 4-Wave-Brillouin-Scattering.pdf  used on input line 14
-0.
+1.
 (pdftex.def)             Requested size: 255.0pt x 110.15672pt.
 
-Underfull \hbox (badness 1168) in paragraph at lines 147--149
+Underfull \hbox (badness 1168) in paragraph at lines 148--150
 \T1/cmr/m/n/10 pro-cess. These equa-tions de-scribe the re-la-tion-ship
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--149
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--156
+Underfull \hbox (badness 10000) in paragraph at lines 153--157
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--163
+Underfull \hbox (badness 10000) in paragraph at lines 160--164
 
  []
 
 
-Underfull \hbox (badness 2538) in paragraph at lines 172--173
+Underfull \hbox (badness 2538) in paragraph at lines 173--174
 \T1/cmr/m/n/10 i-mized when phase match-ing con-di-tions are sat-is-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--176
+Underfull \hbox (badness 10000) in paragraph at lines 175--177
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--182
+Underfull \hbox (badness 10000) in paragraph at lines 179--183
 
  []
 
@@ -685,27 +725,27 @@ d PDF version <1.7>, but at most version <1.5> allowed
 <Instrument-Design-V1.pdf, id=182, 794.97pt x 674.46577pt>
 File: Instrument-Design-V1.pdf Graphic file (type pdf)
 <use Instrument-Design-V1.pdf>
-Package pdftex.def Info: Instrument-Design-V1.pdf  used on input line 197.
+Package pdftex.def Info: Instrument-Design-V1.pdf  used on input line 198.
 (pdftex.def)             Requested size: 510.0pt x 432.70636pt.
 [3 <./4-Wave-Brillouin-Scattering.pdf>] [4 <./Instrument-Design-V1.pdf>]
-<5fWSensitivity.pdf, id=301, 1084.05pt x 1084.05pt>
+<5fWSensitivity.pdf, id=298, 1084.05pt x 1084.05pt>
 File: 5fWSensitivity.pdf Graphic file (type pdf)
 <use 5fWSensitivity.pdf>
-Package pdftex.def Info: 5fWSensitivity.pdf  used on input line 226.
+Package pdftex.def Info: 5fWSensitivity.pdf  used on input line 227.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
 
 [5]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 234.
+ on input line 235.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<1cmUHNA3.pdf, id=313, 1084.05pt x 1084.05pt>
+<1cmUHNA3.pdf, id=310, 1084.05pt x 1084.05pt>
 File: 1cmUHNA3.pdf Graphic file (type pdf)
 <use 1cmUHNA3.pdf>
-Package pdftex.def Info: 1cmUHNA3.pdf  used on input line 258.
+Package pdftex.def Info: 1cmUHNA3.pdf  used on input line 259.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
 [6 <./5fWSensitivity.pdf> <./1cmUHNA3.pdf
 
@@ -715,291 +755,290 @@ th page group included in a single page
 <100umCS2.pdf, id=341, 1084.05pt x 1084.05pt>
 File: 100umCS2.pdf Graphic file (type pdf)
 <use 100umCS2.pdf>
-Package pdftex.def Info: 100umCS2.pdf  used on input line 269.
+Package pdftex.def Info: 100umCS2.pdf  used on input line 270.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
 <Phase-Match.pdf, id=348, 1084.05pt x 1084.05pt>
 File: Phase-Match.pdf Graphic file (type pdf)
 <use Phase-Match.pdf>
-Package pdftex.def Info: Phase-Match.pdf  used on input line 299.
+Package pdftex.def Info: Phase-Match.pdf  used on input line 300.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
 
-Underfull \hbox (badness 1014) in paragraph at lines 308--309
+Underfull \hbox (badness 1014) in paragraph at lines 309--310
 \T1/cmr/m/n/10 probe de-sign to achieve high sen-si-tiv-ity and room-
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 308--309
+Underfull \hbox (badness 2343) in paragraph at lines 309--310
 \T1/cmr/m/n/10 temperature op-er-a-tion in micrometer-scale sam-ples.
  []
 
 [7 <./100umCS2.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 309.
+ on input line 310.
 
 [8 <./Phase-Match.pdf>] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 335--337
+Underfull \hbox (badness 10000) in paragraph at lines 336--338
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--342
+Underfull \hbox (badness 10000) in paragraph at lines 341--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--347
+Underfull \hbox (badness 10000) in paragraph at lines 346--348
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--352
+Underfull \hbox (badness 10000) in paragraph at lines 351--353
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--359
+Underfull \hbox (badness 10000) in paragraph at lines 356--360
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--372
+Underfull \hbox (badness 10000) in paragraph at lines 371--373
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--379
+Underfull \hbox (badness 10000) in paragraph at lines 376--380
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--385
+Underfull \hbox (badness 10000) in paragraph at lines 382--386
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--391
+Underfull \hbox (badness 10000) in paragraph at lines 388--392
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--397
+Underfull \hbox (badness 10000) in paragraph at lines 394--398
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 399--403
+Underfull \hbox (badness 10000) in paragraph at lines 400--404
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--410
+Underfull \hbox (badness 10000) in paragraph at lines 407--411
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--417
+Underfull \hbox (badness 10000) in paragraph at lines 414--418
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--423
+Underfull \hbox (badness 10000) in paragraph at lines 420--424
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--434
+Underfull \hbox (badness 10000) in paragraph at lines 433--435
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--441
+Underfull \hbox (badness 10000) in paragraph at lines 438--442
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 443--447
+Underfull \hbox (badness 10000) in paragraph at lines 444--448
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 450--452
+Underfull \hbox (badness 10000) in paragraph at lines 451--453
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--457
+Underfull \hbox (badness 10000) in paragraph at lines 456--458
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--462
+Underfull \hbox (badness 10000) in paragraph at lines 461--463
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 465--469
+Underfull \hbox (badness 10000) in paragraph at lines 466--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--473
+Underfull \hbox (badness 10000) in paragraph at lines 472--474
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 475--477
+Underfull \hbox (badness 10000) in paragraph at lines 476--478
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--481
+Underfull \hbox (badness 10000) in paragraph at lines 480--482
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--487
+Underfull \hbox (badness 10000) in paragraph at lines 484--488
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--492
+Underfull \hbox (badness 10000) in paragraph at lines 491--493
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--496
+Underfull \hbox (badness 10000) in paragraph at lines 495--497
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--500
+Underfull \hbox (badness 10000) in paragraph at lines 499--501
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 503--507
+Underfull \hbox (badness 10000) in paragraph at lines 504--508
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--511
+Underfull \hbox (badness 10000) in paragraph at lines 510--512
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--515
+Underfull \hbox (badness 10000) in paragraph at lines 514--516
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 517--519
+Underfull \hbox (badness 10000) in paragraph at lines 518--520
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--526
+Underfull \hbox (badness 10000) in paragraph at lines 523--527
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 528--532
+Underfull \hbox (badness 10000) in paragraph at lines 529--533
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--539
+Underfull \hbox (badness 10000) in paragraph at lines 536--540
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--545
+Underfull \hbox (badness 10000) in paragraph at lines 542--546
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--551
+Underfull \hbox (badness 10000) in paragraph at lines 548--552
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 553--556
+Underfull \hbox (badness 10000) in paragraph at lines 554--557
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--562
+Underfull \hbox (badness 10000) in paragraph at lines 559--563
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--568
+Underfull \hbox (badness 10000) in paragraph at lines 565--569
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 571--575
+Underfull \hbox (badness 10000) in paragraph at lines 572--576
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 578--582
+Underfull \hbox (badness 10000) in paragraph at lines 579--583
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 584--586
+Underfull \hbox (badness 10000) in paragraph at lines 585--587
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 648--650
+Underfull \hbox (badness 10000) in paragraph at lines 649--651
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 652--656
+Underfull \hbox (badness 10000) in paragraph at lines 653--657
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 658--662
+Underfull \hbox (badness 10000) in paragraph at lines 659--663
 
  []
 
 [14]
-<PSPr-Contribute-Equally.pdf, id=468, 1084.05pt x 1084.05pt>
+<PSPr-Contribute-Equally.pdf, id=469, 1084.05pt x 1084.05pt>
 File: PSPr-Contribute-Equally.pdf Graphic file (type pdf)
 <use PSPr-Contribute-Equally.pdf>
-Package pdftex.def Info: PSPr-Contribute-Equally.pdf  used on input line 700.
+Package pdftex.def Info: PSPr-Contribute-Equally.pdf  used on input line 715.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
-<PSPr-Contribute-Equally-2sigma.pdf, id=469, 1084.05pt x 1084.05pt>
+<PSPr-Contribute-Equally-2sigma.pdf, id=470, 1084.05pt x 1084.05pt>
 File: PSPr-Contribute-Equally-2sigma.pdf Graphic file (type pdf)
 <use PSPr-Contribute-Equally-2sigma.pdf>
 Package pdftex.def Info: PSPr-Contribute-Equally-2sigma.pdf  used on input line
- 707.
+ 722.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
+ [15 <./PSPr-Contribute-Equally.pdf> <./PSPr-Contribute-Equally-2sigma.pdf
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15 <./PSPr-Contribute-Equally.pdf>] (build/main.bbl [16 <./PSPr-Contribute-Equ
-ally-2sigma.pdf>]) [17] (build/main.aux)
+pdfTeX warning: pdflatex (file ./PSPr-Contribute-Equally-2sigma.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>] (build/main.bbl) [16] (build/main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 653B77424B3A9087A12DE4772AB0FF16;4856.
+(rerunfilecheck)             Checksum: C44FA8AD5BFA8E2DD42CB60E3CAD87F6;4857.
  ) 
 Here is how much of TeX's memory you used:
- 15332 strings out of 474050
- 250682 string characters out of 5742270
+ 16752 strings out of 474050
+ 278418 string characters out of 5742270
  1953751 words of memory out of 5000000
- 37352 multiletter control sequences out of 15000+600000
+ 38765 multiletter control sequences out of 15000+600000
  577536 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,13n,93p,2290b,661s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,13n,93p,2299b,576s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></
@@ -1023,10 +1062,10 @@ fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2024/texmf-dist/fo
 nts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/font
 s/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/
 type1/public/cm-super/sfti0900.pfb>
-Output written on build/main.pdf (17 pages, 3054325 bytes).
+Output written on build/main.pdf (16 pages, 3050347 bytes).
 PDF statistics:
- 627 PDF objects out of 1000 (max. 8388607)
- 494 compressed objects within 5 object streams
- 116 named destinations out of 1000 (max. 500000)
+ 621 PDF objects out of 1000 (max. 8388607)
+ 489 compressed objects within 5 object streams
+ 114 named destinations out of 1000 (max. 500000)
  293 words of extra memory for PDF output out of 10000 (max. 10000000)
 

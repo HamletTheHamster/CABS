@@ -187,6 +187,12 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
