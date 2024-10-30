@@ -669,6 +669,46 @@ We can also see that off resonance, the $\Omega$ term from Eq. \ref{eq:resonance
 
 \section{Pump, Stokes, and Probe Contribute Equally}
 
+Equation (1) verifies the somewhat counterintuitive result that the powers of the Pump, Stokes, and Probe waves contribute equally to the scattered power of the Signal. Initially, this experiment was motivated by a practical consideration: we had obtained an amplifier with significantly greater amplification than the others and we wanted to determine if its placement on any specific line (Pump, Stokes, or Probe) would offer any advantage over another.
+
+To test this, we conducted a controlled experiment with a 1 mm carbon disulfide ($CS_{2}$) sample. For each measurement, one of the three source powers (Pump, Stokes, or Probe) was systematically reduced by 75\% while holding the others constant, ensuring consistent experimental conditions across trials. The table below shows the respective powers for each source during the three measurements, along with the multiplicative total of the three powers for each measurement.
+
+\begin{table}[h]
+  \centering
+  \renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    \textbf{Measurement} & \textbf{Pump Power (mW)} & \textbf{Stokes Power (mW)} & \textbf{Probe Power (mW)} & \textbf{Total (mW$^{3}$)} \\
+    \hline
+    Pump Lower & 19.190 & 32.210 & 54.560 & 3.372 $\times 10^{4}$ \\
+    Stokes Lower & 76.600 & 8.020 & 54.650 & 3.359 $\times 10^{4}$ \\
+    Probe Lower & 76.600 & 32.530 & 13.480 & 3.359 $\times 10^{4}$ \\
+    \hline
+  \end{tabular}
+    \caption{Power values for each source (Pump, Stokes, Probe) across the three measurements, with the multiplicative total power for each setup.}
+    \label{tab:PSPr-Contribute-Equally}
+\end{table}
+
+Figure \ref{fig:PSPr-Contribute-Equally} displays the average results from these three measurements, plotted with error bars representing one standard deviation of the mean. For increased certainty, Figure \ref{fig:PSPr-Contribute-Equally-2sigma} presents the same data with error bars extended to two standard deviations, providing additional confidence in the reproducibility of the results.
+
+This experiment confirmed that the scattered Signal power indeed depends equally on each of the three contributing wave powers, as expected from the theoretical framework. Consequently, the placement of the amplifier does not impact the Signal power, allowing flexibility in its use across any of the three lines. This result reinforces the reliability of Equation (1) for predicting Signal power across a range of power distributions within practical settings.
+
+
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.45\textwidth]{PSPr-Contribute-Equally.pdf}
+  \caption{1sigma}
+  \label{fig:PSPr-Contribute-Equally}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.45\textwidth]{PSPr-Contribute-Equally-2sigma.pdf}
+  \caption{2sigma}
+  \label{fig:PSPr-Contribute-Equally-2sigma}
+\end{figure}
+
 \section{Comparison to SBS}
 \subsection{1 Centimeter UHNA3 Scattered Power}
 \subsection{100 Micrometers CS2 Scattered Power}
