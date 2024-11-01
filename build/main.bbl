@@ -7,7 +7,7 @@
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{7}%
+\begin{thebibliography}{16}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -57,6 +57,122 @@
   {Boyd}},\ }\href@noop {} {\emph {\bibinfo {title} {Nonlinear Optics}}}\
   (\bibinfo  {publisher} {Academic Press},\ \bibinfo {year} {2020})\BibitemShut
   {NoStop}%
+\bibitem [{\citenamefont {Eggleton}\ \emph {et~al.}(2013)\citenamefont
+  {Eggleton}, \citenamefont {Poulton},\ and\ \citenamefont
+  {Pant}}]{eggleton2013inducing}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~J.}\ \bibnamefont
+  {Eggleton}}, \bibinfo {author} {\bibfnamefont {C.~G.}\ \bibnamefont
+  {Poulton}},\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Pant}},\ }\bibfield  {title} {\bibinfo {title} {Inducing and harnessing
+  stimulated brillouin scattering in photonic integrated circuits},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Advances in Optics
+  and Photonics}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages} {536}
+  (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fotiadi}\ \emph {et~al.}(2023)\citenamefont
+  {Fotiadi}, \citenamefont {Korobko},\ and\ \citenamefont
+  {Zolotovskii}}]{fotiadi2023brillouin}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Fotiadi}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Korobko}},\
+  and\ \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Zolotovskii}},\
+  }\bibfield  {title} {\bibinfo {title} {Brillouin lasers and sensors: Trends
+  and possibilities},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Optoelectronics, Instrumentation and Data Processing}\ }\textbf
+  {\bibinfo {volume} {59}},\ \bibinfo {pages} {66} (\bibinfo {year}
+  {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kobyakov}\ \emph {et~al.}(2009)\citenamefont
+  {Kobyakov}, \citenamefont {Sauer},\ and\ \citenamefont
+  {Chowdhury}}]{kobyakov2009stimulated}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Kobyakov}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Sauer}},\
+  and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Chowdhury}},\
+  }\bibfield  {title} {\bibinfo {title} {Stimulated brillouin scattering in
+  optical fibers},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Advances in optics and photonics}\ }\textbf {\bibinfo {volume} {2}},\
+  \bibinfo {pages} {1} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ippen}\ and\ \citenamefont
+  {Stolen}(1972)}]{ippen1972stimulated}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Ippen}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Stolen}},\
+  }\bibfield  {title} {\bibinfo {title} {Stimulated brillouin scattering in
+  optical fibers},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Applied Physics Letters}\ }\textbf {\bibinfo {volume} {21}},\ \bibinfo
+  {pages} {539} (\bibinfo {year} {1972})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rakich}\ \emph {et~al.}(2012)\citenamefont {Rakich},
+  \citenamefont {Reinke}, \citenamefont {Camacho}, \citenamefont {Davids},\
+  and\ \citenamefont {Wang}}]{rakich2012giant}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~T.}\ \bibnamefont
+  {Rakich}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Reinke}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Camacho}}, \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {Davids}},\ and\ \bibinfo {author}
+  {\bibfnamefont {Z.}~\bibnamefont {Wang}},\ }\bibfield  {title} {\bibinfo
+  {title} {Giant enhancement of stimulated brillouin scattering in the
+  subwavelength limit},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review X}\ }\textbf {\bibinfo {volume} {2}},\ \bibinfo
+  {pages} {011008} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gyger}\ \emph {et~al.}(2020)\citenamefont {Gyger},
+  \citenamefont {Liu}, \citenamefont {Yang}, \citenamefont {He}, \citenamefont
+  {Raja}, \citenamefont {Wang}, \citenamefont {Bhave}, \citenamefont
+  {Kippenberg},\ and\ \citenamefont {Th{\'e}venaz}}]{gyger2020observation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Gyger}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Liu}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Yang}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {He}}, \bibinfo {author} {\bibfnamefont
+  {A.~S.}\ \bibnamefont {Raja}}, \bibinfo {author} {\bibfnamefont {R.~N.}\
+  \bibnamefont {Wang}}, \bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont
+  {Bhave}}, \bibinfo {author} {\bibfnamefont {T.~J.}\ \bibnamefont
+  {Kippenberg}},\ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Th{\'e}venaz}},\ }\bibfield  {title} {\bibinfo {title} {Observation of
+  stimulated brillouin scattering in silicon nitride integrated waveguides},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical review
+  letters}\ }\textbf {\bibinfo {volume} {124}},\ \bibinfo {pages} {013902}
+  (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Shin}\ \emph {et~al.}(2013)\citenamefont {Shin},
+  \citenamefont {Qiu}, \citenamefont {Jarecki}, \citenamefont {Cox},
+  \citenamefont {Olsson}, \citenamefont {Starbuck}, \citenamefont {Wang},\ and\
+  \citenamefont {Rakich}}]{shin2013tailorable}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Shin}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Qiu}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Jarecki}}, \bibinfo {author}
+  {\bibfnamefont {J.~A.}\ \bibnamefont {Cox}}, \bibinfo {author} {\bibfnamefont
+  {R.~H.}\ \bibnamefont {Olsson}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Starbuck}}, \bibinfo {author} {\bibfnamefont
+  {Z.}~\bibnamefont {Wang}},\ and\ \bibinfo {author} {\bibfnamefont {P.~T.}\
+  \bibnamefont {Rakich}},\ }\bibfield  {title} {\bibinfo {title} {Tailorable
+  stimulated brillouin scattering in nanoscale silicon waveguides},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nature
+  communications}\ }\textbf {\bibinfo {volume} {4}},\ \bibinfo {pages} {1}
+  (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Van~Laer}\ \emph {et~al.}(2015)\citenamefont
+  {Van~Laer}, \citenamefont {Kuyken}, \citenamefont {Van~Thourhout},\ and\
+  \citenamefont {Baets}}]{van2015interaction}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Van~Laer}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Kuyken}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Van~Thourhout}},\ and\
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Baets}},\ }\bibfield
+  {title} {\bibinfo {title} {Interaction between light and highly confined
+  hypersound in a silicon photonic nanowire},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature Photonics}\ }\textbf {\bibinfo
+  {volume} {9}},\ \bibinfo {pages} {199} (\bibinfo {year} {2015})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Kittlaus}\ \emph {et~al.}(2016)\citenamefont
+  {Kittlaus}, \citenamefont {Shin},\ and\ \citenamefont
+  {Rakich}}]{kittlaus2016large}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~A.}\ \bibnamefont
+  {Kittlaus}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Shin}},\
+  and\ \bibinfo {author} {\bibfnamefont {P.~T.}\ \bibnamefont {Rakich}},\
+  }\bibfield  {title} {\bibinfo {title} {Large brillouin amplification in
+  silicon},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nature
+  Photonics}\ }\textbf {\bibinfo {volume} {10}},\ \bibinfo {pages} {463}
+  (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Pant}\ \emph {et~al.}(2011)\citenamefont {Pant},
   \citenamefont {Li}, \citenamefont {Choi}, \citenamefont {Poulton},
   \citenamefont {Madden}, \citenamefont {Luther-Davies},\ and\ \citenamefont
