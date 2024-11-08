@@ -1,18 +1,19 @@
 # Fdb version 4
-["bibtex build/main"] 1730426254.14694 "build/main.aux" "build/main.bbl" "build/main" 1730427395.75233 0
+["bibtex build/main"] 1731026999.21541 "build/main.aux" "build/main.bbl" "build/main" 1731027256.39979 0
   "./apssamp.bib" 1730425385.22936 5611 1b8584d136b3d668982e63b089573822 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "build/main.aux" 1730427395.0816 16469 5bce63b6a5967f2db276c8d1ce232d43 "pdflatex"
-  "build/mainNotes.bib" 1730427395.08418 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
+  "build/main.aux" 1731027255.74755 16409 5548b41801950eae3a2e5055ab6fc2b5 "pdflatex"
+  "build/mainNotes.bib" 1731027255.75034 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1730427393.83814 "main.tex" "build/main.pdf" "main" 1730427395.75307 0
+["pdflatex"] 1731027254.493 "main.tex" "build/main.pdf" "main" 1731027256.40039 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm" 1136768653 3584 1a7de6c99457381c64abc1a7c545505f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm" 1136768653 3584 178baad7ffca7f5d3428a83bd7cc64c3 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm" 1136768653 3584 291a5713401683441e0a8c8f4417b17b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm" 1136768653 3584 cf973739aac7ab6247f9150296af7954 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm" 1136768653 3584 49064b465390a8e316a3c8417a050403 ""
@@ -57,6 +58,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm" 1136768653 1116 25a7bf822c58caf309a702ef79f4afbb ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1248133631 37912 77d683123f92148345f3fc36a38d9ab1 ""
@@ -190,10 +192,10 @@
   "PSPr-Contribute-Equally-2sigma.pdf" 1696975992.10186 219797 b1fae5ca7a08554c7ab349e5a5e3158e ""
   "PSPr-Contribute-Equally.pdf" 1696975904.48594 219816 97094bbbc5bc4e11a1f0abc4efd1c27c ""
   "Phase-Match.pdf" 1722973439.40129 202441 337bbf9ff8a8e18147b7968a1459e931 ""
-  "build/main.aux" 1730427395.0816 16469 5bce63b6a5967f2db276c8d1ce232d43 "pdflatex"
-  "build/main.bbl" 1730426254.31266 14965 96621806d9460c7b419d0a2c44488ffc "bibtex build/main"
-  "build/main.out" 1730427395.0836 4857 c44fa8ad5bfa8e2dd42cb60e3cad87f6 "pdflatex"
-  "main.tex" 1730427393.66143 63205 8df1bbe9df61c0d7e3caa8a9f521c29a ""
+  "build/main.aux" 1731027255.74755 16409 5548b41801950eae3a2e5055ab6fc2b5 "pdflatex"
+  "build/main.bbl" 1731026999.37983 14965 96621806d9460c7b419d0a2c44488ffc "bibtex build/main"
+  "build/main.out" 1731027255.74984 3436 2b06e3e3244b72ef70568ddbc3474e9a "pdflatex"
+  "main.tex" 1731027254.31265 70548 8d2fb217198567e20292ef6b29bcd45d ""
   (generated)
   "build/main.aux"
   "build/main.log"

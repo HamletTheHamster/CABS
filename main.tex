@@ -668,6 +668,84 @@ We can also see that off resonance, the $\Omega$ term from Eq. \ref{eq:resonance
 
 \newpage
 
+
+\section{Comparison of Scattered Power to SBS}
+
+This appendix provides a comparative analysis of the scattered power produced by our instrument to that of standard Stimulated Brillouin Scattering (SBS). Despite their shared dependence on Brillouin scattering principles, these techniques yield significantly different scattered powers when applied over short fiber segments. Here, we clarify why SBS, typically a strong scattering mechanism, produces minimal scattered power in short fiber lengths, whereas our instrument can yield much higher powers under similar conditions. Theoretical insights and numerical examples with specific parameters for germania-doped UHNA3 fiber are provided to illustrate this difference.
+
+SBS is a nonlinear optical process where an intense pump laser beam interacts with thermally excited acoustic phonons in the fiber, leading to the generation and amplification of a backward-propagating Stokes wave. This interaction satisfies energy and momentum conservation:
+
+\begin{equation}
+\omega_{P} = \omega_{S} + \Omega, \quad \mathbf{k}_{P} = \mathbf{k}_{S} + \mathbf{q},
+\end{equation}
+
+where $\omega_{P}$, $\omega_{S}$, and $\Omega$ are the angular frequencies of the pump and Stokes waves, $\Omega$ is the angular frequency of the acoustic phonon, and $\mathbf{k}_{P}$, $\mathbf{k}_{S}$, and $\mathbf{q}$ are the corresponding wavevectors. In SBS, the initial Stokes wave originates from spontaneous Brillouin scattering due to thermal fluctuations within the medium. This initial Stokes power, $P_{S}(0)$, is extremely low—typically on the order of picowatts (pW) or femtowatts (fW). The Stokes wave can be amplified through its interaction with the pump beam over the fiber length, governed by the coupled-wave equations. Under the assumption of negligible pump depletion (valid in the low-gain regime), the Stokes power at the end of the fiber ($z = L$) is
+
+\begin{equation}
+P_{S}(L) = P_{S}(0) e^{G_{B} P_{P} L},
+\end{equation}
+
+where is the effective Brillouin gain given by Equation \ref{Eq:Effective Brillouin Gain}, $P_{P}$ the pump power, and $L$ the fiber length. In the low-gain regime ($G_{B} P_{P} L \ll 1$), the exponential can be approximated with a series expansion by $e^{G_{B}P_{P}L} \approx 1 + G_{B}P_{P}L$, making the increase in Stokes power
+
+\begin{equation}
+\Delta P_S = P_S(L) - P_S(0) \approx P_S(0) G_{B}P_{P}L.
+\end{equation}
+
+A critical factor limiting SBS in the low-gain regime is phonon dissipation. Acoustic phonons have a finite lifetime ($\tau$) due to material absorption and scattering processes. This finite lifetime introduces a dissipation rate ($\Gamma = 1/\tau$) that counteracts the amplification process. The effective Brillouin gain $G_{B}$ is inversely proportional to the phonon linewidth ($\Delta \nu_{B}$), which is related to the phonon lifetime, given by
+
+\begin{equation}
+G_{B} \propto \frac{1}{\Delta \nu_{B}} \propto \tau.
+\end{equation}
+
+High phonon dissipation (short $\tau$) reduces $G_{B}$, thus limiting Stokes amplification, which scales by $G_{B}P_{P}L$. In short media, the limited interaction length further restricts significant amplification of the Stokes wave. For SBS to achieve significant amplification, $G_{B}P_{P}L$ must be large enough to induce exponential growth of the Stokes wave. In long fibers with sufficient pump power, the Stokes power can increase exponentially due to the positive feedback loop between the pump, Stokes, and acoustic phonons. However, in short fibers like our 1 cm UHNA3 fiber, $G_{B}P_{P}L$ remains small, placing the system in the low-gain regime. In this regime, the Stokes power increases only linearly with distance, and the amplification is insufficient to produce a detectable scattered signal. Additionally, phonon dissipation within the fiber limits the build-up of the phonon population over time. The finite lifetime of acoustic phonons causes them to decay before they can significantly contribute to Stokes wave amplification, further preventing the system from reaching the high-gain regime.
+
+Our coherently stimulated Brillouin spectrometer, in contrast, utilizes strong pump, Stokes, and probe waves that are supplied externally. Unlike SBS, where the Stokes wave originates from thermal noise, our instrument supplies all interacting waves externally, with significant input powers, and hence does not rely on spontaneous scattering to initiate the interaction. Instead, it benefits from coherent interactions among the input optical waves and the acoustic phonons, leading to efficient energy transfer. As seen in Equation \ref{Eq:Theoretical Framework:Scattered Power}, the scattered power depends on $(G_{B} L)^{2}$ and the product of the input powers, allowing for substantial scattered signals even in short fibers.
+
+To quantify the difference, we consider typical measurement parameters, given in Table \ref{tab:SBS Comparison Parameters}, applied to a 1 cm length of UHNA3 fiber. In the table,
+
+\begin{table}[h]
+  \centering
+  \renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{|l|c|}
+    \hline
+    $G_{B}$ & 0.6 $W^{-1} m^{-1}$ \\
+    \hline
+    $P_{P}$ & 0.5 $W$ \\
+    \hline
+    $P_{S}(0)$ (SBS only) & $1 \times 10^{-12} \ W$ \\
+    \hline
+    $L$ & 0.01 $m$ \\
+    \hline
+    $\Phi$ (CABS only) & 0.95 \\
+    \hline
+    $P_{S}$ (CABS only) & 0.5 $W$ \\
+    \hline
+    $P_{Pr}$ (CABS only) & 0.5 $W$ \\
+    \hline
+  \end{tabular}
+  \caption{Parameters for scattered power comparison between SBS and CABS process. $G_{B}$ is the effective Brillouin gain, $P_{P}$ is the pump power, $P_{S}(0)$ is the initial Stokes power for the SBS process, $L$ is the interaction length, $\Phi$ is the phase-matching relaxation scaling term given by Equation \ref{Eq:Phi}, and $P_{S}$ and $P_{Pr}$ are the optical powers of the Stokes and probe waves applied by our instrument.}
+  \label{tab:SBS Comparison Parameters}
+\end{table}
+
+The amplification scaling term ($G_{B}P_{P}L$) for SBS is only 0.003 in this case, which is much less than 1, placing the SBS process under these conditions in the low-gain regime with minimal amplification. The increase in Stokes power ($\Delta P_{S}$) is given by,
+
+\begin{equation}
+\Delta P_{S} = P_{S}(0)G_{B}P_{P}L = 3 \times 10^{-15}\, \text{W}.
+\end{equation}
+
+This result indicates that the scattered power from SBS is approximately $3 fW$, which is too low to be detected with standard photodetectors.
+
+For CABS, the scattered signal power ($P_{\text{Sig}}$) is calculated using Equation \ref{Eq:Theoretical Framework:Scattered Power} with the parameters listed in Table \ref{tab:SBS Comparison Parameters},
+
+\begin{equation}
+P_{Sig} = \frac{1}{4}\left(G_{B}L\right)^{2}P_{P}P_{S}P_{Pr}\text{sinc}^{2}\left(\frac{\Delta k L}{2}\right) = 1.07\times10^{-6} W.
+\end{equation}
+
+The scattered power in CABS is approximately $1.07 \mu\text{W}$, which is readily detectable with standard photodetectors. This comparison demonstrates that, under identical experimental conditions, CABS produces a significantly higher scattered power than SBS in a short fiber length. This is because SBS relies on amplifying a weak initial Stokes wave over a short interaction length, but the low gain parameter and phonon dissipation prevent significant amplification, resulting in an undetectable scattered power. CABS, however, utilizes strong input waves and coherent interactions, leading to a measurable scattered signal even in short fibers. The dependence on $(G_{B} L)^{2}$ and the strong input powers compensate for the short interaction length. Therefore, CABS offers a significant advantage over SBS for generating detectable scattered signals with low Brillouin gain or small interaction length.
+
+
+\newpage
+
 \section{Pump, Stokes, and Probe Contribute Equally}
 
 Equation \ref{Eq:Theoretical Framework:Scattered Power} gives the somewhat unintuitive result that the powers of the Pump, Stokes, and Probe waves contribute equally to the resulting scattered power of the Signal and invites verification with a miniexperiment. Initially, this experiment was motivated by a practical consideration: determination of whether the placement of a high power amplifier on any specific line of the setup (Pump, Stokes, or Probe) would offer any advantage over another.
@@ -725,18 +803,6 @@ Figure \ref{fig:PSPr-Contribute-Equally} displays the average results from these
   \label{fig:combined}
 \end{figure}
 
-
-\section{Comparison to SBS}
-\subsection{1 Centimeter UHNA3 Scattered Power}
-\subsection{100 Micrometers CS2 Scattered Power}
-
-\section{Alternative Configurations}
-\subsection{Mirrored Design}
-\subsection{Forward Scattering}
-\subsection{Radial Modes}
-\subsection{Shear Modes}
-\subsection{Torsional Modes}
-\subsection{Coherent Raman Spectroscopy}
 
 \twocolumngrid
 
