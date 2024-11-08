@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex build/main"] 1731026999.21541 "build/main.aux" "build/main.bbl" "build/main" 1731027974.53026 0
+["bibtex build/main"] 1731026999.21541 "build/main.aux" "build/main.bbl" "build/main" 1731028091.25091 0
   "./apssamp.bib" 1730425385.22936 5611 1b8584d136b3d668982e63b089573822 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "build/main.aux" 1731027973.86485 16409 5548b41801950eae3a2e5055ab6fc2b5 "pdflatex"
-  "build/mainNotes.bib" 1731027973.86758 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
+  "build/main.aux" 1731028090.56933 16409 5548b41801950eae3a2e5055ab6fc2b5 "pdflatex"
+  "build/mainNotes.bib" 1731028090.57211 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1731027972.5235 "main.tex" "build/main.pdf" "main" 1731027974.53082 0
+["pdflatex"] 1731028089.28785 "main.tex" "build/main.pdf" "main" 1731028091.25151 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm" 1136768653 3584 1a7de6c99457381c64abc1a7c545505f ""
@@ -192,10 +192,10 @@
   "PSPr-Contribute-Equally-2sigma.pdf" 1696975992.10186 219797 b1fae5ca7a08554c7ab349e5a5e3158e ""
   "PSPr-Contribute-Equally.pdf" 1696975904.48594 219816 97094bbbc5bc4e11a1f0abc4efd1c27c ""
   "Phase-Match.pdf" 1722973439.40129 202441 337bbf9ff8a8e18147b7968a1459e931 ""
-  "build/main.aux" 1731027973.86485 16409 5548b41801950eae3a2e5055ab6fc2b5 "pdflatex"
+  "build/main.aux" 1731028090.56933 16409 5548b41801950eae3a2e5055ab6fc2b5 "pdflatex"
   "build/main.bbl" 1731026999.37983 14965 96621806d9460c7b419d0a2c44488ffc "bibtex build/main"
-  "build/main.out" 1731027973.86715 3436 2b06e3e3244b72ef70568ddbc3474e9a "pdflatex"
-  "main.tex" 1731027972.34112 70566 7df4a5e3634f4372dc7af5f4f345b921 ""
+  "build/main.out" 1731028090.57149 3436 2b06e3e3244b72ef70568ddbc3474e9a "pdflatex"
+  "main.tex" 1731028089.10683 70530 56e14eaca3b367ab154825dcf0d21535 ""
   (generated)
   "build/main.aux"
   "build/main.log"
