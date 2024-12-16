@@ -109,7 +109,7 @@ We present a novel coherently stimulated Brillouin spectrometer utilizing a detu
 
 \maketitle
 
-%\tableofcontents 
+%\tableofcontents
 
 
 \section{Introduction}
@@ -671,7 +671,38 @@ We can also see that off resonance, the $\Omega$ term from Eq. \ref{eq:resonance
 
 \section{Comparison of Scattered Power to SBS}
 
-This appendix provides a comparative analysis of the scattered power produced by our instrument to that of standard Stimulated Brillouin Scattering (SBS). Despite their shared dependence on Brillouin scattering principles, these techniques yield significantly different scattered powers when applied over short fiber segments. Here, we clarify why SBS, typically a strong scattering mechanism, produces minimal scattered power in short fiber lengths, whereas our instrument can yield much higher powers under similar conditions. Theoretical insights and numerical examples with specific parameters for germania-doped UHNA3 fiber are provided to illustrate this difference.
+This appendix provides a comparative analysis of the scattered power produced by our instrument to that of a standard Brillouin scattering process. This difference arises due to coherent stimulation of the acoustic mode by the pump and Stokes fields, producing a 4-wave-coupled-amplitude interaction that yields much higher scattered powers in small lengths than traditional Brillouin techniques. While our instrument is particularly well suited to small interaction lengths for reasons of signal isolation, the quadradic dependence on length [makes it better than SBS even at larger lengths, up until the limit of when you can't use cabs anymore because the process would be too unmatched in phase at the P-Pr detuning required to still pick out your signal from the leaked pump.]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Despite their shared dependence on Brillouin scattering principles, these techniques yield significantly different scattered powers when applied over short fiber segments. Here, we clarify why SBS, typically a strong scattering mechanism, produces minimal scattered power in short fiber lengths, whereas our instrument can yield much higher powers under similar conditions. Theoretical insights and numerical examples with specific parameters for germania-doped UHNA3 fiber are provided to illustrate this difference.
 
 SBS is a nonlinear optical process where an intense pump laser beam interacts with thermally excited acoustic phonons in the fiber, leading to the generation and amplification of a backward-propagating Stokes wave. This interaction satisfies energy and momentum conservation:
 
@@ -701,7 +732,7 @@ High phonon dissipation (short $\tau$) reduces $G_{B}$, thus limiting Stokes amp
 
 Our coherently stimulated Brillouin spectrometer, in contrast, utilizes strong pump, Stokes, and probe waves that are supplied externally. Unlike SBS, where the Stokes wave originates from thermal noise, our instrument supplies all interacting waves externally, with significant input powers, and hence does not rely on spontaneous scattering to initiate the interaction. Instead, it benefits from coherent interactions among the input optical waves and the acoustic phonons, leading to efficient energy transfer. As seen in Equation \ref{Eq:Theoretical Framework:Scattered Power}, the scattered power depends on $(G_{B} L)^{2}$ and the product of the input powers, allowing for substantial scattered signals even in short fibers.
 
-To quantify the difference, we consider typical measurement parameters, given in Table \ref{tab:SBS Comparison Parameters}, applied to a 1 cm length of UHNA3 fiber. In the table,
+To quantify the difference, we consider typical measurement parameters, given in Table \ref{tab:SBS Comparison Parameters}, applied to a 1 cm length of UHNA3 fiber.
 
 \begin{table}[h]
   \centering
