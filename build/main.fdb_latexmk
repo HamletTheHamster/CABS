@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex build/main"] 1734418885.24365 "build/main.aux" "build/main.bbl" "build/main" 1734418886.55597 0
+["bibtex build/main"] 1734420905.49895 "build/main.aux" "build/main.bbl" "build/main" 1734420906.88151 0
   "./apssamp.bib" 1730425385.22936 5611 1b8584d136b3d668982e63b089573822 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "build/main.aux" 1734418886.1348 16862 641f565c396888c00f5655561a9d4e59 "pdflatex"
-  "build/mainNotes.bib" 1734418886.13599 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
+  "build/main.aux" 1734420906.43217 16863 9c6af432c2ec99911052889b526ff1ae "pdflatex"
+  "build/mainNotes.bib" 1734420906.43354 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1734418885.3808 "main.tex" "build/main.pdf" "main" 1734418886.55616 0
+["pdflatex"] 1734420905.64271 "main.tex" "build/main.pdf" "main" 1734420906.88171 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm" 1136768653 3584 1a7de6c99457381c64abc1a7c545505f ""
@@ -192,11 +192,11 @@
   "PSPr-Contribute-Equally-2sigma.pdf" 1696975992.10186 219797 b1fae5ca7a08554c7ab349e5a5e3158e ""
   "PSPr-Contribute-Equally.pdf" 1696975904.48594 219816 97094bbbc5bc4e11a1f0abc4efd1c27c ""
   "Phase-Match.pdf" 1722973439.40129 202441 337bbf9ff8a8e18147b7968a1459e931 ""
-  "SponBSvsStimBSvsCoBS.pdf" 1734418515.53147 91611 e836271fa0c048da8337478b0deb713e ""
-  "build/main.aux" 1734418886.1348 16862 641f565c396888c00f5655561a9d4e59 "pdflatex"
-  "build/main.bbl" 1734418885.3679 14965 96621806d9460c7b419d0a2c44488ffc "bibtex build/main"
-  "build/main.out" 1734418886.13586 3436 d47cd8bcd7b83c7881a1c979ce99a463 "pdflatex"
-  "main.tex" 1734418883.71606 71439 fb79967caf2e0d607fdfa7656783788f ""
+  "SponBSvsStimBSvsCoBS.pdf" 1734420819.08928 110257 4a7db425030f65c797ae173973d937b8 ""
+  "build/main.aux" 1734420906.43217 16863 9c6af432c2ec99911052889b526ff1ae "pdflatex"
+  "build/main.bbl" 1734420905.62936 14965 96621806d9460c7b419d0a2c44488ffc "bibtex build/main"
+  "build/main.out" 1734420906.4334 3436 d47cd8bcd7b83c7881a1c979ce99a463 "pdflatex"
+  "main.tex" 1734420903.98064 71440 d4d2b4cb2f9dc28e9432701204a954d3 ""
   (generated)
   "build/main.aux"
   "build/main.log"
