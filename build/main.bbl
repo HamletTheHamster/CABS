@@ -7,7 +7,7 @@
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{16}%
+\begin{thebibliography}{18}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -251,4 +251,26 @@
   {journal} {\bibinfo  {journal} {Journal of Lightwave Technology}\ }\textbf
   {\bibinfo {volume} {15}},\ \bibinfo {pages} {1842} (\bibinfo {year}
   {1997})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Boyd}\ \emph {et~al.}(1990)\citenamefont {Boyd},
+  \citenamefont {Rzaewski},\ and\ \citenamefont {Narum}}]{boyd1990noise}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont
+  {Boyd}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Rzaewski}},\
+  and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Narum}},\ }\bibfield
+   {title} {\bibinfo {title} {Noise initiation of stimulated brillouin
+  scattering},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical review A}\ }\textbf {\bibinfo {volume} {42}},\ \bibinfo {pages}
+  {5514} (\bibinfo {year} {1990})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kharel}\ \emph {et~al.}(2016)\citenamefont {Kharel},
+  \citenamefont {Behunin}, \citenamefont {Renninger},\ and\ \citenamefont
+  {Rakich}}]{kharel2016noise}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Kharel}}, \bibinfo {author} {\bibfnamefont {R.~O.}\ \bibnamefont {Behunin}},
+  \bibinfo {author} {\bibfnamefont {W.~H.}\ \bibnamefont {Renninger}},\ and\
+  \bibinfo {author} {\bibfnamefont {P.~T.}\ \bibnamefont {Rakich}},\ }\bibfield
+   {title} {\bibinfo {title} {Noise and dynamics in forward brillouin
+  interactions},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review A}\ }\textbf {\bibinfo {volume} {93}},\ \bibinfo {pages}
+  {063806} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
 \end{thebibliography}%

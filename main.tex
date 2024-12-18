@@ -671,38 +671,42 @@ We can also see that off resonance, the $\Omega$ term from Eq. \ref{eq:resonance
 
 \section{Comparison of Scattered Power to SBS}
 
-This appendix provides a comparative analysis of the scattered power produced by our instrument to that of a standard Brillouin scattering process. This difference arises due to coherent stimulation of the acoustic mode by the pump and Stokes fields, producing a 4-wave-coupled-amplitude interaction that yields much higher scattered powers in small lengths than traditional Brillouin techniques. While our instrument is particularly well suited to small interaction lengths for reasons of signal isolation, the quadradic dependence on length [makes it better than SBS even at larger lengths, up until the limit of when you can't use cabs anymore because the process would be too unmatched in phase at the P-Pr detuning required to still pick out your signal from the leaked pump.]
+This appendix provides a comparative analysis of the scattered power produced by our instrument to that of standard Brillouin scattering processes. The different behavior arises due to coherent stimulation of the acoustic mode by the pump and Stokes fields, producing a 4-wave-coupled-amplitude interaction that yields much higher scattered powers in smaller lengths than traditional Brillouin techniques. While our instrument is particularly well suited to small interaction lengths due to enhanced phase-matching relaxation, the quadradic dependence on length serves to counter-balance diminished phase-matching effects, maintaining large scattered power at larger lengths as well (greater than 1 meter). At very large lengths (greater than 1 km), the instrument is ultimately limited by the coherence length of the lasers themselves, as the process relies on the coherent stimulation of the phonon mode and thus the mutual coherence of the pump and Stokes optical fields over the full interaction length. Here we offer an exploration of the respetive performance of each technique across the entire meaningful length scale, from nanometers to kilometers.
 
+Despite shared dependence on basic Brillouin scattering principles, the three techniques compared here (spontaneous-, stimulated-, and coherently stimulated Brillouin scattering) yield significantly different scattered power for identical experimental paramters. At small lengths, the high-gain threshold for optical stimulation of the material fluctuations is often not achievable without the use of extremely large optical powers. This prevents the system from entering a process of exponential growth of the scattered Stokes light indicative of stimulated Brillouin scattering.\cite{boyd2020nonlinear} In this low-gain regime, any scattered Stokes light is spontanously scattered from thermal fluctuations of the material, or from quantum-mechanical fluctuations of materials at the ground state. This spontaneous scattering process follows a linear growth trend described by Boyd et al in 1990\cite{boyd1990noise} as
 
+\begin{equation}
+  R = \frac{\langle|E_{S}|^{2}\rangle}{\langle|E_{P}|^{2}\rangle} = (\bar{n} + 1)g\hbar\omega_{S}\Gamma_{B}\frac{L}{4A_{eff}}
+\end{equation}
 
+where R is the reflectivity, or the ratio of scattered Stokes intensity to incident pump intensity, and $\bar{n} = (e^{\frac{\hbar\Omega_{B}}{k_{b}T}} - 1)^{-1}$ is the mean number of phonons occupying the mode due to thermal fluctuations of the material. Rearranging this equation and dividing through by effective area, we arrive at the scattered power of the Stokes spontaneous Brillouin scattering process,
 
+\begin{equation}
+  P_S = \frac{1}{4}G_{B}P_{P}L\hbar\omega_{S}\Gamma_{B}(\bar{n} + 1).
+  \label{eq:SponBSnbar}
+\end{equation}
 
+At room temperature and typical Brillouin frequencies in the GHz range, the quantity $k_{b}T \gg \hbar\Omega_{B}$, allowing
 
+\begin{equation}
+e^{\frac{\hbar\Omega_{B}}{k_{b}T}} \approx 1 + \frac{\hbar\Omega_{B}}{k_{b}T}
+\end{equation}
 
+to be a good approximation, and thus
 
+\begin{equation}
+(\bar{n} + 1) \approx \bar{n} \approx \frac{k_{b}T}{\hbar\Omega_{B}}.
+\end{equation}
 
+Inserting this reduced quantity into equation \ref{eq:SponBSnbar} we arrive at a convenient expression for the scattered power of the Stokes spontaneous Brillouin scattering process,
 
+\begin{equation}
+  P_{S} = \frac{G_{B}P_{P}L\omega_{S}\Gamma_{B}k_{b}T}{4\Omega_{B}}.
+\end{equation}
 
+It may be noted that this is equivalent to the expression for the forward Stokes spontaneous Brillouin scattering process derived by Kharel et al in 2016.\cite{kharel2016noise} While each describe seemingly distinct processes, the shared underlying physics of light coupling to acoustic waves leads to identical scaling laws for scattered power in the low-gain (spontaneous) regime.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Despite their shared dependence on Brillouin scattering principles, these techniques yield significantly different scattered powers when applied over short fiber segments. Here, we clarify why SBS, typically a strong scattering mechanism, produces minimal scattered power in short fiber lengths, whereas our instrument can yield much higher powers under similar conditions. Theoretical insights and numerical examples with specific parameters for germania-doped UHNA3 fiber are provided to illustrate this difference.
+Here, we clarify why SBS, typically a strong scattering mechanism, produces minimal scattered power in short fiber lengths, whereas our instrument can yield much higher powers under similar conditions. Theoretical insights and numerical examples with specific parameters for germania-doped UHNA3 fiber are provided to illustrate this difference.
 
 SBS is a nonlinear optical process where an intense pump laser beam interacts with thermally excited acoustic phonons in the fiber, leading to the generation and amplification of a backward-propagating Stokes wave. This interaction satisfies energy and momentum conservation:
 
@@ -744,25 +748,29 @@ To quantify the difference, we consider typical measurement parameters, given in
 \begin{table}[h]
   \centering
   \renewcommand{\arraystretch}{1.2}
-  \begin{tabular}{|l|c|}
+  \begin{tabular}{|c|c|c|c|c|}
     \hline
-    $G_{B}$ & 0.6 $W^{-1} m^{-1}$ \\
+    $G_{B}$ & $P_{P}$ & $P_{S}$ & $P_{Pr}$ & $\Delta\lambda$ \\
     \hline
-    $P_{P}$ & 1 $W$ \\
-    \hline
-    $P_{S}(0)$ (SBS only) & $1 \times 10^{-12} \ W$ \\
-    \hline
-    $L$ & 0.01 $m$ \\
-    \hline
-    $\Phi$ & 0.95 \\
-    \hline
-    $P_{S}$ & 1 $W$ \\
-    \hline
-    $P_{Pr}$ & 1 $W$ \\
+    0.6 $W^{-1} m^{-1}$ & 1 $W$ & 1 $W$ & 1 $W$ & 20 pm \\
     \hline
   \end{tabular}
-  \caption{Parameters for scattered power comparison between SBS and our instrument. $G_{B}$ is the effective Brillouin gain, $P_{P}$ is the pump power, $P_{S}(0)$ is the initial Stokes power for the SBS process, $L$ is the interaction length, $\Phi$ is the phase-matching relaxation scaling term given by Equation \ref{Eq:Phi}, and $P_{S}$ and $P_{Pr}$ are the optical powers of the Stokes and probe waves applied by our instrument.}
-  \label{tab:SBS Comparison Parameters}
+  \caption{Parameters relevant to the coherently stimulated backward Brillouin scattering process for the example UHNA3 fiber. $G_{B}$ is the effective Brillouin gain, $P_{P}$ is the pump power, $P_{S}$ is the Stokes power, $P_{Pr}$ is the probe power, and $\Delta\lambda$ is the wavelength detuning of the probe from the pump.}
+  \label{tab:CoBS Parameters}
+\end{table}
+
+\begin{table}[h]
+  \centering
+  \renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+    \hline
+    $G_{B}$ & $P_{P}$ & $P_{S,seed}$ & $n$ & $\lambda_P$ & $\Gamma_{B}$ & $k_{B}$ & $T$ & $\Omega_{B}$ \\
+    \hline
+    0.6 $W^{-1} m^{-1}$ & 1 $W$ & $1$ pW & 1.48 & $1549$ nm & $2\pi \cdot 80$ MHz & $1.38 \times 10^{-23}$ J/K & 295 K & $2\pi \cdot 9.18$ GHz \\
+    \hline
+  \end{tabular}
+  \caption{Parameters relevant to the spontaneous and/or stimulated backward Brillouin scattering processes for the example UHNA3 fiber. $G_{B}$ is the Brillouin gain coefficient, $P_{P}$ is the pump power, $\omega$ is the optical angular frequency, $\Gamma_{B}$ is the acoustic damping rate, $k_{B}$ is Boltzmann's constant, $T$ is the temperature, and $\Omega_{B}$ is the acoustic angular frequency.}
+  \label{tab:SponBS Parameters}
 \end{table}
 
 The amplification scaling term ($G_{B}P_{P}L$) for SBS is only 0.003 in this case, which is much less than 1, placing the SBS process under these conditions in the low-gain regime with minimal amplification. The increase in Stokes power ($\Delta P_{S}$) is given by,
