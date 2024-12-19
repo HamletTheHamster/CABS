@@ -669,17 +669,17 @@ We can also see that off resonance, the $\Omega$ term from Eq. \ref{eq:resonance
 \newpage
 
 
-\section{Comparison of Scattered Power to SBS}
+\section{Scattered Power Comparison to Traditional Brillouin Scattering Processes}
 
 This appendix provides a comparative analysis of the scattered power produced by our instrument to that of standard Brillouin scattering processes. The different behavior arises due to coherent stimulation of the acoustic mode by the pump and Stokes fields, producing a 4-wave-coupled-amplitude interaction that yields much higher scattered powers in smaller lengths than traditional Brillouin techniques. While our instrument is particularly well suited to small interaction lengths due to enhanced phase-matching relaxation, the quadradic dependence on length serves to counter-balance diminished phase-matching effects, maintaining large scattered power at larger lengths as well (greater than 1 meter). At very large lengths (greater than 1 km), the instrument is ultimately limited by the coherence length of the lasers themselves, as the process relies on the coherent stimulation of the phonon mode and thus the mutual coherence of the pump and Stokes optical fields over the full interaction length. Here we offer an exploration of the respetive performance of each technique across the entire meaningful length scale, from nanometers to kilometers.
 
-Despite shared dependence on basic Brillouin scattering principles, the three techniques compared here (spontaneous-, stimulated-, and coherently stimulated Brillouin scattering) yield significantly different scattered power for identical experimental paramters. At small lengths, the high-gain threshold for optical stimulation of the material fluctuations is often not achievable without the use of extremely large optical powers. This prevents the system from entering a process of exponential growth of the scattered Stokes light indicative of stimulated Brillouin scattering.\cite{boyd2020nonlinear} In this low-gain regime, any scattered Stokes light is spontanously scattered from thermal fluctuations of the material, or from quantum-mechanical fluctuations of materials at the ground state. This spontaneous scattering process follows a linear growth trend described by Boyd et al in 1990\cite{boyd1990noise} as
+Despite shared dependence on basic Brillouin scattering principles, the three techniques compared here (spontaneous-, stimulated-, and coherently stimulated Brillouin scattering) yield significantly different scattered power for identical experimental paramters. At small lengths, the high-gain threshold for optical stimulation of the material fluctuations is often not achievable without the use of extremely large optical powers. This prevents the system from entering a process of exponential growth of the scattered Stokes light indicative of stimulated Brillouin scattering.\cite{boyd2020nonlinear} In this low-gain regime, any scattered Stokes light is spontanously scattered from thermal fluctuations of the material, or from quantum-mechanical fluctuations of materials at the ground state. The low-gain regime is defined by an overall process gain factor, denoted by $G = G_{P}P_{P}L$, which is much less than unity ($G \ll 1$). Here, $G_{B}$ is the effective Brillouin gain in $W^{-1}m^{-1}$ ($G_{B} = \frac{g}{A_{eff}}$), $P_{P}$ is the pump power, and $L$ is the effective length. This spontaneous scattering process follows a linear growth trend described by Boyd et al in 1990\cite{boyd1990noise} as
 
 \begin{equation}
-  R = \frac{\langle|E_{S}|^{2}\rangle}{\langle|E_{P}|^{2}\rangle} = (\bar{n} + 1)g\hbar\omega_{S}\Gamma_{B}\frac{L}{4A_{eff}}
+  R = \frac{\langle|E_{S}|^{2}\rangle}{\langle|E_{P}|^{2}\rangle} = (\bar{n} + 1)g\hbar\omega_{S}\Gamma_{B}\frac{L}{4A_{eff}},
 \end{equation}
 
-where R is the reflectivity, or the ratio of scattered Stokes intensity to incident pump intensity, and $\bar{n} = (e^{\frac{\hbar\Omega_{B}}{k_{b}T}} - 1)^{-1}$ is the mean number of phonons occupying the mode due to thermal fluctuations of the material. Rearranging this equation and dividing through by effective area, we arrive at the scattered power of the Stokes spontaneous Brillouin scattering process,
+where R is the reflectivity, or the ratio of scattered Stokes intensity to incident pump intensity, and $\bar{n} = (e^{\frac{\hbar\Omega_{B}}{k_{b}T}} - 1)^{-1}$ is the mean number of phonons occupying the mode due to thermal fluctuations of the material. Rearranging this equation and converting to effective Brillouin gain, $G_{B}$, and power by applying the effective area, we arrive at the scattered power of the Stokes spontaneous Brillouin scattering process,
 
 \begin{equation}
   P_S = \frac{1}{4}G_{B}P_{P}L\hbar\omega_{S}\Gamma_{B}(\bar{n} + 1).
@@ -692,19 +692,35 @@ At room temperature and typical Brillouin frequencies in the GHz range, the quan
 e^{\frac{\hbar\Omega_{B}}{k_{b}T}} \approx 1 + \frac{\hbar\Omega_{B}}{k_{b}T}
 \end{equation}
 
-to be a good approximation, and thus
+to be a good approximation. We thus find that
 
 \begin{equation}
 (\bar{n} + 1) \approx \bar{n} \approx \frac{k_{b}T}{\hbar\Omega_{B}}.
 \end{equation}
 
-Inserting this reduced quantity into equation \ref{eq:SponBSnbar} we arrive at a convenient expression for the scattered power of the Stokes spontaneous Brillouin scattering process,
+Inserting this reduced quantity into Eq. \ref{eq:SponBSnbar}, we arrive at a convenient expression for the scattered power of the Stokes spontaneous Brillouin scattering process,
 
 \begin{equation}
-  P_{S} = \frac{G_{B}P_{P}L\omega_{S}\Gamma_{B}k_{b}T}{4\Omega_{B}}.
+  P_{S, \,\textit{SponBS}} = \frac{G_{B}P_{P}L\omega_{S}\Gamma_{B}k_{b}T}{4\Omega_{B}}.
 \end{equation}
 
-It may be noted that this is equivalent to the expression for the forward Stokes spontaneous Brillouin scattering process derived by Kharel et al in 2016.\cite{kharel2016noise} While each describe seemingly distinct processes, the shared underlying physics of light coupling to acoustic waves leads to identical scaling laws for scattered power in the low-gain (spontaneous) regime.
+It may be noted that this is equivalent to the expression for the \textit{forward} Stokes spontaneous Brillouin scattering process derived by Kharel et al in 2016.\cite{kharel2016noise} While each describe seemingly distinct processes, the underlying physics of light coupling to acoustic waves is shared and leads to identical scaling laws for scattered power in the low-gain (spontaneous) regime.
+
+Next we turn to the high-gain regime leading to a stimulated Brillouin scattering process. This regime is defined by an overall process gain factor, $G = G_{P}P_{P}L$, that is much greater than unity ($G \gg 1$). For organic liquids, this crossover threshold from spontaneous to stimulated regimes occurs in the range of $20 < G < 25,$\cite{boyd1990noise} whereas for typical lengths of single mode fiber it can be lower\cite{ippen1972stimulated} owing to the small effective area compared to longer effective lengths of fiber typically used.
+
+The reflectivity of a stimulated Brillouin scattering process in the high-gain regime is given by \cite{boyd1990noise}
+
+\begin{equation}
+  R = \frac{\langle|E_{S}|^{2}\rangle}{\langle|E_{P}|^{2}\rangle} = \frac{Y}{\sqrt{\pi}}\frac{e^{G}}{G^{\frac{3}{2}}},
+\end{equation}
+
+where $Y$ is the reflectivity of the low-gain (spontaneous) regime given above and $G$ is the overall process gain factor, $G = G_{P}P_{P}L$. Again, converting to the effective Brillouin gain, $G_{B}$, and power by applying the effective area, we solve for the scattered power of the Stokes field,
+
+\begin{equation}
+  P_{S, \,\textit{StimBS}} = \frac{G_{B}P_{P}L\omega_{S}\Gamma_{B}k_{b}T}{4\sqrt{\pi}\Omega_{B}}\frac{e^{G}}{G^{\frac{3}{2}}}
+\end{equation}
+
+
 
 Here, we clarify why SBS, typically a strong scattering mechanism, produces minimal scattered power in short fiber lengths, whereas our instrument can yield much higher powers under similar conditions. Theoretical insights and numerical examples with specific parameters for germania-doped UHNA3 fiber are provided to illustrate this difference.
 
