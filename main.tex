@@ -718,22 +718,22 @@ where $Y$ is the reflectivity of the low-gain (spontaneous) regime given above a
 
 \begin{equation}
   P_{S, \,\textit{StimBS}} = \frac{G_{B}P_{P}L\omega_{S}\Gamma_{B}k_{b}T}{4\sqrt{\pi}\Omega_{B}}\frac{e^{G}}{G^{\frac{3}{2}}}
-  \label{StimBSUndepletedPump}
+  \label{eq:StimBSUndepletedPump}
 \end{equation}
 
-This expression captures the exponential growth in scattered power as any parameter within the overall process gain factor, $G = G_{B}P_{P}L$, increases. However, this exponential growth can only continue while the pump is not significantly undepleted. Once the scattered power described by Eq. \ref{eq:StimBSUndepletedPump} grows to become a significant portion of the driving pump power, the exponential increase in scattered Stokes power turns to an asymptotic approach of the pump power. For very large $G$, virtually all of the pump energy is converted to scattered Stokes energy in a complete transfer process.\cite{boyd2020nonlinear} To account for pump depletion, we numerically solve the transendental equation derived in Boyd's Nonlinear Optics which describes the effects of pump depletion, given here in terms of power,
+This expression captures the exponential growth in scattered power as any parameter within the overall process gain factor, $G = G_{B}P_{P}L$, increases. However, this exponential growth can only continue while the pump is not significantly undepleted. Once the scattered power described by Eq. \ref{eq:StimBSUndepletedPump} grows to a significant fraction of the driving pump power, the exponential increase in scattered Stokes power asymptotically approaches the pump power. For very large $G$, virtually all of the pump energy is converted to scattered Stokes energy in a complete transfer process.\cite{boyd2020nonlinear} To account for pump depletion, we numerically solve the transendental equation derived in Boyd's Nonlinear Optics which describes the effects of pump depletion, given here in terms of power as
 
 \begin{equation}
   P_S(L) = \frac{P_S(0)x(1 - x)}{e^{G_{B}P_{P}(0)L(1 - x)} - x},
 \end{equation}
 
-where $x = P_S(0)/P_P(0)$, or the ratio of the unknown Stokes power at the end of its journey ($z=0$) to the known pump power at the beginning (also $z=0$). This solution for $x$, for given system parameters such as length, offers via its definition the solution to the unknown power of the scattered Stokes light at the end of its traversal through the effective length (corresponding to $z=0$ since it propagates opposite to the pump),
+where $x = P_S(0)/P_P(0)$, or the ratio of the unknown Stokes power at the end of its journey through the medium ($z=0$) to the known pump power at the beginning (also $z=0$). This solution for $x$, for given system parameters such as length, offers via its definition the solution to the unknown power of the scattered Stokes light at the end of its traversal through the effective length (once again corresponding to $z=0$ since it propagates opposite to the pump), given as
 
 \begin{equation}
   P_S(0) = xP_{P}(0).
 \end{equation}
 
-This numeric solution to the scattered power in the high-gain (stimulated) Brillouin scattering regime with pump depletion effects at large $G$ is plotted for varying effective lengths in Fig. \ref{fig:SponBSvsStimBSvsCoBS}, along with the analytical solutions derived previously for the low-gain (spontaneous) regime and our coherently stimulated Brillouin spectrometer given by Eq. \ref{Eq:Theoretical Framework:Scattered Power}. Relevant parameters used across all three processes are given in Tables \ref{tab:CoBS Parameters} and \ref{tab:SBS Parameters}.
+The solution to this numeric approach to scattered power in the high-gain (stimulated) Brillouin scattering regime with pump depletion effects at large $G$ is plotted for varying effective lengths in Fig. \ref{fig:SponBSvsStimBSvsCoBS}, along with the analytical solutions derived previously for the low-gain (spontaneous) regime and our coherently stimulated Brillouin spectrometer given by Eq. \ref{Eq:Theoretical Framework:Scattered Power}. System parameters used for each of the three processes are given in Tables \ref{tab:CoBS Parameters} and \ref{tab:SBS Parameters}, where it can be seen that uniformity of parameters was preserved as much as possible.
 
 
 % Here, we clarify why SBS, typically a strong scattering mechanism, produces minimal scattered power in short fiber lengths, whereas our instrument can yield much higher powers under similar conditions. Theoretical insights and numerical examples with specific parameters for germania-doped UHNA3 fiber are provided to illustrate this difference.
@@ -768,12 +768,10 @@ This numeric solution to the scattered power in the high-gain (stimulated) Brill
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=.95\textwidth]{SponBSvsStimBSvsCoBS.pdf}
+\includegraphics[width=\textwidth]{SponBSvsStimBSvsCoBS.pdf}
 \caption{Comparison of scattered power from a spontaneous Brillouin scattering process and our coherently stimulated Brillouin spectrometer.}
 \label{fig:SponBSvsStimBSvsCoBS}
 \end{figure}
-
-To quantify the difference, we consider typical measurement parameters, given in Table \ref{tab:SBS Comparison Parameters}, applied to a 1 cm length of UHNA3 fiber.
 
 \begin{table}[h]
   \centering
@@ -805,6 +803,8 @@ To quantify the difference, we consider typical measurement parameters, given in
   \label{tab:SBS Parameters}
 \end{table}
 
+
+% To quantify the difference, we consider typical measurement parameters, given in Table \ref{tab:SBS Comparison Parameters}, applied to a 1 cm length of UHNA3 fiber.
 
 % The amplification scaling term ($G_{B}P_{P}L$) for SBS is only 0.003 in this case, which is much less than 1, placing the SBS process under these conditions in the low-gain regime with minimal amplification. The increase in Stokes power ($\Delta P_{S}$) is given by,
 %
