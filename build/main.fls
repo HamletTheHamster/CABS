@@ -316,12 +316,12 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecti1000.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecti0700.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecti0500.tfm
-INPUT ./SponBSvsStimBSvsCoBS.pdf
-INPUT ./SponBSvsStimBSvsCoBS.pdf
-INPUT ./SponBSvsStimBSvsCoBS.pdf
-INPUT ./SponBSvsStimBSvsCoBS.pdf
-INPUT ./SponBSvsStimBSvsCoBS.pdf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm
+INPUT ./SponBSvsStimBSvsCoBS.pdf
+INPUT ./SponBSvsStimBSvsCoBS.pdf
+INPUT ./SponBSvsStimBSvsCoBS.pdf
+INPUT ./SponBSvsStimBSvsCoBS.pdf
+INPUT ./SponBSvsStimBSvsCoBS.pdf
 INPUT ./PSPr-Contribute-Equally.pdf
 INPUT ./PSPr-Contribute-Equally.pdf
 INPUT ./PSPr-Contribute-Equally.pdf
@@ -338,7 +338,6 @@ INPUT build/main.bbl
 INPUT build/main.aux
 INPUT build/main.out
 INPUT build/main.out
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
