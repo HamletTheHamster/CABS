@@ -706,6 +706,8 @@ Inserting this reduced quantity into Eq. \ref{eq:SponBSnbar}, we arrive at a con
 
 It may be noted that this is equivalent to the expression for the \textit{forward} Stokes spontaneous Brillouin scattering process derived by Kharel et al in 2016.\cite{kharel2016noise} While each describe seemingly distinct processes, the underlying physics of light coupling to acoustic waves is shared and leads to identical scaling laws for scattered power in the low-gain (spontaneous) regime.
 
+% It may be noted that the derived expression for the low-gain spontaneous regime here matches the form reported by Kharel et al. in 2016 \cite{kharel2016noise} for forward scattering processes. While the two scenarios—our backward scattering geometry versus the forward scattering geometry discussed by Kharel et al.—differ in details of directionality and experimental implementation, the underlying physics of light coupling to thermally excited acoustic modes is the same. As a result, it is not merely a coincidence that both derivations yield analogous scaling laws for spontaneous scattering power. Rather, it reflects the fundamental similarity in how thermal phonons mediate the interaction between optical fields in the low-gain (spontaneous) regime.
+
 Next we turn to the high-gain regime leading to a stimulated Brillouin scattering process. This regime is defined by an overall process gain factor, $G = G_{P}P_{P}L$, that is much greater than unity ($G \gg 1$). For organic liquids, this crossover threshold from spontaneous to stimulated regimes occurs in the range of $20 < G < 25,$\cite{boyd1990noise} whereas for typical lengths of single mode fiber it can be lower\cite{ippen1972stimulated} owing to the small effective area compared to longer effective lengths of fiber typically used.
 
 The reflectivity of a stimulated Brillouin scattering process in the high-gain regime is given by \cite{boyd1990noise}
@@ -727,13 +729,13 @@ This expression captures the exponential growth in scattered power as any parame
   P_S(L) = \frac{P_S(0)x(1 - x)}{e^{G_{B}P_{P}(0)L(1 - x)} - x},
 \end{equation}
 
-where $x = P_S(0)/P_P(0)$, or the ratio of the unknown Stokes power at the end of its journey through the medium ($z=0$) to the known pump power at the beginning (also $z=0$). This solution for $x$, for given system parameters such as length, offers via its definition the solution to the unknown power of the scattered Stokes light at the end of its traversal through the effective length (once again corresponding to $z=0$ since it propagates opposite to the pump), given as
+where $x = P_S(0)/P_P(0)$, or the ratio of the unknown Stokes power at the end of its journey through the medium ($z=0$) to the known pump power at the beginning (also $z=0$). This solution for $x$, specific to system parameters such as length, offers via its definition the solution to the unknown power of the scattered Stokes light at the end of its traversal through the effective length, given as
 
 \begin{equation}
   P_S(0) = xP_{P}(0).
 \end{equation}
 
-The solution to this numeric approach to scattered power in the high-gain (stimulated) Brillouin scattering regime with pump depletion effects at large $G$ is plotted for varying effective lengths in Fig. \ref{fig:SponBSvsStimBSvsCoBS}, along with the analytical solutions derived previously for the low-gain (spontaneous) regime and our coherently stimulated Brillouin spectrometer given by Eq. \ref{Eq:Theoretical Framework:Scattered Power}. System parameters used for each of the three processes are given in Tables \ref{tab:CoBS Parameters} and \ref{tab:SBS Parameters}, where it can be seen that uniformity of parameters was preserved as much as possible.
+The solution to this numeric approach to scattered power in the high-gain (stimulated) Brillouin scattering regime with pump depletion effects at large $G$ is plotted for varying effective lengths in Fig. \ref{fig:SponBSvsStimBSvsCoBS}, along with the analytical solutions derived previously for the low-gain (spontaneous) regime and our coherently stimulated Brillouin spectrometer given by Eq. \ref{Eq:Theoretical Framework:Scattered Power}. System parameters used for each of the three processes are provided in Tables \ref{tab:CoBS Parameters} and \ref{tab:SBS Parameters}. As much as was possible among shared quantities, uniformity of parameters was preserved across processes.
 
 
 % Here, we clarify why SBS, typically a strong scattering mechanism, produces minimal scattered power in short fiber lengths, whereas our instrument can yield much higher powers under similar conditions. Theoretical insights and numerical examples with specific parameters for germania-doped UHNA3 fiber are provided to illustrate this difference.
