@@ -193,16 +193,8 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 INPUT build/main.aux
 INPUT build/main.aux
 INPUT build/main.aux
