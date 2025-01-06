@@ -7,7 +7,7 @@
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{21}%
+\begin{thebibliography}{22}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -278,6 +278,25 @@
   applications},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Advances in optics and photonics}\ }\textbf {\bibinfo {volume} {13}},\
   \bibinfo {pages} {703} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kroner}\ \emph {et~al.}(2008)\citenamefont {Kroner},
+  \citenamefont {Govorov}, \citenamefont {Remi}, \citenamefont {Biedermann},
+  \citenamefont {Seidl}, \citenamefont {Badolato}, \citenamefont {Petroff},
+  \citenamefont {Zhang}, \citenamefont {Barbour}, \citenamefont {Gerardot}
+  \emph {et~al.}}]{kroner2008nonlinear}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Kroner}}, \bibinfo {author} {\bibfnamefont {A.~O.}\ \bibnamefont {Govorov}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Remi}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Biedermann}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Seidl}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Badolato}}, \bibinfo {author} {\bibfnamefont {P.~M.}\
+  \bibnamefont {Petroff}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Barbour}},
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Gerardot}}, \emph
+  {et~al.},\ }\bibfield  {title} {\bibinfo {title} {The nonlinear fano
+  effect},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nature}\
+  }\textbf {\bibinfo {volume} {451}},\ \bibinfo {pages} {311} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Boyd}\ \emph {et~al.}(1990)\citenamefont {Boyd},
   \citenamefont {Rzaewski},\ and\ \citenamefont {Narum}}]{boyd1990noise}%
   \BibitemOpen
