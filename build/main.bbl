@@ -7,7 +7,7 @@
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{18}%
+\begin{thebibliography}{21}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -251,6 +251,33 @@
   {journal} {\bibinfo  {journal} {Journal of Lightwave Technology}\ }\textbf
   {\bibinfo {volume} {15}},\ \bibinfo {pages} {1842} (\bibinfo {year}
   {1997})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fano}(1961)}]{fano1961effects}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
+  {Fano}},\ }\bibfield  {title} {\bibinfo {title} {Effects of configuration
+  interaction on intensities and phase shifts},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical review}\ }\textbf {\bibinfo {volume}
+  {124}},\ \bibinfo {pages} {1866} (\bibinfo {year} {1961})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Limonov}\ \emph {et~al.}(2017)\citenamefont
+  {Limonov}, \citenamefont {Rybin}, \citenamefont {Poddubny},\ and\
+  \citenamefont {Kivshar}}]{limonov2017fano}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~F.}\ \bibnamefont
+  {Limonov}}, \bibinfo {author} {\bibfnamefont {M.~V.}\ \bibnamefont {Rybin}},
+  \bibinfo {author} {\bibfnamefont {A.~N.}\ \bibnamefont {Poddubny}},\ and\
+  \bibinfo {author} {\bibfnamefont {Y.~S.}\ \bibnamefont {Kivshar}},\
+  }\bibfield  {title} {\bibinfo {title} {Fano resonances in photonics},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nature photonics}\
+  }\textbf {\bibinfo {volume} {11}},\ \bibinfo {pages} {543} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Limonov}(2021)}]{limonov2021fano}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~F.}\ \bibnamefont
+  {Limonov}},\ }\bibfield  {title} {\bibinfo {title} {Fano resonance for
+  applications},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Advances in optics and photonics}\ }\textbf {\bibinfo {volume} {13}},\
+  \bibinfo {pages} {703} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Boyd}\ \emph {et~al.}(1990)\citenamefont {Boyd},
   \citenamefont {Rzaewski},\ and\ \citenamefont {Narum}}]{boyd1990noise}%
   \BibitemOpen
