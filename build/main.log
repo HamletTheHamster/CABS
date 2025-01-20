@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.13)  14 JAN 2025 09:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.13)  19 JAN 2025 19:36
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -585,53 +585,146 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count305
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count306
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2024-02-15 v3.3.12 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count307
+\l__siunitx_number_exponent_fixed_int=\count308
+\l__siunitx_number_min_decimal_int=\count309
+\l__siunitx_number_min_integer_int=\count310
+\l__siunitx_number_round_precision_int=\count311
+\l__siunitx_number_lower_threshold_int=\count312
+\l__siunitx_number_upper_threshold_int=\count313
+\l__siunitx_number_group_first_int=\count314
+\l__siunitx_number_group_size_int=\count315
+\l__siunitx_number_group_minimum_int=\count316
+\l__siunitx_angle_tmp_dim=\dimen177
+\l__siunitx_angle_marker_box=\box72
+\l__siunitx_angle_unit_box=\box73
+\l__siunitx_compound_count_int=\count317
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_table_tmp_box=\box74
+\l__siunitx_table_tmp_dim=\dimen178
+\l__siunitx_table_column_width_dim=\dimen179
+\l__siunitx_table_integer_box=\box75
+\l__siunitx_table_decimal_box=\box76
+\l__siunitx_table_uncert_box=\box77
+\l__siunitx_table_before_box=\box78
+\l__siunitx_table_after_box=\box79
+\l__siunitx_table_before_dim=\dimen180
+\l__siunitx_table_carry_dim=\dimen181
+\l__siunitx_unit_tmp_int=\count318
+\l__siunitx_unit_position_int=\count319
+\l__siunitx_unit_total_int=\count320
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-02-20 L3 programming layer (loader) 
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count321
+\l__pdf_internal_box=\box80
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-02-18 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count322
+\calc@Bcount=\count323
+\calc@Adimen=\dimen182
+\calc@Bdimen=\dimen183
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count324
+\calc@Cskip=\skip61
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-02-18 L3 Experimental document command parser
+)
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
+ in chemistry (CN)
+\l__chemgreek_tmpa_int=\count325
+\g__chemgreek_tmpa_int=\count326
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count327
+\__mhchem_arrow_extPgfLength_skip=\skip62
+\mhchem@minispace@tmp=\skip63
+\mhchem@minibackspace@tmp=\skip64
+\mhchem@bondwidth=\skip65
+\mhchem@bondheight=\skip66
+\mhchem@smallbondwidth@tmpA=\skip67
+\mhchem@smallbondwidth@tmpB=\skip68
+\mhchem@smallbondwidth=\skip69
+\mhchem@bondtmp@minussidebearingleft=\skip70
+\mhchem@bondtmp@minussidebearingright=\skip71
+\l__mhchem_option_version_int=\count328
+\mhchem@option@minusmathsidebearingleft=\dimen184
+\mhchem@option@minusmathsidebearingright=\dimen185
+\mhchem@option@minustextsidebearingleft=\dimen186
+\mhchem@option@minustextsidebearingright=\dimen187
+
+
+Package mhchem Warning: You did not specify a 'version' option for the mhchem
+(mhchem)                package. Please write \usepackage[version=4]{mhchem}
+(mhchem)                in your preamble (or any lower number for
+(mhchem)                compatibility mode), because you might get slightly
+(mhchem)                different output with the same input in future versions
+.
+
 )
 Class revtex4-2 Info: Unrecognized array package. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 75.
-Class revtex4-2 Info: cite was not loaded (OK!) on input line 75.
-Class revtex4-2 Info: mcite was not loaded (OK!) on input line 75.
-Class revtex4-2 Info: multicol was not loaded (OK!) on input line 75.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count307
-\l__pdf_internal_box=\box72
-) (build/main.aux)
+lass! (Proceeding with fingers crossed.) on input line 82.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 82.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 82.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 82.
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 82.
+ (build/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count308
-\scratchdimen=\dimen177
-\scratchbox=\box73
-\nofMPsegments=\count309
-\nofMParguments=\count310
+\scratchcounter=\count329
+\scratchdimen=\dimen188
+\scratchbox=\box81
+\nofMPsegments=\count330
+\nofMParguments=\count331
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count311
-\MPscratchDim=\dimen178
-\MPnumerator=\count312
-\makeMPintoPDFobject=\count313
+\MPscratchCnt=\count332
+\MPscratchDim=\dimen189
+\MPnumerator=\count333
+\makeMPintoPDFobject=\count334
 \everyMPtoPDFconversion=\toks37
 )
-Package hyperref Info: Link coloring ON on input line 75.
+Package hyperref Info: Link coloring ON on input line 82.
  (build/main.out) (build/main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -643,19 +736,31 @@ Package svg Warning: No version of Inkscape was detected by invoking
 (svg)                so the Inkscape export will fail quite sure as the
 (svg)                command is probably unknown to your OS. You could set
 (svg)                `inkscapeversion=<version>' manually but this is very
-(svg)                unlikely to work on input line 75.
+(svg)                unlikely to work on input line 82.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 75.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-d
+ictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 82.
+
+Package chemgreek Info: Activating mapping `default' on line 82.
+
+Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 82.
 \openout3 = `mainNotes.bib'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 110
+LaTeX Font Info:    Trying to load font information for U+msa on input line 117
 .
+
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 110
+LaTeX Font Info:    Trying to load font information for U+msb on input line 117
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -666,25 +771,30 @@ Class revtex4-2 Warning: If you want your keywords to appear in your output, us
 e document class option showkeys.
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 118--119
+Underfull \hbox (badness 1221) in paragraph at lines 125--126
 \T1/cmr/m/n/10 light and acous-tic phonons, is a fun-da-men-tal phe-
  []
 
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
-ocal/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-<4-Wave-Brillouin-Scattering.pdf, id=140, 565.16626pt x 244.14099pt>
+ocal/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/loc
+al/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Underfull \hbox (badness 1874) in paragraph at lines 144--145
+[]\T1/cmr/m/n/10 Traditional SBS, il-lus-trated by the schematic in
+ []
+
+<4-Wave-Brillouin-Scattering.pdf, id=150, 565.16626pt x 244.14099pt>
 File: 4-Wave-Brillouin-Scattering.pdf Graphic file (type pdf)
 <use 4-Wave-Brillouin-Scattering.pdf>
 Package pdftex.def Info: 4-Wave-Brillouin-Scattering.pdf  used on input line 14
-1.
+8.
 (pdftex.def)             Requested size: 255.0pt x 110.15672pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--150
-
+Underfull \hbox (badness 1406) in paragraph at lines 155--157
+[]\T1/cmr/m/n/10 To de-scribe this in-ter-ac-tion and char-ac-ter-ize the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--157
+Underfull \hbox (badness 10000) in paragraph at lines 155--157
 
  []
 
@@ -694,17 +804,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--164
  []
 
 
-Underfull \hbox (badness 2538) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 167--171
+
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 180--181
 \T1/cmr/m/n/10 i-mized when phase match-ing con-di-tions are sat-is-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--177
+Underfull \hbox (badness 10000) in paragraph at lines 182--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--183
+Underfull \hbox (badness 10000) in paragraph at lines 186--190
 
  []
 
@@ -712,82 +827,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--183
 
 pdfTeX warning: pdflatex (file ./Instrument-Design-V1.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<Instrument-Design-V1.pdf, id=166, 794.97pt x 674.46577pt>
+<Instrument-Design-V1.pdf, id=175, 794.97pt x 674.46577pt>
 File: Instrument-Design-V1.pdf Graphic file (type pdf)
 <use Instrument-Design-V1.pdf>
-Package pdftex.def Info: Instrument-Design-V1.pdf  used on input line 198.
+Package pdftex.def Info: Instrument-Design-V1.pdf  used on input line 205.
 (pdftex.def)             Requested size: 510.0pt x 432.70636pt.
 [3 <./4-Wave-Brillouin-Scattering.pdf>] [4 <./Instrument-Design-V1.pdf>]
-<5fWSensitivity.pdf, id=282, 1084.05pt x 1084.05pt>
+<5fWSensitivity.pdf, id=291, 1084.05pt x 1084.05pt>
 File: 5fWSensitivity.pdf Graphic file (type pdf)
 <use 5fWSensitivity.pdf>
-Package pdftex.def Info: 5fWSensitivity.pdf  used on input line 227.
+Package pdftex.def Info: 5fWSensitivity.pdf  used on input line 232.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
 
-[5]
 
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 235.
+LaTeX Warning: Reference `' on page 5 undefined on input line 241.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<1cmUHNA3.pdf, id=294, 1084.05pt x 1084.05pt>
+[5 <./5fWSensitivity.pdf>]
+<1cmUHNA3.pdf, id=314, 1084.05pt x 1084.05pt>
 File: 1cmUHNA3.pdf Graphic file (type pdf)
 <use 1cmUHNA3.pdf>
-Package pdftex.def Info: 1cmUHNA3.pdf  used on input line 259.
+Package pdftex.def Info: 1cmUHNA3.pdf  used on input line 264.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
-[6 <./5fWSensitivity.pdf> <./1cmUHNA3.pdf
-
-pdfTeX warning: pdflatex (file ./1cmUHNA3.pdf): PDF inclusion: multiple pdfs wi
-th page group included in a single page
->]
-<100umCS2.pdf, id=325, 1084.05pt x 1084.05pt>
+<100umCS2.pdf, id=318, 1084.05pt x 1084.05pt>
 File: 100umCS2.pdf Graphic file (type pdf)
 <use 100umCS2.pdf>
-Package pdftex.def Info: 100umCS2.pdf  used on input line 270.
+Package pdftex.def Info: 100umCS2.pdf  used on input line 275.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
+
+Underfull \hbox (badness 2318) in paragraph at lines 280--281
+[]\T1/cmr/m/n/10 For a free-space bulk ex-am-ple we tar-get liq-uid
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 282--283
+[]\T1/cmr/m/n/10 For this mea-sure-ment of $[][][]$, the pump and
+ []
+
+[6 <./1cmUHNA3.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 283.
 
 
 LaTeX Warning: Reference `eq:Theoretical Framework:Scattered Power' on page 7 u
-ndefined on input line 296.
+ndefined on input line 301.
 
 
-LaTeX Warning: Reference `eq:Phi' on page 7 undefined on input line 296.
+LaTeX Warning: Reference `eq:Phi' on page 7 undefined on input line 301.
 
 
 LaTeX Warning: Reference `tab:Phase-Match Parameters' on page 7 undefined on in
-put line 296.
+put line 301.
 
-<Phase-Match.pdf, id=332, 1084.05pt x 1084.05pt>
+
+LaTeX Warning: Reference `' on page 7 undefined on input line 301.
+
+<Phase-Match.pdf, id=346, 1084.05pt x 1084.05pt>
 File: Phase-Match.pdf Graphic file (type pdf)
 <use Phase-Match.pdf>
-Package pdftex.def Info: Phase-Match.pdf  used on input line 302.
+Package pdftex.def Info: Phase-Match.pdf  used on input line 307.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
 
-Package natbib Warning: Citation `...' on page 7 undefined on input line 310.
+Package natbib Warning: Citation `...' on page 7 undefined on input line 315.
 
-[7 <./100umCS2.pdf>]
+[7 <./100umCS2.pdf> <./Phase-Match.pdf
 
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 311.
-
-[8 <./Phase-Match.pdf>]
-Underfull \hbox (badness 1014) in paragraph at lines 331--332
+pdfTeX warning: pdflatex (file ./Phase-Match.pdf): PDF inclusion: multiple pdfs
+ with page group included in a single page
+>]
+Underfull \hbox (badness 1014) in paragraph at lines 336--337
 \T1/cmr/m/n/10 probe de-sign to achieve high sen-si-tiv-ity and room-
  []
 
-
-Underfull \hbox (badness 2343) in paragraph at lines 331--332
-\T1/cmr/m/n/10 temperature op-er-a-tion in micrometer-scale sam-ples.
- []
-
-[9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 358--360
-
- []
-
-
+[8] [9] [10]
 Underfull \hbox (badness 10000) in paragraph at lines 363--365
 
  []
@@ -803,72 +915,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 373--375
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--382
+Underfull \hbox (badness 10000) in paragraph at lines 378--380
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--395
+Underfull \hbox (badness 10000) in paragraph at lines 383--387
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--402
+Underfull \hbox (badness 10000) in paragraph at lines 398--400
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--408
+Underfull \hbox (badness 10000) in paragraph at lines 403--407
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--414
+Underfull \hbox (badness 10000) in paragraph at lines 409--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--420
+Underfull \hbox (badness 10000) in paragraph at lines 415--419
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--425
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 422--426
+Underfull \hbox (badness 10000) in paragraph at lines 427--431
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--433
+Underfull \hbox (badness 10000) in paragraph at lines 434--438
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--440
+Underfull \hbox (badness 10000) in paragraph at lines 441--445
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--446
+Underfull \hbox (badness 10000) in paragraph at lines 447--451
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--457
+Underfull \hbox (badness 10000) in paragraph at lines 460--462
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--464
+Underfull \hbox (badness 10000) in paragraph at lines 465--469
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--470
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--475
+Underfull \hbox (badness 10000) in paragraph at lines 471--475
 
  []
 
@@ -882,138 +994,143 @@ Underfull \hbox (badness 10000) in paragraph at lines 483--485
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 488--490
+
+ []
+
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 488--492
+Underfull \hbox (badness 10000) in paragraph at lines 493--497
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--496
+Underfull \hbox (badness 10000) in paragraph at lines 499--501
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--500
+Underfull \hbox (badness 10000) in paragraph at lines 503--505
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--504
+Underfull \hbox (badness 10000) in paragraph at lines 507--509
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--510
+Underfull \hbox (badness 10000) in paragraph at lines 511--515
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--515
+Underfull \hbox (badness 10000) in paragraph at lines 518--520
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--519
+Underfull \hbox (badness 10000) in paragraph at lines 522--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--523
+Underfull \hbox (badness 10000) in paragraph at lines 526--528
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--530
+Underfull \hbox (badness 10000) in paragraph at lines 531--535
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 532--534
+Underfull \hbox (badness 10000) in paragraph at lines 537--539
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 536--538
+Underfull \hbox (badness 10000) in paragraph at lines 541--543
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 540--542
+Underfull \hbox (badness 10000) in paragraph at lines 545--547
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--549
+Underfull \hbox (badness 10000) in paragraph at lines 550--554
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 551--555
+Underfull \hbox (badness 10000) in paragraph at lines 556--560
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--562
+Underfull \hbox (badness 10000) in paragraph at lines 563--567
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--568
+Underfull \hbox (badness 10000) in paragraph at lines 569--573
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 570--574
+Underfull \hbox (badness 10000) in paragraph at lines 575--579
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--579
+Underfull \hbox (badness 10000) in paragraph at lines 581--584
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--585
+Underfull \hbox (badness 10000) in paragraph at lines 586--590
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--591
+Underfull \hbox (badness 10000) in paragraph at lines 592--596
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 594--598
+Underfull \hbox (badness 10000) in paragraph at lines 599--603
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 601--605
+Underfull \hbox (badness 10000) in paragraph at lines 606--610
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 607--609
+Underfull \hbox (badness 10000) in paragraph at lines 612--614
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 671--673
+Underfull \hbox (badness 10000) in paragraph at lines 615--617
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 675--679
+Underfull \hbox (badness 10000) in paragraph at lines 619--623
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 681--685
+Underfull \hbox (badness 10000) in paragraph at lines 625--629
 
  []
 
 [15]
-Underfull \hbox (badness 1337) in paragraph at lines 698--699
+Underfull \hbox (badness 1337) in paragraph at lines 642--643
 []\T1/cmr/m/n/10 Despite shared de-pen-dence on ba-sic Bril-louin scat-ter-ing 
 prin-ci-ples, the three tech-niques com-pared here
  []
@@ -1022,25 +1139,61 @@ prin-ci-ples, the three tech-niques com-pared here
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<SponBSvsStimBSvsCoBS.pdf, id=499, 715.93271pt x 427.14142pt>
+<SponBSvsStimBSvsCoBS.pdf, id=509, 715.93271pt x 427.14142pt>
 File: SponBSvsStimBSvsCoBS.pdf Graphic file (type pdf)
 <use SponBSvsStimBSvsCoBS.pdf>
-Package pdftex.def Info: SponBSvsStimBSvsCoBS.pdf  used on input line 794.
+Package pdftex.def Info: SponBSvsStimBSvsCoBS.pdf  used on input line 738.
 (pdftex.def)             Requested size: 510.0pt x 304.28276pt.
-[17] [18 <./SponBSvsStimBSvsCoBS.pdf>] [19]
-<PSPr-Contribute-Equally.pdf, id=572, 1084.05pt x 1084.05pt>
+[17] [18 <./SponBSvsStimBSvsCoBS.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 755.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 1.66661pt
+(hyperref)                removed on input line 755.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 773.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 1.66661pt
+(hyperref)                removed on input line 773.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mhchem@cee' on input line 773.
+
+[19]
+<CS2PhaseMatchAllSpectra.pdf, id=589, 1084.05pt x 1084.05pt>
+File: CS2PhaseMatchAllSpectra.pdf Graphic file (type pdf)
+<use CS2PhaseMatchAllSpectra.pdf>
+Package pdftex.def Info: CS2PhaseMatchAllSpectra.pdf  used on input line 782.
+(pdftex.def)             Requested size: 356.99844pt x 356.99326pt.
+ [20 <./CS2PhaseMatchAllSpectra.pdf>]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8
+17.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+) [21]
+<PSPr-Contribute-Equally.pdf, id=622, 1084.05pt x 1084.05pt>
 File: PSPr-Contribute-Equally.pdf Graphic file (type pdf)
 <use PSPr-Contribute-Equally.pdf>
-Package pdftex.def Info: PSPr-Contribute-Equally.pdf  used on input line 853.
+Package pdftex.def Info: PSPr-Contribute-Equally.pdf  used on input line 866.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
-<PSPr-Contribute-Equally-2sigma.pdf, id=573, 1084.05pt x 1084.05pt>
+<PSPr-Contribute-Equally-2sigma.pdf, id=623, 1084.05pt x 1084.05pt>
 File: PSPr-Contribute-Equally-2sigma.pdf Graphic file (type pdf)
 <use PSPr-Contribute-Equally-2sigma.pdf>
 Package pdftex.def Info: PSPr-Contribute-Equally-2sigma.pdf  used on input line
- 860.
+ 873.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
- (build/main.bbl [20 <./PSPr-Contribute-Equally.pdf> <./PSPr-Contribute-Equally
--2sigma.pdf
+
+(build/main.bbl [22 <./PSPr-Contribute-Equally.pdf> <./PSPr-Contribute-Equally-
+2sigma.pdf
 
 pdfTeX warning: pdflatex (file ./PSPr-Contribute-Equally-2sigma.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
@@ -1048,7 +1201,7 @@ sion: multiple pdfs with page group included in a single page
 
 Package natbib Warning: There were undefined citations.
 
-[21] (build/main.aux)
+[23] (build/main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1058,16 +1211,16 @@ L3 programming layer <2024-02-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 32FE085CC6126482AEE06F272D397573;4255.
+(rerunfilecheck)             Checksum: DE4E1456F23DD0EB4791D237484B52DC;4888.
  ) 
 Here is how much of TeX's memory you used:
- 16423 strings out of 474116
- 270298 string characters out of 5743681
+ 21250 strings out of 474116
+ 413276 string characters out of 5743681
  1957187 words of memory out of 5000000
- 38350 multiletter control sequences out of 15000+600000
- 581138 words of font info for 95 fonts, out of 8000000 for 9000
+ 43124 multiletter control sequences out of 15000+600000
+ 585327 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,13n,93p,2299b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,13n,93p,2376b,1103s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></
@@ -1085,23 +1238,25 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2024/texm
 f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb></usr/local/texlive/20
-24/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2024
-/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2024/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2024/tex
-mf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2024/texmf
--dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2024/texmf-d
-ist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2024/texmf-dis
-t/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2024/texmf-dist/
-fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2024/texmf-dist/fo
-nts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/font
-s/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/
-type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2024/texmf-dist/fonts/ty
-pe1/public/cm-super/sfti0900.pfb></usr/local/texlive/2024/texmf-dist/fonts/type
-1/public/cm-super/sfti1000.pfb>
-Output written on build/main.pdf (21 pages, 3253283 bytes).
+24/texmf-dist/fonts/type1/public/cm-super/sfbx0600.pfb></usr/local/texlive/2024
+/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2024/t
+exmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2024/tex
+mf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2024/texmf
+-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2024/texmf-d
+ist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2024/texmf-dis
+t/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2024/texmf-dist/
+fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2024/texmf-dist/fo
+nts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2024/texmf-dist/font
+s/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/
+type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/ty
+pe1/public/cm-super/sfti0700.pfb></usr/local/texlive/2024/texmf-dist/fonts/type
+1/public/cm-super/sfti0900.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/
+public/cm-super/sfti1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/pu
+blic/cm-super/sftt1000.pfb>
+Output written on build/main.pdf (23 pages, 3727156 bytes).
 PDF statistics:
- 762 PDF objects out of 1000 (max. 8388607)
- 570 compressed objects within 6 object streams
- 140 named destinations out of 1000 (max. 500000)
- 242 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 827 PDF objects out of 1000 (max. 8388607)
+ 621 compressed objects within 7 object streams
+ 147 named destinations out of 1000 (max. 500000)
+ 263 words of extra memory for PDF output out of 10000 (max. 10000000)
 
