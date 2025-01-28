@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.13)  28 JAN 2025 11:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.13)  28 JAN 2025 12:32
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1145,54 +1145,58 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 <JoyDivisionCABS.pdf, id=576, 614.295pt x 1300.86pt>
 File: JoyDivisionCABS.pdf Graphic file (type pdf)
 <use JoyDivisionCABS.pdf>
-Package pdftex.def Info: JoyDivisionCABS.pdf  used on input line 769.
+Package pdftex.def Info: JoyDivisionCABS.pdf  used on input line 760.
 (pdftex.def)             Requested size: 301.47585pt x 638.39795pt.
 
-LaTeX Warning: Float too large for page by 24.39793pt on input line 772.
+LaTeX Warning: Float too large for page by 24.39793pt on input line 763.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 778.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 767.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.66661pt
-(hyperref)                removed on input line 778.
+(hyperref)                removed on input line 767.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mhchem@cee' on input line 778.
+(hyperref)                removing `\mhchem@cee' on input line 767.
 
 [18]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 782.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 773.
 
 [19 <./JoyDivisionCABS.pdf>]
 <CS2PhaseMatchAllSpectra.pdf, id=600, 1084.05pt x 1084.05pt>
 File: CS2PhaseMatchAllSpectra.pdf Graphic file (type pdf)
 <use CS2PhaseMatchAllSpectra.pdf>
-Package pdftex.def Info: CS2PhaseMatchAllSpectra.pdf  used on input line 787.
+Package pdftex.def Info: CS2PhaseMatchAllSpectra.pdf  used on input line 776.
 (pdftex.def)             Requested size: 356.99844pt x 356.99326pt.
- [20 <./CS2PhaseMatchAllSpectra.pdf>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20 <./CS2PhaseMatchAllSpectra.pdf>]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8
-22.
+11.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 ) [21]
-<PSPr-Contribute-Equally.pdf, id=633, 1084.05pt x 1084.05pt>
+<PSPr-Contribute-Equally.pdf, id=632, 1084.05pt x 1084.05pt>
 File: PSPr-Contribute-Equally.pdf Graphic file (type pdf)
 <use PSPr-Contribute-Equally.pdf>
-Package pdftex.def Info: PSPr-Contribute-Equally.pdf  used on input line 871.
+Package pdftex.def Info: PSPr-Contribute-Equally.pdf  used on input line 860.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
-<PSPr-Contribute-Equally-2sigma.pdf, id=634, 1084.05pt x 1084.05pt>
+<PSPr-Contribute-Equally-2sigma.pdf, id=633, 1084.05pt x 1084.05pt>
 File: PSPr-Contribute-Equally-2sigma.pdf Graphic file (type pdf)
 <use PSPr-Contribute-Equally-2sigma.pdf>
 Package pdftex.def Info: PSPr-Contribute-Equally-2sigma.pdf  used on input line
- 878.
+ 867.
 (pdftex.def)             Requested size: 229.49844pt x 229.4933pt.
 
 (build/main.bbl [22 <./PSPr-Contribute-Equally.pdf> <./PSPr-Contribute-Equally-
@@ -1214,13 +1218,13 @@ L3 programming layer <2024-02-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D1E383316891115F64E9217D550CFDB6;4888.
+(rerunfilecheck)             Checksum: DE4E1456F23DD0EB4791D237484B52DC;4888.
  ) 
 Here is how much of TeX's memory you used:
- 21258 strings out of 474116
- 413474 string characters out of 5743681
+ 21255 strings out of 474116
+ 413414 string characters out of 5743681
  1957187 words of memory out of 5000000
- 43131 multiletter control sequences out of 15000+600000
+ 43129 multiletter control sequences out of 15000+600000
  585327 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,13n,93p,2376b,1103s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1256,10 +1260,10 @@ pe1/public/cm-super/sfti0700.pfb></usr/local/texlive/2024/texmf-dist/fonts/type
 1/public/cm-super/sfti0900.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/
 public/cm-super/sfti1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/pu
 blic/cm-super/sftt1000.pfb>
-Output written on build/main.pdf (23 pages, 4008212 bytes).
+Output written on build/main.pdf (23 pages, 4007939 bytes).
 PDF statistics:
- 838 PDF objects out of 1000 (max. 8388607)
- 630 compressed objects within 7 object streams
- 148 named destinations out of 1000 (max. 500000)
+ 837 PDF objects out of 1000 (max. 8388607)
+ 629 compressed objects within 7 object streams
+ 147 named destinations out of 1000 (max. 500000)
  268 words of extra memory for PDF output out of 10000 (max. 10000000)
 
