@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex build/main"] 1737347564.07592 "build/main.aux" "build/main.bbl" "build/main" 1737347698.76938 0
+["bibtex build/main"] 1738090007.73018 "build/main.aux" "build/main.bbl" "build/main" 1738090049.56681 0
   "./bibliography.bib" 1736877062.6264 7401 e398d580563f3f7ef0a8344514efdd5c ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "build/main.aux" 1737347698.27628 23458 026b7f9134ee71fc0da5b1609909a5ae "pdflatex"
-  "build/mainNotes.bib" 1737347698.2781 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
+  "build/main.aux" 1738090010.476 24480 b4c3b83985d79bc8538df585cb01ef30 "pdflatex"
+  "build/mainNotes.bib" 1738090048.6875 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1737347696.91508 "main.tex" "build/main.pdf" "main" 1737347698.76963 0
+["pdflatex"] 1738090046.23158 "main.tex" "build/main.pdf" "main" 1738090049.56721 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -218,14 +218,15 @@
   "5fWSensitivity.pdf" 1717105991.62139 204165 f06f54d711d7a3e6a462ad0969025ac1 ""
   "CS2PhaseMatchAllSpectra.pdf" 1698453956.16288 398915 776fa19fcb8320f46202c3392573f523 ""
   "Instrument-Design-V1.pdf" 1716253852.35718 1428131 2c4a9bbb01d4e4f49a00f1ca3f4589a6 ""
+  "JoyDivisionCABS.pdf" 1738089296.0972 282011 158e398952fb32ed432573a6e9979451 ""
   "PSPr-Contribute-Equally-2sigma.pdf" 1696975992.10186 219797 b1fae5ca7a08554c7ab349e5a5e3158e ""
   "PSPr-Contribute-Equally.pdf" 1696975904.48594 219816 97094bbbc5bc4e11a1f0abc4efd1c27c ""
   "Phase-Match.pdf" 1722973439.40129 202441 337bbf9ff8a8e18147b7968a1459e931 ""
   "SponBSvsStimBSvsCoBS.pdf" 1734605469.58428 104604 50d28825b8099bfbdd52e30266b398c5 ""
-  "build/main.aux" 1737347698.27628 23458 026b7f9134ee71fc0da5b1609909a5ae "pdflatex"
-  "build/main.bbl" 1737347564.20044 19417 ce34212b0775928ffba64446f18684c6 "bibtex build/main"
-  "build/main.out" 1737347698.27785 4888 de4e1456f23dd0eb4791d237484b52dc "pdflatex"
-  "main.tex" 1737347696.69908 90934 3cebbf1459d7ed85db08dc4835a57522 ""
+  "build/main.aux" 1738090010.476 24480 b4c3b83985d79bc8538df585cb01ef30 "pdflatex"
+  "build/main.bbl" 1738090007.97178 19417 ce34212b0775928ffba64446f18684c6 "bibtex build/main"
+  "build/main.out" 1738090010.48 4888 d1e383316891115f64e9217d550cfdb6 "pdflatex"
+  "main.tex" 1738090045.91939 91491 dcbc19fbdca2f11db3326d157f150fa0 ""
   (generated)
   "build/main.aux"
   "build/main.log"

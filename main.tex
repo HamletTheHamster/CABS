@@ -38,7 +38,7 @@
 %rmp,
 %prstab,
 %prstper,
-%floatfix,
+  floatfix,
 ]{revtex4-2}
 
 \usepackage{graphicx}% Include figure files
@@ -762,6 +762,13 @@ We used the same setup and procedure described in \textit{Phase Matching Charact
 % \includegraphics[width=0.7\textwidth]{UHNA3_FanoExamples.pdf}
 \caption{Representative Brillouin spectra for \(1\,\text{cm UHNA3}\) at different pump-probe detunings, selected to illustrate the transition from Lorentzian-like peaks (\(q\to\infty\)) to strongly Fano-distorted profiles (q finite). Spectra have been normalized by optical power and offset vertically for clarity.}
 \label{fig:UHNA3 Fano Spectra Examples}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[height=0.95\textheight]{JoyDivisionCABS.pdf}
+\caption{Stacked Brillouin spectra showing Fano‐type line‐shape distortions at small signals in a \SI{1}{\centi\meter} UHNA3 fiber. Each trace corresponds to a different pump–probe detuning, revealing the discrete Brillouin resonance (near \SI{9.17}{\giga\hertz}) interfering with a broad continuum background. The resulting asymmetries highlight the characteristic Fano resonant behavior under low signal conditions.}
+\label{fig:Joy Division}
 \end{figure}
 
 Figure~\ref{fig:UHNA3 Fano Spectra Examples} highlights the progressive shift from Lorentzian to asymmetric line shapes. Near \SI{5}{\giga\hertz} detuning, the resonant amplitude is large relative to the background, giving a classic Lorentzian peak at \(\sim\)\SI{9.17}{\giga\hertz}. By contrast, at detunings between \(\sim\)15-\SI{20}{\giga\hertz} (where the \(\mathrm{sinc^{2}}\) factor is near a local minimum), the peak amplitude falls to roughly the same level as the continuum, and the Fano interference is obvious. Interestingly, as the detuning continues to climb, the amplitude rises again on a subsequent \(\mathrm{sinc^{2}}\) “lobe,” and the spectra partly recover a Lorentzian shape. This cyclical behavior persists, with each local maximum yielding a near-Lorentzian profile and each local minimum reintroducing a strong Fano distortion.
