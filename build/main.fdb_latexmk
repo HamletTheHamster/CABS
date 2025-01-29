@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex build/main"] 1738092594.89743 "build/main.aux" "build/main.bbl" "build/main" 1738092736.47618 0
+["bibtex build/main"] 1738120651.92952 "build/main.aux" "build/main.bbl" "build/main" 1738120655.5153 0
   "./bibliography.bib" 1736877062.6264 7401 e398d580563f3f7ef0a8344514efdd5c ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "build/main.aux" 1738092735.61287 23666 58f0e36cd978b0ae161c1f6f48e46f3d "pdflatex"
-  "build/mainNotes.bib" 1738092735.61598 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
+  "build/main.aux" 1738120654.65229 23559 ca79c7d9b7c7ae5ecf175a2638d3b3bd "pdflatex"
+  "build/mainNotes.bib" 1738120654.65532 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1738092733.09044 "main.tex" "build/main.pdf" "main" 1738092736.47666 0
+["pdflatex"] 1738120652.19323 "main.tex" "build/main.pdf" "main" 1738120655.5158 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -216,17 +216,17 @@
   "1cmUHNA3.pdf" 1717024899.77159 210906 39727071d6bfaf96fbbc9c9f94c635d6 ""
   "4-Wave-Brillouin-Scattering.pdf" 1715650659.35266 46429 aa38dc9f03580a048a39b7ee644c781c ""
   "5fWSensitivity.pdf" 1717105991.62139 204165 f06f54d711d7a3e6a462ad0969025ac1 ""
-  "CS2PhaseMatchAllSpectra.pdf" 1698453956.16288 398915 776fa19fcb8320f46202c3392573f523 ""
   "Instrument-Design-V1.pdf" 1716253852.35718 1428131 2c4a9bbb01d4e4f49a00f1ca3f4589a6 ""
-  "JoyDivisionCABS.pdf" 1738089296.0972 282011 158e398952fb32ed432573a6e9979451 ""
+  "JoyDivisionCABSCS2.pdf" 1738119983.63372 221935 c398648ef331f5fbd990f0dae37b5ca2 ""
+  "JoyDivisionCABSUHNA3.pdf" 1738119158.59242 265957 ec1e6b3ea51908036a6a4f913b84786b ""
   "PSPr-Contribute-Equally-2sigma.pdf" 1696975992.10186 219797 b1fae5ca7a08554c7ab349e5a5e3158e ""
   "PSPr-Contribute-Equally.pdf" 1696975904.48594 219816 97094bbbc5bc4e11a1f0abc4efd1c27c ""
   "Phase-Match.pdf" 1722973439.40129 202441 337bbf9ff8a8e18147b7968a1459e931 ""
   "SponBSvsStimBSvsCoBS.pdf" 1734605469.58428 104604 50d28825b8099bfbdd52e30266b398c5 ""
-  "build/main.aux" 1738092735.61287 23666 58f0e36cd978b0ae161c1f6f48e46f3d "pdflatex"
-  "build/main.bbl" 1738092595.13767 19417 ce34212b0775928ffba64446f18684c6 "bibtex build/main"
-  "build/main.out" 1738092735.61559 4888 de4e1456f23dd0eb4791d237484b52dc "pdflatex"
-  "main.tex" 1738092732.79556 91036 150b16c1d8f2fac96ed0cbb2c3819af0 ""
+  "build/main.aux" 1738120654.65229 23559 ca79c7d9b7c7ae5ecf175a2638d3b3bd "pdflatex"
+  "build/main.bbl" 1738120652.16517 19417 ce34212b0775928ffba64446f18684c6 "bibtex build/main"
+  "build/main.out" 1738120654.65489 4888 de4e1456f23dd0eb4791d237484b52dc "pdflatex"
+  "main.tex" 1738120648.30257 91151 3fced11759d534af5afb321400ada502 ""
   (generated)
   "build/main.aux"
   "build/main.log"
