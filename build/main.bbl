@@ -7,7 +7,7 @@
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{22}%
+\begin{thebibliography}{32}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -57,6 +57,18 @@
   {Boyd}},\ }\href@noop {} {\emph {\bibinfo {title} {Nonlinear Optics}}}\
   (\bibinfo  {publisher} {Academic Press},\ \bibinfo {year} {2020})\BibitemShut
   {NoStop}%
+\bibitem [{\citenamefont {Chiao}\ \emph {et~al.}(1964)\citenamefont {Chiao},
+  \citenamefont {Townes},\ and\ \citenamefont
+  {Stoicheff}}]{chiao1964stimulated}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Chiao}}, \bibinfo {author} {\bibfnamefont {C.~H.}\ \bibnamefont {Townes}},\
+  and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Stoicheff}},\
+  }\bibfield  {title} {\bibinfo {title} {Stimulated brillouin scattering and
+  coherent generation of intense hypersonic waves},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical review letters}\ }\textbf {\bibinfo
+  {volume} {12}},\ \bibinfo {pages} {592} (\bibinfo {year} {1964})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Eggleton}\ \emph {et~al.}(2013)\citenamefont
   {Eggleton}, \citenamefont {Poulton},\ and\ \citenamefont
   {Pant}}]{eggleton2013inducing}%
@@ -101,6 +113,74 @@
   optical fibers},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Applied Physics Letters}\ }\textbf {\bibinfo {volume} {21}},\ \bibinfo
   {pages} {539} (\bibinfo {year} {1972})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Speziale}\ \emph {et~al.}(2014)\citenamefont
+  {Speziale}, \citenamefont {Marquardt},\ and\ \citenamefont
+  {Duffy}}]{speziale2014brillouin}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Speziale}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Marquardt}},\ and\ \bibinfo {author} {\bibfnamefont {T.~S.}\ \bibnamefont
+  {Duffy}},\ }\bibfield  {title} {\bibinfo {title} {Brillouin scattering and
+  its application in geosciences},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Reviews in Mineralogy and Geochemistry}\ }\textbf
+  {\bibinfo {volume} {78}},\ \bibinfo {pages} {543} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Palombo}\ and\ \citenamefont
+  {Fioretto}(2019)}]{palombo2019brillouin}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Palombo}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Fioretto}},\ }\bibfield  {title} {\bibinfo {title} {Brillouin light
+  scattering: applications in biomedical sciences},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Chemical reviews}\ }\textbf {\bibinfo
+  {volume} {119}},\ \bibinfo {pages} {7833} (\bibinfo {year}
+  {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dil}(1982)}]{dil1982brillouin}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Dil}},\ }\bibfield  {title} {\bibinfo {title} {Brillouin scattering in
+  condensed matter},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Reports on Progress in Physics}\ }\textbf {\bibinfo {volume} {45}},\
+  \bibinfo {pages} {285} (\bibinfo {year} {1982})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Eggleton}\ \emph {et~al.}(2019)\citenamefont
+  {Eggleton}, \citenamefont {Poulton}, \citenamefont {Rakich}, \citenamefont
+  {Steel},\ and\ \citenamefont {Bahl}}]{eggleton2019brillouin}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~J.}\ \bibnamefont
+  {Eggleton}}, \bibinfo {author} {\bibfnamefont {C.~G.}\ \bibnamefont
+  {Poulton}}, \bibinfo {author} {\bibfnamefont {P.~T.}\ \bibnamefont {Rakich}},
+  \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont {Steel}},\ and\
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Bahl}},\ }\bibfield
+  {title} {\bibinfo {title} {Brillouin integrated photonics},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature Photonics}\ }\textbf
+  {\bibinfo {volume} {13}},\ \bibinfo {pages} {664} (\bibinfo {year}
+  {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Prevedel}\ \emph {et~al.}(2019)\citenamefont
+  {Prevedel}, \citenamefont {Diz-Mu{\~n}oz}, \citenamefont {Ruocco},\ and\
+  \citenamefont {Antonacci}}]{prevedel2019brillouin}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Prevedel}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Diz-Mu{\~n}oz}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Ruocco}},\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Antonacci}},\ }\bibfield  {title} {\bibinfo {title} {Brillouin microscopy:
+  an emerging tool for mechanobiology},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nature methods}\ }\textbf {\bibinfo {volume} {16}},\
+  \bibinfo {pages} {969} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Conrad}\ \emph {et~al.}(2019)\citenamefont {Conrad},
+  \citenamefont {Gray}, \citenamefont {Stroka}, \citenamefont {Rizvi},\ and\
+  \citenamefont {Scarcelli}}]{conrad2019mechanical}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Conrad}}, \bibinfo {author} {\bibfnamefont {K.~M.}\ \bibnamefont {Gray}},
+  \bibinfo {author} {\bibfnamefont {K.~M.}\ \bibnamefont {Stroka}}, \bibinfo
+  {author} {\bibfnamefont {I.}~\bibnamefont {Rizvi}},\ and\ \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Scarcelli}},\ }\bibfield  {title} {\bibinfo
+  {title} {Mechanical characterization of 3d ovarian cancer nodules using
+  brillouin confocal microscopy},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Cellular and molecular bioengineering}\ }\textbf
+  {\bibinfo {volume} {12}},\ \bibinfo {pages} {215} (\bibinfo {year}
+  {2019})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Rakich}\ \emph {et~al.}(2012)\citenamefont {Rakich},
   \citenamefont {Reinke}, \citenamefont {Camacho}, \citenamefont {Davids},\
   and\ \citenamefont {Wang}}]{rakich2012giant}%
@@ -173,6 +253,39 @@
   silicon},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nature
   Photonics}\ }\textbf {\bibinfo {volume} {10}},\ \bibinfo {pages} {463}
   (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Djadaojee}\ \emph {et~al.}(2020)\citenamefont
+  {Djadaojee}, \citenamefont {Douillet},\ and\ \citenamefont
+  {Grucker}}]{djadaojee2020stimulated}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Djadaojee}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Douillet}},\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Grucker}},\ }\bibfield  {title} {\bibinfo {title} {Stimulated brillouin gain
+  spectroscopy in a confined spatio-temporal domain (30 $\mu$m, 170 ns)},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {The European
+  Physical Journal Applied Physics}\ }\textbf {\bibinfo {volume} {89}},\
+  \bibinfo {pages} {30701} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gusev}\ and\ \citenamefont
+  {Ruello}(2018)}]{gusev2018advances}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~E.}\ \bibnamefont
+  {Gusev}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Ruello}},\
+  }\bibfield  {title} {\bibinfo {title} {Advances in applications of
+  time-domain brillouin scattering for nanoscale imaging},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Applied Physics Reviews}\
+  }\textbf {\bibinfo {volume} {5}} (\bibinfo {year} {2018})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Gerakis}\ \emph {et~al.}(2011)\citenamefont
+  {Gerakis}, \citenamefont {Shneider},\ and\ \citenamefont
+  {Barker}}]{gerakis2011coherent}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Gerakis}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Shneider}},\
+  and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Barker}},\
+  }\bibfield  {title} {\bibinfo {title} {Coherent brillouin scattering},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Optics Express}\
+  }\textbf {\bibinfo {volume} {19}},\ \bibinfo {pages} {24046} (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Pant}\ \emph {et~al.}(2011)\citenamefont {Pant},
   \citenamefont {Li}, \citenamefont {Choi}, \citenamefont {Poulton},
   \citenamefont {Madden}, \citenamefont {Luther-Davies},\ and\ \citenamefont
