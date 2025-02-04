@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex build/main"] 1738628972.18856 "build/main.aux" "build/main.bbl" "build/main" 1738628974.17114 0
+["bibtex build/main"] 1738629166.69683 "build/main.aux" "build/main.bbl" "build/main" 1738629170.26943 0
   "./bibliography.bib" 1738628963.1226 10845 5a7b109be8695391af0910894067f4b4 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "build/main.aux" 1738628973.69879 24760 970382dedc718a1c236427ea69a0b0df "pdflatex"
-  "build/mainNotes.bib" 1738628973.70056 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
+  "build/main.aux" 1738629169.40338 24876 e906d7b59bf1881a9e53e7699d610fd1 "pdflatex"
+  "build/mainNotes.bib" 1738629169.40639 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1738628972.31596 "main.tex" "build/main.pdf" "main" 1738628974.17144 0
+["pdflatex"] 1738629166.9456 "main.tex" "build/main.pdf" "main" 1738629170.26992 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -223,10 +223,10 @@
   "PSPr-Contribute-Equally.pdf" 1696975904.48594 219816 97094bbbc5bc4e11a1f0abc4efd1c27c ""
   "Phase-Match.pdf" 1722973439.40129 202441 337bbf9ff8a8e18147b7968a1459e931 ""
   "SponBSvsStimBSvsCoBS.pdf" 1734605469.58428 104604 50d28825b8099bfbdd52e30266b398c5 ""
-  "build/main.aux" 1738628973.69879 24760 970382dedc718a1c236427ea69a0b0df "pdflatex"
-  "build/main.bbl" 1738628972.30177 26492 15c18fa319c9df461ba9e0378d73de26 "bibtex build/main"
-  "build/main.out" 1738628973.70035 4888 de4e1456f23dd0eb4791d237484b52dc "pdflatex"
-  "main.tex" 1738628968.00391 91558 b78538e5f5115ee761cfd0fa28810d7b ""
+  "build/main.aux" 1738629169.40338 24876 e906d7b59bf1881a9e53e7699d610fd1 "pdflatex"
+  "build/main.bbl" 1738629166.92213 27480 db9828a8dd234fa7faba9e7e443f7734 "bibtex build/main"
+  "build/main.out" 1738629169.40609 4888 de4e1456f23dd0eb4791d237484b52dc "pdflatex"
+  "main.tex" 1738629159.42333 91653 58f70f2bfdf3f78411eb725acfd82b97 ""
   (generated)
   "build/main.aux"
   "build/main.log"
